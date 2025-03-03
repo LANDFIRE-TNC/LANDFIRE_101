@@ -26,7 +26,13 @@ As with all LANDFIRE current time period spatial products, fuels layers are only
 
 ## Capable Fuels
 
-Capable fuels are updated to represent conditions of the year of delivery of the data. LF 2016 fuels products in disturbed areas were revised to forecast 2019 or 2020 vegetation conditions for disturbances that occurred between 2009-2016 or 2010-2016, respectively, making the fuels products [2019 or 2020 capable](https://landfire.gov/data/lf2016). LF 2016 capable fuels layers better represent current wildfire behavior on the landscape for the year of delivery. The fuel products with the capable fuels functionality were Fuel Disturbance, Canopy Height, Canopy Cover/Base Density/Base Height, Fire Behavior Fuel Model 13 and 40, Fuel Vegetation Cover/Type/Height, and Fuel Characteristic Classification System.
+Capable fuels are updated to represent conditions of the year of delivery of the data. LF 2016 fuels products in disturbed areas were revised to forecast 2019 or 2020 vegetation conditions for disturbances that occurred between 2009-2016 or 2010-2016, respectively, making the fuels products [2019 or 2020 capable](https://landfire.gov/data/lf2016). The fuel products with the capable fuels functionality were Fuel Disturbance, Canopy Height, Canopy Cover/Base Density/Base Height, Fire Behavior Fuel Model 13 and 40, Fuel Vegetation Cover/Type/Height, and Fuel Characteristic Classification System.
+ 
+The capable date of 2022 for fuel layers indicates that the disturbances that occurred from 2013-2020 were 'grown' to what would be expected in the year 2022. Similarly, the LF2016 release included disturbances up until 2016, the 2020 capable layer under the LF2016 release indicates that the disturbances from 2011-2016 were 'grown' to what would be expected in 2020. 
+
+:::callout-important
+It is very important to keep the release value associated with the capable maps that go with it and not mix them up so that you know which disturbances had been accounted for or not. 
+:::
 
 # Some key LANDFIRE Fuels products
 
