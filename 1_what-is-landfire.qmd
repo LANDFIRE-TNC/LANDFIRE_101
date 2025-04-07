@@ -3,46 +3,158 @@ title: "An Overview of LANDFIRE Products"
 author: "Sarah Hagen"
 toc: true
 format: html
+css: styles.css
 ---
 
 # What does LANDFIRE provide?
 
-The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai'i, and Puerto Rico and the US Virgin Islands. Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the \[LANDFIRE Technical Documentation\](https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates these products. Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE product information.
+The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai'i, and Puerto Rico and the US Virgin Islands. Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the [LANDFIRE Technical Documentation](https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates these products. Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE product information.
 
 ## LANDFIRE data products by category
 
-The table below shows a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.
+The following is a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.
 
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| [Vegetation](https://landfire.gov/vegetation)                       | [Historical Fire Regime](https://landfire.gov/fire-regime)                   | [Fuel](https://landfire.gov/fuel)                                                   | [Disturbance](https://landfire.gov/disturbance)                                                   | [Topographic](https://landfire.gov/topographic)\                             |
-|                                                                     |                                                                              |                                                                                     |                                                                                                   | and [Reference](https://landfire.gov/reference)                              |
-+=====================================================================+==============================================================================+=====================================================================================+===================================================================================================+==============================================================================+
-| [Biophysical Settings](https://landfire.gov/vegetation/bps)         | [Fire Regime Groups](https://landfire.gov/fire-regime/frg)                   | [13 Anderson Fire Behavior Fuel Models](https://landfire.gov/fuel/fbfm13)           | [Annual Disturbance](https://landfire.gov/disturbance/annualdisturbance)                          | [Aspect](https://landfire.gov/topographic/aspect)                            |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| [Environmental Site Potential](https://landfire.gov/vegetation/esp) | [Fire Return Interval](https://landfire.gov/fire-regime/fri)                 | [40 Scott and Burgan Fire Behavior Fuel Models](https://landfire.gov/fuel/fbfm40)   | [Fuel Disturbance](https://landfire.gov/fuel/fdist)                                               | [Elevation](https://landfire.gov/topographic/elevation)                      |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| [Existing Vegetation Cover](https://landfire.gov/vegetation/evc)    | [Percent of Low-severity Fire](https://landfire.gov/fire-regime/pls)         | [Canadian Forest Fire Danger Rating System](https://landfire.gov/fuel/cffdrs)       | [Historical Disturbance](https://landfire.gov/disturbance/hdist)                                  | [Scope](https://landfire.gov/topographic/slope)                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| [Existing Vegetation Height](https://landfire.gov/vegetation/evh)   | [Percent of Mixed-severity Fire](https://landfire.gov/fire-regime/pms)       | [Fuel Characteristic Classification System Fuelbed](https://landfire.gov/fuel/fccs) | [Vegetation Disturbance](https://landfire.gov/disturbance/vdist)                                  | [Public Events Geodatabase](https://landfire.gov/reference/publicevents)     |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| [Existing Vegetation Type](https://landfire.gov/vegetation/evt)     | [Percent of Replacement-severity Fire](https://landfire.gov/fire-regime/prs) | [Fuel Disturbance](https://landfire.gov/fuel/fdist)                                 | [Public Events Geodatabase](https://landfire.gov/reference/publicevents)                          | [Public Reference Geodatabase (LFRDB)](https://landfire.gov/reference/lfrdb) |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| [Succession Class](https://landfire.gov/vegetation/sclass)          |                                                                              | [Fuel Loading Models](https://landfire.gov/fuel/flm)                                | [Forest Transitions Database](https://landfire.gov/disturbance/lf_transitiontbls)                 |                                                                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| [Vegetation Condition Class](https://landfire.gov/vegetation/vcc)   |                                                                              | [Canopy Base Height](https://landfire.gov/fuel/cbh)                                 | [Non-forest Vegetation Transitions Database](https://landfire.gov/disturbance/lf_ntransitiontbls) |                                                                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| [Vegetation Departure](https://landfire.gov/vegetation/vdep)        |                                                                              | [Canopy Bulk Density](https://landfire.gov/fuel/cbd)                                | [Vegetation Transition Magnitude](https://landfire.gov/disturbance/vtm)                           |                                                                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-|                                                                     |                                                                              | [Forest Canopy Cover](https://landfire.gov/fuel/cc)                                 |                                                                                                   |                                                                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-|                                                                     |                                                                              | [Forest Canopy Height](https://landfire.gov/fuel/ch)                                |                                                                                                   |                                                                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-|                                                                     |                                                                              | [Fuel Vegetation Cover](https://landfire.gov/fuel/fvc)                              |                                                                                                   |                                                                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-|                                                                     |                                                                              | [Fuel Vegetation Height](https://landfire.gov/fuel/fvh)                             |                                                                                                   |                                                                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-|                                                                     |                                                                              | [Fuel Vegetation Type](https://landfire.gov/fuel/fvt)                               |                                                                                                   |                                                                              |
-+---------------------------------------------------------------------+------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
+<div class="container">
+<div class="row">
+<div class="vegetation">
+<div class="header">
+<h3>Vegetation</h3>
+</div>
+
+<div class="content">
+<ul class="datalist">
+
+<li><a href="https://landfire.gov/vegetation">Biophysical Settings</a></li>
+
+<li><a href="https://landfire.gov/vegetation/esp">Environmental Site Potential</a></li>
+
+<li><a href="https://landfire.gov/vegetation/evc">Existing Vegetation Cover</a></li>
+
+<li><a href="https://landfire.gov/vegetation/evh">Existing Vegetation Height</a></li>
+
+<li><a href="https://landfire.gov/vegetation/evt">Existing Vegetation Type</a></li>
+
+<li><a href="https://landfire.gov/vegetation/sclass">Succession Class</a></li>
+
+<li><a href="https://landfire.gov/vegetation/vcc">Vegetation Condition Class</a></li>
+
+<li><a href="https://landfire.gov/vegetation/vdep">Vegetation Departure</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="fireregime">
+<div class="header">
+<h3>Historical Fire Regime</h3>
+</div>
+
+<div class="content">
+<ul class="datalist">
+
+<li><a href="https://landfire.gov/fire-regime/frg">Fire Regime Groups</a></li>
+
+<li><a href="https://landfire.gov/fire-regime/fri">Fire Return Interval</a></li>
+
+<li><a href="https://landfire.gov/fire-regime/pls">Percent of Low-severity Fire</a></li>
+
+<li><a href="https://landfire.gov/fire-regime/pms">Percent of Mixed-severity Fire</a></li>
+
+<li><a href="https://landfire.gov/fire-regime/prs">Percent of Replacement-severity Fire</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="fuel">
+<div class="header">
+<h3>Fuel</h3>
+</div>
+
+<div class="content">
+<ul class="datalist">
+
+<li><a href="https://landfire.gov/fuel/fbfm13">13 Anderson Fire Behavior Fuel Models</a></li>
+
+<li><a href="https://landfire.gov/fuel/fbfm40">40 Scott and Burgan Fire Behavior Fuel Models</a></li>
+
+<li><a href="https://landfire.gov/fuel/cffdrs">Canadian Forest Fire Danger Rating System</a></li>
+
+<li><a href="https://landfire.gov/fuel/fccs">Fuel Characteristic Classification System Fuelbed</a></li>
+
+<li><a href="https://landfire.gov/fuel/fdist">Fuel Disturbance</a></li>
+
+<li><a href="https://landfire.gov/fuel/flm">Fuel Loading Models</a></li>
+
+<li><a href="https://landfire.gov/fuel/cbh">Canopy Base Height</a></li>
+
+<li><a href="https://landfire.gov/fuel/cbd">Canopy Bulk Density</a></li>
+
+<li><a href="https://landfire.gov/fuel/cc">Forest Canopy Cover</a></li>
+
+<li><a href="https://landfire.gov/fuel/ch">Forest Canopy Height</a></li>
+
+<li><a href="https://landfire.gov/fuel/fvc">Fuel Vegetation Cover</a></li>
+
+<li><a href="https://landfire.gov/fuel/fvh">Fuel Vegetation Height</a></li>
+
+<li><a href="https://landfire.gov/fuel/fvt">Fuel Vegetation Type</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="disturbance">
+<div class="header">
+<h3>Disturbance</h3>
+</div>
+
+<div class="content">
+<ul class="datalist">
+
+<li><a href="https://landfire.gov/disturbance/annualdisturbance">Annual Disturbance</a></li>
+
+<li><a href="https://landfire.gov/fuel/fdist">Fuel Disturbance</a></li>
+
+<li><a href="https://landfire.gov/disturbance/hdist">Historical Disturbance</a></li>
+
+<li><a href="https://landfire.gov/disturbance/vdist">Vegetation Disturbance</a></li>
+
+<li><a href="https://landfire.gov/reference/publicevents">Public Events Geodatabase</a></li>
+
+<li><a href="https://landfire.gov/disturbance/lf_transitiontbls">Forest Transitions Database</a></li>
+
+<li><a href="https://landfire.gov/disturbance/lf_ntransitiontbls">Non-forest Vegetation Transitions Database</a></li>
+
+<li><a href="https://landfire.gov/disturbance/vtm">Vegetation Transition Magnitude</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="reference">
+<div class="header">
+<h3>Topographic and Reference</h3>
+</div>
+
+<div class="content">
+<ul class="datalist">
+
+<li><a href="https://landfire.gov/topographic/aspect">Aspect</a></li>
+
+<li><a href="https://landfire.gov/topographic/elevation">Elevation</a></li>
+
+<li><a href="https://landfire.gov/topographic/slope">Slope</a></li>
+
+<li><a href="https://landfire.gov/reference/publicevents">Public Events Geodatabase</a></li>
+
+<li><a href="https://landfire.gov/reference/lfrdb">Public Reference Geodatabase (LFRDB)</a></li>
+
+</ul>
+</div>
+</div>
+</div>
+</div>
 
 # LANDFIRE versions
 
