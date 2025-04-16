@@ -39,7 +39,7 @@ body {
   flex: 1 1 auto; /* Ensure content takes up remaining space */
 }
 
-.content ul, li {
+.content ul, .content li {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
