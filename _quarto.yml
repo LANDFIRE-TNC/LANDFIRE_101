@@ -5,6 +5,7 @@ project:
 website:
   title: "LANDFIRE 101"
   page-navigation: true
+  google-analytics: G-7HYRRL98N6
   sidebar: 
     style: "docked"
     search: true
@@ -53,8 +54,6 @@ website:
     # Still have questions? LANDFIRE is here to help.
 
     -   Ask the [LANDFIRE Helpdesk](mailto:helpdesk@landfire.gov?subject=landfirehelp) (email link).
-
-    -   Search the [LANDFIRE Helpdesk Dashboard](https://landfire.gov/helpdesk) to see what others are asking and find solutions to common problems.
 
     -   Search and subscribe to the [LANDFIRE YouTube Channel](https://www.youtube.com/@LANDFIREvideo) (see tutorials, Office Hours, quick demonstrations).
 
