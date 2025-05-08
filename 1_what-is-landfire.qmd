@@ -24,7 +24,7 @@ The following is a comprehensive list of all the datasets LANDFIRE provides in e
 <div class="content">
 <ul class="datalist">
 
-<li><a href="https://landfire.gov/vegetation">Biophysical Settings</a></li>
+<li><a href="https://landfire.gov/vegetation/bps">Biophysical Settings</a></li>
 
 <li><a href="https://landfire.gov/vegetation/esp">Environmental Site Potential</a></li>
 
@@ -56,11 +56,7 @@ The following is a comprehensive list of all the datasets LANDFIRE provides in e
 
 <li><a href="https://landfire.gov/fire-regime/fri">Fire Return Interval</a></li>
 
-<li><a href="https://landfire.gov/fire-regime/pls">Percent of Low-severity Fire</a></li>
-
-<li><a href="https://landfire.gov/fire-regime/pms">Percent of Mixed-severity Fire</a></li>
-
-<li><a href="https://landfire.gov/fire-regime/prs">Percent of Replacement-severity Fire</a></li>
+<li><a href="https://landfire.gov/fire-regime/pfs">Percent Fire Severity</a></li>
 
 </ul>
 </div>
@@ -158,7 +154,7 @@ The following is a comprehensive list of all the datasets LANDFIRE provides in e
 
 # LANDFIRE versions
 
-Prior to 2022, LANDFIRE updated their product suite every few years. However, beginning in 2022, LANDFIRE started providing annual product updates. It’s important to note that these annual updates only apply to pixels mapped as disturbed. Pixels mapped as undisturbed (since the release of LF2016), remain unchanged. You can find the data delivery schedule on the [data page of the LANDFIRE Program website](https://landfire.gov/data#schedule). LANDFIRE’s version history can be found in the [Version Description table](https://landfire.gov/data/comparison-table) on the LANDFIRE Program website. A [table comparing all LANDFIRE versions](https://landfire.gov/data/comparison-table) from LANDFIRE National (LFc2001) through the current version is also available on the same page. LANDFIRE keeps three versions online for immediate download at all times. Versions not listed can be requested through the [LANDFIRE Helpdesk](https://landfire.gov/contact).
+Prior to 2022, LANDFIRE updated their product suite every few years. However, beginning in 2022, LANDFIRE started providing annual product updates. It’s important to note that these annual updates only apply to pixels mapped as disturbed. Pixels mapped as undisturbed (since the release of LF2016), remain unchanged. You can find the data delivery schedule on the [data page of the LANDFIRE Program website](https://landfire.gov/data#schedule). LANDFIRE’s version history can be found in the [Version Description table](https://landfire.gov/data/comparison-table) on the LANDFIRE Program website. Each version page contains detailed information about improvements or changes to methodology, along with supplemental info at the bottom of each page. LANDFIRE now supports 5 versions for download: 2 base maps and 3 updates. Versions not listed can be requested through the [LANDFIRE Helpdesk](https://landfire.gov/contact). We are working to move LANDFIRE 2001 to [ScienceBase](https://www.usgs.gov/tools/sciencebase) as the official repository and will remove it from the website/tools.
 
 ::: callout-note
 Please visit the [LANDFIRE Program website](https://landfire.gov/data) for the most recent data version and the most up-to-date release schedule.
@@ -196,6 +192,6 @@ For more on application scale, you can read Jim Smith’s [blog post](https://ww
 
 -   Visit the [data page of the LANDFIRE Program website](https://landfire.gov/data#schedule) to find the data delivery schedule.
 
--   Use the [Version Description table](https://landfire.gov/data/comparison-table) and the [table comparing all LANDFIRE versions](https://landfire.gov/data/comparison-table) to see LANDFIRE’s version history.
+-   Use the [Version Description table](https://landfire.gov/data/comparison-table) to see LANDFIRE’s version history.
 
 -   See the [Modifying LANDFIRE Geospatial Data for Local Applications](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf) guide by Don Helmbrecht and Kori Blankenship for help adapting LANDFIRE datasets to your landscape.

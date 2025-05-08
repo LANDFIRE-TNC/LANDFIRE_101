@@ -5,9 +5,11 @@ toc: true
 format: html
 ---
 
-In our work, we frequently utilize various vegetation and fire regime datasets to gain a deeper understanding of certain landscapes. Key datasets such as Biophysical Settings, Existing Vegetation, and Succession Class are integrated to create the Vegetation Departure (VDEP) product. This section of the website will give you an overview of these essential datasets, along with links to additional information and download options for your use.
+::: callout-note
+For the most up-to-date information on each LANDFIRE data product, please view the individual product pages on the [LANDFIRE Program website](https://www.landfire.gov).
+:::
 
-Here, you’ll learn how to access and make good use of these datasets. We’ll walk you through how to download each one and share real-life examples of how they can be applied. We’ll also introduce you to other helpful tools that can improve your work.
+In our work, we frequently utilize various vegetation and fire regime datasets to gain a deeper understanding of certain landscapes. For example, key datasets such as Biophysical Settings, Existing Vegetation, and Succession Class are integrated to create the Vegetation Departure product. Here, you’ll learn how to access and make good use of these datasets. We’ll walk you through how to download each one and share real-life examples of how they can be applied. We’ll also introduce you to other helpful tools that can improve your work.
 
 # A word about vegetation classifications
 

@@ -5,6 +5,10 @@ toc: true
 format: html
 ---
 
+::: callout-note
+For the most up-to-date information on each LANDFIRE data product, please view the individual product pages on the [LANDFIRE Program website](https://www.landfire.gov).
+:::
+
 # What you will find in this section
 
 -   The basics of Biophysical Settings models

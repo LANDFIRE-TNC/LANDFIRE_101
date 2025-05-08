@@ -41,7 +41,7 @@ body {
 
 .datalist li {
   list-style-type: none;
-  margin-left: 0;
+  margin-left: -35px;
   margin-bottom: 10px;
   padding-left: 0;
 }
