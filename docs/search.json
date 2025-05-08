@@ -746,11 +746,11 @@
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#vdep-is-a-static-metric.",
-    "href": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#vdep-is-a-static-metric.",
+    "objectID": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#myth-vdep-is-a-static-metric.",
+    "href": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#myth-vdep-is-a-static-metric.",
     "title": "Vegetation Departure",
-    "section": "VDep is a static metric.",
-    "text": "VDep is a static metric.\nFALSE The final VDep value depends on the summary unit you utilized in the calculation (see Swaty, et al. (2022)). It is important to understand what summary unit is most suited to your particular situation.",
+    "section": "Myth: VDep is a static metric.",
+    "text": "Myth: VDep is a static metric.\nReality: The final VDep value depends on the summary unit you utilized in the calculation (see Swaty, et al. (2022)). It is important to understand what summary unit is most suited to your particular situation.",
     "crumbs": [
       "LANDFIRE Vegetation Datasets",
       "Vegetation Departure",
@@ -758,11 +758,11 @@
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#reference-conditions-are-about-the-past.",
-    "href": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#reference-conditions-are-about-the-past.",
+    "objectID": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#myth-reference-conditions-are-about-the-past.",
+    "href": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#myth-reference-conditions-are-about-the-past.",
     "title": "Vegetation Departure",
-    "section": "Reference Conditions are about the past.",
-    "text": "Reference Conditions are about the past.\nFALSE Reference Conditions can be about past patterns, but this is not required. Reference Conditions are not tied to any particular time period, and they can be adjusted by users.",
+    "section": "Myth: Reference Conditions are about the past.",
+    "text": "Myth: Reference Conditions are about the past.\nReality: Reference Conditions can be about past patterns, but this is not required. Reference Conditions are not tied to any particular time period, and they can be adjusted by users.",
     "crumbs": [
       "LANDFIRE Vegetation Datasets",
       "Vegetation Departure",
@@ -770,11 +770,11 @@
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#vdep-can-be-used-on-small-areas.",
-    "href": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#vdep-can-be-used-on-small-areas.",
+    "objectID": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#myth-vdep-can-be-used-on-small-areas.",
+    "href": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#myth-vdep-can-be-used-on-small-areas.",
     "title": "Vegetation Departure",
-    "section": "VDep can be used on small areas.",
-    "text": "VDep can be used on small areas.\nFALSE VDep is generally not useful for small areas because a key assumption of the metric is that the summary unit is large enough to possibly contain all seral states.",
+    "section": "Myth: VDep can be used on small areas.",
+    "text": "Myth: VDep can be used on small areas.\nReality: VDep is generally not useful for small areas because a key assumption of the metric is that the summary unit is large enough to possibly contain all seral states.",
     "crumbs": [
       "LANDFIRE Vegetation Datasets",
       "Vegetation Departure",
@@ -782,11 +782,11 @@
     ]
   },
   {
-    "objectID": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#vdep-is-fire-regime-condition-class",
-    "href": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#vdep-is-fire-regime-condition-class",
+    "objectID": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#myth-vdep-is-fire-regime-condition-class",
+    "href": "LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.html#myth-vdep-is-fire-regime-condition-class",
     "title": "Vegetation Departure",
-    "section": "VDep is Fire Regime Condition Class",
-    "text": "VDep is Fire Regime Condition Class\nFALSE In early LANDFIRE versions the VDep layer was called Fire Regime Condition Class (FRCC) but that was not correct. FRCC is a two-dimensional metric that incorporates Vegetation Departure (VDep) and Fire Regime Departure. LANDFIRE has never included information on Fire Regime Departure, so the name of the product was changed to VDep.",
+    "section": "Myth: VDep is Fire Regime Condition Class",
+    "text": "Myth: VDep is Fire Regime Condition Class\nReality: In early LANDFIRE versions the VDep layer was called Fire Regime Condition Class (FRCC) but that was not correct. FRCC is a two-dimensional metric that incorporates Vegetation Departure (VDep) and Fire Regime Departure. LANDFIRE has never included information on Fire Regime Departure, so the name of the product was changed to VDep.",
     "crumbs": [
       "LANDFIRE Vegetation Datasets",
       "Vegetation Departure",
