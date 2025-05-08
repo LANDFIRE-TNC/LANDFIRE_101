@@ -5,6 +5,10 @@ toc: true
 format: html
 ---
 
+::: callout-note
+For the most up-to-date information on each LANDFIRE data product, please view the individual product pages on the [LANDFIRE Program website](https://www.landfire.gov).
+:::
+
 # What you will find in this section
 
 The Reference Conditions Table (RCT) is an output from the Biophysical Settings Models that focuses specifically on succession class and fire regime. In this section we will:
@@ -72,7 +76,7 @@ Other common uses of the RCT include:
 ![*Reference vs. current succession classes for the Southern Rockies ecoregion.*](images/RCT_ReferencePercents.png){fig-alt="Six separate bar charts showing Succession classes (A, B, C, D, E, UN, UE, Agriculture, Developed) on the Y axis and present and past amounts of each class on the x axis. These charts analyze six different Biophysical Settings to compare past and current successional classes on this landscape."}
 
 
- **Understanding the relative proportion of surface, mixed, and replacement fire severity** for a given BpS.
+**Understanding the relative proportion of surface, mixed, and replacement fire severity** for a given BpS.
 
 **Comparing fire frequency, severity, and fire regime** between BpS.
 

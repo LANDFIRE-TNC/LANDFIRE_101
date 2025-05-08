@@ -51,7 +51,7 @@ The [LANDFIRE Program website](https://www.landfire.gov/) is the most comprehens
 
     -   Another way to explore datasets and their attributes is to navigate to the layer via the buttons across the top of the page. Most of the datasets we will discuss on this website can be found underneath the Vegetation category. If you need a refresher, check out which datasets are available where in the [What is LANDFIRE?](1_what-is-landfire.qmd) section of this site.
 
-3.  On each individual product page, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset. You can download a .csv file attribute table for the most recent LANDFIRE dataset there (see 'With the .csv file for each layer' section below).
+3.  On many of the product pages, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset. You can also download a .csv file attribute table for the most recent LANDFIRE dataset there (see 'With the .csv file for each layer' section below).
 
 ### Screenshots for where to find attributes on the LANDFIRE website
 
@@ -115,7 +115,7 @@ Be sure to use the selection tools in the Map section at the top of the ribbon b
 
 ![*How to open the attribute table of a layer*](images/7-open-attribute-table.bmp){fig-alt="An ArcGIS Pro window showing a layer highlighted in the Table of Contents and the right clicked expansion window open with the Attribute Table selection highlighted."}
 
-![*Highlighting a BpS in the attribute table and the map*](images/8-select-attribute.bmp){fig-alt="An ArcGIS Pro window with the attribute table open in the bottom half and a map window open in the top half. A row is highlighted in the attribute table with the corresponding pixels highlighted in the map. An arrow is pointing to the row number, showing where to click to highlight the row in the table."}
+![*Highlighting a BPS in the attribute table and the map*](images/8-select-attribute.bmp){fig-alt="An ArcGIS Pro window with the attribute table open in the bottom half and a map window open in the top half. A row is highlighted in the attribute table with the corresponding pixels highlighted in the map. An arrow is pointing to the row number, showing where to click to highlight the row in the table."}
 
 ![Unselecting attributes](images/9-clear-attributes.bmp){fig-alt="An ArcGIS Pro window showing the Clear button highlighted in the ribbon bar at the top of the map window under the Selection heading."}
 

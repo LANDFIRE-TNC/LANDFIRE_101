@@ -4,6 +4,7 @@ author: "Sarah Hagen, Jim Smith"
 toc: true
 format: html
 ---
+
 ::: callout-note
 We are developing another section of this training site that will be entirely devoted to vegetation departure. This section is intended to give you the basics.
 :::
@@ -102,7 +103,7 @@ These methodologies enhance the VDEP metric's applicability for evaluating and a
 
 ## VDep is Fire Regime Condition Class
 
-In early LANDFIRE versions the VDep layer was called Fire Regime Condition Class (FRCC) but that was not correct. FRCC is a two-dimensional metric that incorporates Vegetation Departure (VDep) and Fire Regime Departure. LANDFIRE has never included information on Fire Regime Departure, so the name of the product was changed to VDep.
+**FALSE** In early LANDFIRE versions the VDep layer was called Fire Regime Condition Class (FRCC) but that was not correct. FRCC is a two-dimensional metric that incorporates Vegetation Departure (VDep) and Fire Regime Departure. LANDFIRE has never included information on Fire Regime Departure, so the name of the product was changed to VDep.
 
 # Helpful Resources
 

@@ -5,6 +5,10 @@ toc: true
 format: html
 ---
 
+::: callout-note
+For the most up-to-date information on each LANDFIRE data product, please view the individual product pages on the [LANDFIRE Program website](https://www.landfire.gov).
+:::
+
 The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product. They set the stage for the development of many other LANDFIRE products such as the Biophysical Settings, Succession Class, and Vegetation Departure spatial datasets. They have components imported from the BpS models, which we will discuss in the [following section](4-bps-models.qmd).
 
 # What you will find in this section
@@ -41,11 +45,9 @@ While we typically work with one or a small set of BpSs, there are times when do
 
 ![You can find the Biophysical Settings Models and Descriptions page from the Vegetation page on the LANDFIRE Program website.](images/6-bps-models-page.bmp){fig-alt="The Vegetation Page on the LANDFIRE Program website. There are three boxes with the headings Current Vegetation, Modeled Vegetation, and Vegetation Classes. An arrow points to the second link in the Modeled Vegetation section, Biophysical Settings models and Descriptions" fig-align="center"}
 
-
 ### Screenshot for downloading and unzipping all BpS descriptions
 
 ![Where to click to download all BpS descriptions](images/7-bps-models-download.bmp){fig-alt="The bottom of the BpS Models and Descriptions page of the LANDFIRE Program website. There are two boxes with the headings Revised CONUS and Hawaii and Original Alaska. Arrows point to the second link below each heading, BpS Descriptions" fig-align="center"}
-
 
 # Downloading one or a set of BpS documents
 
@@ -99,12 +101,9 @@ Beware when clicking the ‘Download All Search Results Documents’ button. If 
 
 [![Three ways to select your BpS(s) of interest](images/ways_to_select.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. There are three numbers on the page. #1 is over the Vegetation Types checkboxes in the upper left sidebar. #2 is over the Map Zones checkboxes in the lower left sidebar. #3 is over the search bar at the top of the main page section" fig-align="center"}](https://landfirereview.org/search.php)
 
-
 [![Downloading all BpS from filtering by 'Vegetation Types' and/or 'Map Zones'](images/download_all.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. An arrow points to the 'Download All Search Results Documents' button in the right sidebar" fig-align="center"}](https://landfirereview.org/search.php)
 
-
 [![Downloading selected BpS](images/download_selected.png){fig-alt="The search page of the LANDFIRE BpS Models and Descriptions Support website. The right sidebar now reads 'Documents selected for download:' then shows the names of the selected Biophysical settings. Below this are two buttons reading Download All Selected Documents and Remove All Selected Documents" fig-align="center"}](https://landfirereview.org/search.php)
-
 
 # What’s in a BpS document?
 
@@ -121,7 +120,7 @@ The BpS documents were saved with a numeric code such as '13700_60_63_64_65_66.d
 3.  *Map Zones*: the string of numbers separated by an underscore represents the Map Zones that this particular document (and associated BpS state and transition model) apply to.
 
 ::: callout-note
- You are able to rename the files once downloaded, but please be cautious about deleting the BpS code in the document, as this is the code that will link the document to all other Biophysical Settings products. For more information on the BpS model code and it’s importance, see the [Deciphering the BpS Model Code](https://tnc.app.box.com/file/735697112845?s=72zucxhtzq5xfc36pkf46llh531v1onh) pdf.
+You are able to rename the files once downloaded, but please be cautious about deleting the BpS code in the document, as this is the code that will link the document to all other Biophysical Settings products. For more information on the BpS model code and it’s importance, see the [Deciphering the BpS Model Code](https://tnc.app.box.com/file/735697112845?s=72zucxhtzq5xfc36pkf46llh531v1onh) pdf.
 :::
 
 ::: callout-tip
@@ -153,24 +152,23 @@ An example Fire Frequency Table is replicated below.
 
 Fire interval is expressed in years for each fire severity class and for all types of fire combined (All Fires). Average FI is the central tendency modeled. The value in the ‘Percent of All Fires’ column represents the percent of fires modeled in that severity class (e.g. the value for ‘Percent of All Fires’ for replacement fire is calculated as 529/1005 in the table above). Minimum and Maximum FIs show the relative range of fire intervals as estimated by model contributors, if known.
 
-## Succession Classes – mapping rules 
+## Succession Classes – mapping rules
 
 LANDFIRE did not attempt to map where succession classes were prior to European colonization, as they would have moved around. This table is used to map where succession classes are today. For example, in the ‘Succession Class Table’ below we have highlighted combinations of Existing Height and Cover (and lifeform) that would be mapped as Succession Class A.
 
 [![](images/sclass_table.png){fig-alt="A succession class table showing the Mapping Rules, Upper Layer Lifeform (herb, shrub, or tree), the vegetation height, and several columns of canopy cover in groups of 10 (i.e. 0 - 10, 11 - 20, etc.). Below the Canopy Cover % groups is a letter corresponding to the succession class. A purple box around 6 boxes corresponding to tree 0-5m, 71-80% canopy, 81 -90% canopy, and 91 - 100% canopy and tree 5-10m with the same canopy covered percents shows that those classes should be in succession Class A." fig-align="center"}](https://landfirereview.org/search.php)
 
-
 ::: callout-tip
 LANDFIRE also delivers a [succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the [Biophysical Settings Description and Quantitative Models page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website.
 :::
 
-## Succession Classes – description 
+## Succession Classes – description
 
 This section provides a description of the development states of a BpS as conceptualized by the model developers within the LANDFIRE modeling framework. Developers were allowed to describe and model up to five states. Each class is identified by a letter (A-E) and a name that describes its cover and structure (e.g. Early Development 1 All Structures).
 
 The combination of the BpS code and the class letter links the succession class description to the reference condition table. The BpS code and class name link the succession class to the BpS model. For more detail on this, see our [linking the BpS models and descriptions](https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c) pdf.
 
-The number to the right of the class letter represents the modeled reference condition for that class. In other words, the percent of the landscape that you would expect to be in the class on average, over long time periods, for the extent of a BpS within a mapzone.. 
+The number to the right of the class letter represents the modeled reference condition for that class. In other words, the percent of the landscape that you would expect to be in the class on average, over long time periods, for the extent of a BpS within a mapzone..
 
 ## Model Parameters Table
 
@@ -187,7 +185,7 @@ In ST-Sim, the ‘Age Reset’ field indicates whether a transition resets the a
 Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 20, it means that this transition can only happen if 20 years have passed since the last fire.
 
 | Disturbance Type | Disturbance occurs in | Moves vegetation to | Disturbance Probability | Return Interval (yrs) | Reset Age to New Class Start Age after Disturbance? | Years Since Last Disturbance |
-|-----------|-----------|----------|-----------|--------|------------|-----------|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | Wind or Weather Stress | Early1:ALL | Early1:ALL | 0.001 | 1000 | Yes | 0 |
 | Replacement Fire | Early1:ALL | Early1:ALL | 0.001 | 1000 | Yes | 0 |
 | Alternative Succession | Mid1:OPN | Late1:CLS | 1 | 1 | Yes | 100 |
@@ -197,18 +195,18 @@ Years since last disturbance, referred to as TST Min (time-since-transition mini
 
 # Helpful Resources
 
-- [Deciphering the BpS model code](https://tnc.app.box.com/s/72zucxhtzq5xfc36pkf46llh531v1onh) (opens a pdf on Box)
+-   [Deciphering the BpS model code](https://tnc.app.box.com/s/72zucxhtzq5xfc36pkf46llh531v1onh) (opens a pdf on Box)
 
-- [Linking the Bps models and descriptions](https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c) (opens a pdf on Box)
+-   [Linking the Bps models and descriptions](https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c) (opens a pdf on Box)
 
-- [Succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.ziphttps://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
+-   [Succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.ziphttps://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
 
-- Blankenship, K., Swaty, R., Hall, K.R., Hagen, S., Pohl, K., Shlisky Hunt, A., Patton, J., Frid, L. and Smith, J., 2021. Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Ecosphere, 12(4), p.e03484. [Link to paper](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484)
+-   Blankenship, K., Swaty, R., Hall, K.R., Hagen, S., Pohl, K., Shlisky Hunt, A., Patton, J., Frid, L. and Smith, J., 2021. Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Ecosphere, 12(4), p.e03484. [Link to paper](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484)
 
-- [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/)
+-   [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/)
 
-- [BpS Models Page](https://landfire.gov/vegetation/bps-models) on the LANDFIRE Program Website
+-   [BpS Models Page](https://landfire.gov/vegetation/bps-models) on the LANDFIRE Program Website
 
-- [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip)
+-   [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip)
 
-- [BpS Models and Descriptions Support](https://landfirereview.org/) website
+-   [BpS Models and Descriptions Support](https://landfirereview.org/) website

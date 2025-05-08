@@ -4,6 +4,11 @@ author: "Jim Smith"
 toc: true
 format: html
 ---
+
+::: callout-note
+For the most up-to-date information on each LANDFIRE data product, please view the individual product pages on the [LANDFIRE Program website](https://www.landfire.gov).
+:::
+
 # What you will find in this section
 
 - A brief overview of LANDFIRE fuels products
@@ -77,6 +82,6 @@ LANDFIRE Fuels products serve as a foundational resource, providing analysts wit
 
 - [Updating LANDFIRE fuels data for recent wildfires](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/Updating%20LF%20fuels%20data_Mar%2021_Blankenship.pdf) pdf guide
 
-- The [Modifying LANDFIRE Geospatial Data for Local Applications](https://shagen37.github.io/LANDFIRE_101/LANDFIRE_Datasets/1_Vegetation/Existing_Vegetation/Balaji%20et%20al.,%20(2023)) guide
+- The [Modifying LANDFIRE Geospatial Data for Local Applications](https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf) guide
 
 - [LANDFIRE Office Hour: Acquiring and using LANDFIRE fuels data in geospatial modeling applications](https://youtu.be/FNtey0ALZK4) (opens a YouTube video)
