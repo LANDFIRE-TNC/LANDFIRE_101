@@ -80,7 +80,7 @@ The following is a comprehensive list of all the datasets LANDFIRE provides in e
 
 <li><a href="https://landfire.gov/fuel/fdist">Fuel Disturbance</a></li>
 
-<li><a href="https://landfire.gov/fuel/flm">Fuel Loading Models</a></li>
+<!--<li><a href="https://landfire.gov/fuel/flm">Fuel Loading Models</a></li> -->
 
 <li><a href="https://landfire.gov/fuel/cbh">Canopy Base Height</a></li>
 
@@ -114,15 +114,15 @@ The following is a comprehensive list of all the datasets LANDFIRE provides in e
 
 <li><a href="https://landfire.gov/disturbance/hdist">Historical Disturbance</a></li>
 
-<li><a href="https://landfire.gov/disturbance/vdist">Vegetation Disturbance</a></li>
+<!-- <li><a href="https://landfire.gov/disturbance/vdist">Vegetation Disturbance</a></li> -->
 
 <li><a href="https://landfire.gov/reference/publicevents">Public Events Geodatabase</a></li>
 
-<li><a href="https://landfire.gov/disturbance/lf_transitiontbls">Forest Transitions Database</a></li>
+<!-- <li><a href="https://landfire.gov/disturbance/lf_transitiontbls">Forest Transitions Database</a></li>
 
 <li><a href="https://landfire.gov/disturbance/lf_ntransitiontbls">Non-forest Vegetation Transitions Database</a></li>
 
-<li><a href="https://landfire.gov/disturbance/vtm">Vegetation Transition Magnitude</a></li>
+<li><a href="https://landfire.gov/disturbance/vtm">Vegetation Transition Magnitude</a></li> -->
 
 </ul>
 </div>
