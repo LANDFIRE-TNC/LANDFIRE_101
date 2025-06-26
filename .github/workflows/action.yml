@@ -1,0 +1,33 @@
+name: Link Checker (Lychee)
+
+on:
+  push:
+    branches:
+      - main  # Or your main branch
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run lychee
+        uses: lycheeverse/lychee-action@v1 # Use the latest version
+        with:
+          # Configure lychee to check your files/website
+          args: "--verbose --base . './**/*.html' './**/*.qmd' --no-progress --accept 200..=299 --exclude-all-private" # Specify .html and .qmd files" # Example: check links in the repository and output verbose results
+          # You can also specify the URL of your deployed website using the --base option if you are checking the live site
+          # args: "--verbose --base https://your-website.com"
+
+      # Optional: Add steps to process the lychee output, such as creating a check or issue
+      # For example, to create a check run:
+      # - name: Report findings as a check
+      #   uses: reviewdog/action-reporter@v1
+      #   with:
+      #     reporter: github-check
+      #     filter_mode: file
+      #     fail_on_error: true
+      #     level: error
+      #     # Assuming lychee outputs findings in a format that Reviewdog can understand
+      #     # You might need to experiment with lychee's output format and Reviewdog's configuration
