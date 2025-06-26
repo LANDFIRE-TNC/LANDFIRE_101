@@ -16,7 +16,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1 # Use the latest version
         with:
           # Configure lychee to check your files/website
-          args: "--verbose --base . './**/*.html' './**/*.qmd' --no-progress --accepted 200..=299 --exclude-all-private" # Specify .html and .qmd files" # Example: check links in the repository and output verbose results
+          args: "--verbose --base . './**/*.html' './**/*.qmd' --no-progress --accept 200..=299 --exclude-all-private" # Specify .html and .qmd files" # Example: check links in the repository and output verbose results
           # You can also specify the URL of your deployed website using the --base option if you are checking the live site
           # args: "--verbose --base https://your-website.com"
 
