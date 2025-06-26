@@ -35,11 +35,9 @@ You can also access a [User Instructions page](https://landfire.gov/data/LFViewe
 Not all datasets are available with every version. [Visit the LANDFIRE Program Website](https://landfire.gov/data#versions) to begin learning about versions.
 :::
 
-5.  Once all desired datasets are selected, scroll down to enter your e-mail address. Soon after doing that and clicking the Download button you will receive an email announcing that your data is ready for download. Follow the instructions in that email.
+5.  Once all desired datasets are selected, scroll down to enter your e-mail address. Soon after clicking the Download button you will receive an email announcing that your data is ready for download. Follow the instructions in that email.
 
-After you click the Download button on the LFMV you will eventually receive an email with instructions. The zipped data will likely land in your Downloads directory. Then what?
-
-Essentially you will extract the data to a useful location, then begin using LANDFIRE data in your projects and analyses.
+After you click the Download button on the LFMV you will eventually receive an email with instructions. The zipped data will likely land in your Downloads directory. Then you can extract the data to a useful location and begin using LANDFIRE data in your projects and analyses.
 
 ## Screenshots for using the LANDFIRE Map Viewer
 

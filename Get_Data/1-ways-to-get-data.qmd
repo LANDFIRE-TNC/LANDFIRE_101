@@ -21,12 +21,12 @@ format: html
 
 There are four ways to get LANDFIRE data (that we know of-there may be more!):
 
-1. [LANDFIRE Map Viewer (LFMV)](https://www.landfire.gov/viewer/). This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations.
+1. [LANDFIRE Map Viewer](https://www.landfire.gov/viewer/). This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations.
 
-2. [Download Mosaics](https://landfire.gov/data/FullExtentDownloads) for CONUS, HI or AK, or the U.S. Insular Areas. Obtaining these mosaiced datasets are best for users who have several landscapes of interest and/or have plenty of storage space.
+2. [Download Full Extent Mosaics](https://landfire.gov/data/FullExtentDownloads) for CONUS, HI or AK, or the U.S. Insular Areas. Obtaining these full extent mosaic datasets are best for users who have several landscapes of interest and/or have plenty of storage space.
 
 3. Stream data with the [LANDFIRE Product Service](https://lfps.usgs.gov/arcgis/rest/services/LandfireProductService/GPServer), or by [webservice](https://landfire.gov/data/lf_stream) (WCS, WMS, or ESRI Image Service). You can also access hosted imagery layers in ArcGIS Online from the [U.S. Geological Survey gallery](https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&sortOrder=desc&focus=layers-weblayers-imagery). These options are good for users who do not want to store data locally. 
 
-4. The [rlandfire](https://github.com/bcknr/rlandfire) R package, by [Mark Buckner](https://github.com/bcknr/rlandfire) who is currently (as of January 2024) a PhD candidate at Cornell University. This package allows you to import LANDFIRE data directly into your R environment. To learn more about using the rlandfire package, check out the Office Hour [LANDFIRE & Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!](https://youtu.be/Go5foMcOG-c)
+4. The [rlandfire](https://github.com/bcknr/rlandfire) R package, by [Mark Buckner](https://github.com/bcknr/rlandfire) who is a LANDFIRE super user. This package allows you to import LANDFIRE data directly into your R environment. To learn more about using the rlandfire package, check out the Office Hour [LANDFIRE & Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!](https://youtu.be/Go5foMcOG-c)
 
 We will walk you through how to use each of these options in the following sections of this website.

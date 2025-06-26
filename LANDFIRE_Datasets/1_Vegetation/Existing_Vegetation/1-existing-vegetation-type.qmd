@@ -21,12 +21,12 @@ For the most up-to-date information on each LANDFIRE data product, please view t
 
 # Existing Vegetation Type
 
-![LANDFIRE delivers Existing Vegetation Type data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. More than 1000 Existing Vegetation Types are grouped into seven major vegetation classes and displayed using one color family for each class. This map was designed with a custom color ramp created by Sarah Hagen.](images/1-EVT-map.bmp){fig-alt="A map of LANDFIRE Existing Vegetation Type for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."}
+![LANDFIRE delivers Existing Vegetation Type data for the entire United States, including Alaska, Hawaii, Puerto Rico and the US Virgin Islands. More than 1000 Existing Vegetation Types are grouped into seven major vegetation classes and displayed using one color family for each class. This map was designed with a custom color ramp created by Sarah Hagen. ](images/1-EVT-map.bmp){fig-alt="A map of LANDFIRE Existing Vegetation Type for the Contiguous US, Alaska, Hawaii, and Puerto Rico and the US Virgin Islands."}
 
 
 LANDFIRE's Existing Vegetation Type (EVT-ES) represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016. A terrestrial ecological system is defined as a group of plant community types (associations) that tend to co-occur within landscapes with similar ecological processes, substrates, and/or environmental gradients. EVT is mapped using a combination of satellite imagery, biophysical gradient layers, and field plots. For more on this, see the [LANDFIRE technical documentation](https://www.usgs.gov/publications/landfire-technical-documentation).
 
-EVT also includes ruderal or semi-natural vegetation types within the [U.S. National Vegetation Classification](https://usnvc.org/) (NVC). The [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf) provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada, allowing some crosswalk of EVT and other vegetation systems.
+EVT also includes ruderal or semi-natural vegetation types within the [U.S. National Vegetation Classification](https://usnvc.org/) (NVC). The [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf) provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada.
 
 ::: callout-important
 EVT's were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt). Additional information about each of these ecological systems classifications can be found on the separate product pages on the [LANDFIRE Program Website](https://landfire.gov/vegetation). Due to the differences in the classification, over time, users should be careful when comparing different EVT versions.
@@ -40,7 +40,7 @@ EVT's were created based on the NatureServe terrestrial ecosystems classificatio
 
 -   **EVT_Fuel_N**: The Ecological Systems class name used for fuel product development
 
--   **EVT_LF**: Major vegetation lifeform (e.g., tree, shrub, herb, sparse) for the ecological system. Note that if an EVT Lifeform is listed as ‘tree’ it may actually be a mix of tree, herb, savanna, and more, but the ecological system and LANDFIRE identified trees as dominating most of the landscape. LANDFIRE identifies a pixel as belonging to a certain Lifeform if greater than 10% of that pixel is in that Lifeform.
+-   **EVT_LF**: Major vegetation lifeform (e.g., tree, shrub, herb, sparse) for the ecological system. Note that if an EVT Lifeform is listed as ‘tree’ it may actually be a mix of tree, herb, savanna, and more, but the ecological system and LANDFIRE identified trees as dominating most of the landscape. LANDFIRE identifies a pixel as belonging to a certain Lifeform if greater than 10% of that pixel is in that Lifeform. LANDFIRE assigns Lifeforms in priority of the highest lifeform -- tree, then shrub, then herbaceous.
 
 -   **EVT_GP_N**: The vegetation type name (e.g. grassland and steppe, longleaf pine, yellow birch-sugar maple forest). This is more specific than the lifeform, but less specific than the ecological system (EVT Name).
 
@@ -62,7 +62,7 @@ Caution should be taken when comparing LANDFIRE versions as attribute tables are
 
 The LANDFIRE spatial data layers allow for display and analysis at varying levels of specificity. Three examples of how you can display, aggregate, and evaluate Existing Vegetation Type data from most specific (EVT Name) to least specific (Lifeform) information are presented in the following images. These three maps are presented as examples, but you can display or analyze EVT data on any of the attributes mentioned above.
 
-![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Name attribute. In this map Existing Vegetation Type data are grouped into seven major vegetation classes and displayed using one color family for each class, with each EVT getting its own specific color code. This map was designed using a custom color ramp created by Sarah Hagen.](images/2-evt-map-name.bmp){fig-alt="A map of the Existing Vegtation Type data for the Contiguous United States. Text across the top reads 'EVT Name'." fig-align="center"}
+![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Name attribute. In this map Existing Vegetation Type data are grouped into seven major vegetation classes (conifer, conifer-hardwood, hardwood, shrubland, grassland, riparian, and sparsely vegetated) and displayed using a continuous, monochromatic ramp within  each class, with each EVT getting its own specific color code. This map was designed using a custom color ramp created by Sarah Hagen.](images/2-evt-map-name.bmp){fig-alt="A map of the Existing Vegtation Type data for the Contiguous United States. Text across the top reads 'EVT Name'." fig-align="center"}
 
 
 ![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Phys attribute. In this map Existing Vegetation Type data are grouped into thirteen major classes and displayed using one color for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/3-evt-map-phys.bmp){fig-alt="A map of the Existing Vegetation Type data for the Contiguous United States. Text across the top reads 'EVT Physiognomy'." fig-align="center"}
@@ -106,7 +106,7 @@ Beyond simple viewing, mapping and quantifying of ecosystems with the EVT datase
 
 - [U.S. National Vegetation Classification](https://usnvc.org/)
 
-- [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf)
+- [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://www.landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf)
 
 - Wildfire Exposure Risk mapping - [Beverly et al., 2021](https://link.springer.com/article/10.1007/s10980-020-01173-8)
 

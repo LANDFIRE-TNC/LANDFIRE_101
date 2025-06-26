@@ -19,7 +19,7 @@ How to explore the attribute tables of LANDFIRE datasets:
 
 Exploring the attributes of any dataset is a fundamental step in the data analysis process. It lays the foundation for accurate analyses, informed decision-making, and successful outcomes in various fields, from scientific research to business intelligence.
 
-Here are three main reasons to understand the attributes of LANDFIRE data before any analysis in GIS or R:
+Here are three main reasons to understand the attributes of LANDFIRE data before any analysis in GIS or R, or use in fire behavior or other applications:
 
 1.  **Data Familiarity**: Exploring attributes provides a deep understanding of the dataset’s structure, format, and content. This familiarity is essential for making informed decisions about data manipulation, analysis, and visualization.
 
@@ -28,7 +28,7 @@ Here are three main reasons to understand the attributes of LANDFIRE data before
 3.  **Effective Data Visualization**: Exploring attributes aids in creating effective data visualizations. Understanding the range and distribution of variables helps you choose appropriate visualization techniques that convey the intended message and insights.
 
 ::: callout-tip
-Many LANDFIRE datasets allow for analysis and display at various levels of specificity and on various different attributes. We encourage you to explore all the attributes of the data before getting started with analysis and mapping. We have provided some examples of mapping on different attributes later in this site when we discuss the individual datasets.
+Many LANDFIRE datasets allow for analysis and display at various levels of specificity and on various different attributes. We encourage you to explore all the attributes of the data before getting started with analysis and mapping. We have provided some examples of mapping using different spatial layer attributes later in this site when we discuss the individual datasets.
 :::
 
 # How to explore the attributes of LANDFIRE datasets
@@ -49,9 +49,9 @@ The [LANDFIRE Program website](https://www.landfire.gov/) is the most comprehens
 
         -   Within the data dictionary table of contents, click the layer you’re interested in and jump to the section of the document that shows the attributes and descriptions of that layer
 
-    -   Another way to explore datasets and their attributes is to navigate to the layer via the buttons across the top of the page. Most of the datasets we will discuss on this website can be found underneath the Vegetation category. If you need a refresher, check out which datasets are available where in the [What is LANDFIRE?](1_what-is-landfire.qmd) section of this site.
+    -   Another way to explore datasets and their attributes is to navigate to the layer via the buttons across the top of the page. Most of the datasets we will discuss on this website can be found underneath the Vegetation category. If you need a refresher, check out which datasets are available where in the [Overview of LANDFIRE Products](1_what-is-landfire.qmd) section of this site.
 
-3.  On many of the product pages, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset. You can also download a .csv file attribute table for the most recent LANDFIRE dataset there (see 'With the .csv file for each layer' section below).
+3.  On many of the product pages, you will find a section on Key Attributes, which provides more information on the attributes of that specific dataset. You can also download a .csv file containing an attribute table for the most recent LANDFIRE dataset there (see 'With the .csv file for each layer' section below).
 
 ### Screenshots for where to find attributes on the LANDFIRE website
 
@@ -65,7 +65,7 @@ The [LANDFIRE Program website](https://www.landfire.gov/) is the most comprehens
 
 💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
-Whenever you download a LANDFIRE dataset, it will be packaged in a .zip file that includes not only the spatial data in .tif format, but also general metadata, spatial metadata, and a .csv data file. .csv stands for Comma Separated Values and is a convenient way to display and work with the attributes of a spatial data layer in a non-spatial way (R, Excel, etc.). This enables you to examine your data and understand landscape trends without even opening GIS software. It also helps you understand the attributes you may want to map and explore spatially.
+Whenever you download a LANDFIRE dataset, it will be packaged in a .zip file that includes not only the spatial data in .tif format, but also general metadata, spatial metadata, and a .csv data file. .csv stands for Comma Separated Values and is a convenient way to display and work with the attributes of a spatial data layer in a non-spatial way. Working with the file in R, Excel, or another similar application enables you to examine your data and understand landscape trends without even opening GIS software. It also helps you understand the attributes you may want to map and explore spatially.
 
 The .csv files can be found on the individual dataset web pages under the Attribute Tables (CSV, ADD) sections at the bottom of each product page.
 
@@ -87,11 +87,11 @@ If you don’t use Microsoft Excel or you aren’t working in a Microsoft Window
 
 ### Screenshots for where to find the .csv file
 
+![*Location of the .csv file on the EVT product page*](images/6-csv-location.bmp){fig-alt="The LANDFIRE Program website data page with an arrow pointing to a link to Attribute Data Table (CSV) under the Existing Vegetation Type Resources heading."}
+
 ![*Location of the CSV_Data folder inside the data download*](images/4-csv-data-folder.bmp){fig-alt="A Windows explorer window showing folders inside a file structure. The CSV_Data folder at the top of the folders is highlighted."}
 
 ![*Location of the .csv file within the CSV_Data folder*](images/5-csv-file.bmp){fig-alt="Windows explorer file structure showing the LF20_EVT_200 Microsoft Excel Comma Separated Values file highlighted."}
-
-![*Location of the .csv file on the EVT product page*](images/6-csv-location.bmp){fig-alt="The LANDFIRE Program website data page with an arrow pointing to a link to Attribute Data Table (CSV) under the Existing Vegetation Type Resources heading."}
 
 ## Within ArcGIS Pro
 
@@ -105,7 +105,7 @@ You can also use ArcGIS Pro to view the attribute tables of each dataset in tand
 
     -   This will open the attribute table for the layer. Here you can examine and edit the attributes of the layer.
 
-2.  To explore where a particular attribute value occurs on the landscape, click on the corresponding row number in the attribute table and ArcGIS Pro will highlight those pixels in the map display..
+2.  To explore where a particular attribute value occurs on the landscape, click on the corresponding row number in the attribute table and ArcGIS Pro will highlight those pixels in the map display.
 
 ::: callout-warning
 Be sure to use the selection tools in the Map section at the top of the ribbon bar to unselect any rows before doing any data processing. By default, ArcGIS Pro will run all tools on only the selected data. You may end up needing to re-run tools or processes because they were only run on a subset of your full area of interest.
@@ -115,7 +115,7 @@ Be sure to use the selection tools in the Map section at the top of the ribbon b
 
 ![*How to open the attribute table of a layer*](images/7-open-attribute-table.bmp){fig-alt="An ArcGIS Pro window showing a layer highlighted in the Table of Contents and the right clicked expansion window open with the Attribute Table selection highlighted."}
 
-![*Highlighting a BPS in the attribute table and the map*](images/8-select-attribute.bmp){fig-alt="An ArcGIS Pro window with the attribute table open in the bottom half and a map window open in the top half. A row is highlighted in the attribute table with the corresponding pixels highlighted in the map. An arrow is pointing to the row number, showing where to click to highlight the row in the table."}
+![*Highlighting an EVT in the attribute table and the map*](images/8-select-attribute.bmp){fig-alt="An ArcGIS Pro window with the attribute table open in the bottom half and a map window open in the top half. A row is highlighted in the attribute table with the corresponding pixels highlighted in the map. An arrow is pointing to the row number, showing where to click to highlight the row in the table."}
 
 ![Unselecting attributes](images/9-clear-attributes.bmp){fig-alt="An ArcGIS Pro window showing the Clear button highlighted in the ribbon bar at the top of the map window under the Selection heading."}
 

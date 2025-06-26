@@ -17,7 +17,7 @@ For the most up-to-date information on each LANDFIRE data product, please view t
 
 -   Where to find Biophysical Settings data on the LANDFIRE Program website
 
-![LANDFIRE delivers Biophysical Settings data and models for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not have BPS data developed. In this map Biophysical Settings are grouped into seven major vegetation classes and displayed using one color for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/1-bps-map.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States, Alaska, and Hawaii." fig-align="center"}
+![LANDFIRE delivers Biophysical Settings data and models for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not yet have BPS data developed. In this map Biophysical Settings are grouped into seven major vegetation classes and displayed using one color for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/1-bps-map.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States, Alaska, and Hawaii." fig-align="center"}
 
 # About Biophysical Settings spatial products
 
@@ -38,19 +38,19 @@ For even more context, we’ve created this short [BPS 101 video](https://youtu.
 -   **BPS_MODEL**: The unique BPS Model code. This combines the BPS code with the zone(s) the model is located in. In some cases, a BPS with the same name and BPS Code may be split among map zones because the vegetation or disturbance regimes vary enough that the descriptions differ. An example of this is the ‘Laurentian-Acadian Northern Hardwoods forest’ BPS (13020), which has four different BPS Models:
 
     -   13020_40 (BPS 13020, Map Zone 40)
-    -   13020_63 (BPS 13020, Map Zone 40)
+    -   13020_63 (BPS 13020, Map Zone 63)
     -   13020_65_66 (BPS 13020, Map Zone 65 and 66)
     -   13020_65_66 (BPS 13020, Map Zone 65 and 66)
 
 ::: callout-note
-Note, there will be a separate row, and VALUE for each BPS_CODE/MapZone combination, such as presented in the above example where there are two rows for 13020_65_66.
+Note, there will be a separate row and VALUE for each BPS_CODE/MapZone combination, such as presented in the above example where there are two rows for 13020_65_66.
 :::
 
 ::: callout-tip
 The attribute for map zone in the BPS attribute table creates duplicate rows in the table in cases where one model applies to multiple map zones. For users only interested in unique BPS, we recommend performing a spatial lookup based on the BPS_Model code. This will allow the user to visualize each unique BPS in an area of interest.
 :::
 
--   **BPS_NAME**: The name of the Biophysical Setting. The name is matched to the BPS Code, not the BPS model number.
+-   **BPS_NAME**: The name of the Biophysical Setting.
 
 -   **GROUPVEG**: Coarse vegetation type groupings highlighting the high-level dominant vegetation within that BPS. Note that if a BPS is listed as ‘Hardwood’ it may actually be a mix of hardwood, herbaceous, savannah, and more, but hardwoods are defined as the dominant vegetation type
 
@@ -61,19 +61,19 @@ The attribute for map zone in the BPS attribute table creates duplicate rows in 
     -   *FRI_SURFAC*: Average historic surface-severity fire frequency for the BPS.
     -   *FRI_ALLFIR*: Average historic fire frequency for all fires within the BPS.
     -   *PRC_REPLAC*: Percent of historic fires with replacement severity for the BPS.
-    -   *PRC_MIXED*: Percent of historic fires with mixed serverity for the BPS.
+    -   *PRC_MIXED*: Percent of historic fires with mixed severity for the BPS.
     -   *PRC_SURFAC*: Percent of historic fires with surface severity for the BPS.
-    -   *FRG_NEW*: The fire regime group for the BPS. Fire regime groups are based on a combination of fire return interval and fire severity. The current Fire Regime Groups were updated in 2016 and have been modified from a previous classification. You can find the new breakdown of fire regime groups in the Attribute Data Dictionary (https://landfire.gov/sites/default/files/DataDictionary/LF2020/LF20_BPSADD_220.pdf) for the BPS spatial data.
+    -   *FRG_NEW*: The fire regime group for the BPS. Fire regime groups are based on a combination of fire return interval and fire severity. The current Fire Regime Groups were updated in 2016 and have been modified from a previous classification. You can find the new breakdown of fire regime groups in the [Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2020/LF20_BPSADD_220.pdf) for the BPS spatial data.
     
 The LANDFIRE spatial data layers allow for display and analysis on multiple attributes and at varying levels of specificity. Three examples of how you can display, aggregate, and evaluate Biophysical Settings information are presented in the following images.
 
-![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the BPS_Name attribute. In this map Biophysical Settings are grouped into seven major vegetation classes and displayed using one color family for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/2-bps-map-name.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States. Text across the top reads 'Biophysical Settings Name'." fig-align="center"}
+![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the BPS_Name attribute. In this map Biophysical Settings are grouped into seven major vegetation classes and displayed using one color family for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/2-bps-map-name.png){fig-alt="A map of the Biophysical Settings data for the Contiguous United States. Text across the top reads 'Biophysical Settings Name'." fig-align="center"}
 
 
-![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the GROUPVEG attribute. In this map Biophysical Settings are displayed using one color for each major vegetation group (conifer, mixed hardwood-conifer, hardwood, grassland, savannah, riparian, shrubland, sparse vegetation). This map was designed using a custom color ramp created by Sarah Hagen.](images/3-bps-map-group.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States. Text across the top reads 'Biophysical Settings Group'." fig-align="center"}
+![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the GROUPVEG attribute. In this map Biophysical Settings are displayed using one color for each major vegetation group (conifer, mixed hardwood-conifer, hardwood, grassland, savannah, riparian, shrubland, sparse vegetation). This map was designed using a custom color ramp created by Sarah Hagen.](images/3-bps-map-group.png){fig-alt="A map of the Biophysical Settings data for the Contiguous United States. Text across the top reads 'Biophysical Settings Group'." fig-align="center"}
 
 
-![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the FRG_NEW attribute. This map explores the fire regime attributes of the Biophysical Settings data, with more frequent fire areas in reds and oranges, moderate frequency fire areas in yellow and pale green, and lower frequency fire areas in shades of blue. This map was designed using a custom color ramp created by Sarah Hagen.](images/4-bps-map-frg.bmp){fig-alt="A map of the Biophysical Settings data for the Contiguous United States displayed on Fire Regime attributes. Text across the top reads 'Fire Regime Groups'." fig-align="center"}
+![Biophysical Settings data for the contiguous United States (CONUS) are displayed on the FRG_NEW attribute. This map explores the fire regime attributes of the Biophysical Settings data, with more frequent fire areas in reds and oranges, moderate frequency fire areas in yellow and pale green, and lower frequency fire areas in shades of blue. This map was designed using a custom color ramp created by Sarah Hagen.](images/4-bps-map-frg.png){fig-alt="A map of the Biophysical Settings data for the Contiguous United States displayed on Fire Regime attributes. Text across the top reads 'Fire Regime Groups'." fig-align="center"}
 
 
 # Where to find BPS data
@@ -90,13 +90,13 @@ In a [later section of this site](../../../Get_Data/1-ways-to-get-data.qmd), you
 
 
 ::: callout-tip
-Pro tip: We recommend using the most recent BPS data.  If you are already using previous versions, please be aware of some important changes including:
+Pro tip: We recommend using the most recent BPS data for the conterminous US (CONUS), AK, and HI.  For CONUS, the latest version is LF2020; for AK the latest version is LF2023; for HI the latest version is LF2016. If you are already using previous versions, please be aware of some important changes including:
 
-1.    The mapping of rock, sparse, barren, and water has changed overtime to remain consistent with these types in other LANDFIRE products.
+1.    The mapping of rock, sparse, barren, and water has changed over time to remain consistent with these types in other LANDFIRE products.
 
-2.    The BPS legend did change in Alaska. In collaboration with NatureServe LANDFIRE instituted major changes to the BPS legend in AK in its 2024 and later products.
+2.    The BPS legend did change in Alaska. In collaboration with NatureServe LANDFIRE instituted major changes to the BPS legend in AK in LF2024 and later products.
 
-3.    After the BPS description and model review in 2015, there were some important changes such as the addition of some BPS (e.g., Northern Pine-Oak (Pine Dominated), and changes to the FRG information for several BPS.
+3.    After the BPS description and model review in 2015, there were some important changes such as the addition of some BPS for LF2016 (e.g., Northern Pine-Oak (Pine Dominated), and changes to the FRG information for several BPS.
 :::
 
 # Helpful Resources

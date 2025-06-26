@@ -80,11 +80,11 @@ Other common uses of the RCT include:
 
 **Comparing fire frequency, severity, and fire regime** between BpS.
 
-**Quickly calculating estimated historical annual acres burned**:
+**Quickly calculating estimated historical annual surface acres burned**:
 
 -   *Quantify the amount of a BpS on the landscape*: Let ( A ) represent the acres of the landscape. For example, ( A = 200,000 ) acres.
 
--   *Quantify the return interval*: Let ( R ) be the return interval. For this example, ( R = 25 ), so the annual probability ( P ) is given by: P = 1/R = 1/25 = 0.04
+-   *Quantify the return interval*: Let ( R ) be the return interval for surface fires. For this example, ( R = 25 ), so the annual probability ( P ) is given by: P = 1/R = 1/25 = 0.04
 
 -   *Calculate the Area Affected by Surface Fire*: You multiply the acres on the landscape by the return interval. The area affected ( S ) can be calculated as: S=A×P
 
@@ -106,7 +106,7 @@ The RCT is downloadable on the [Bps Models page of the LANDFIRE Program website]
 
 To access the file, open the .csv in Excel, R, or any other program you use to view .csv files.
 
-![*Where to download the Reference Conditions Table*](images/RCT_Download.bmp){fig-alt="The LANDFIRE Program website showing arrows pointing to Reference Conditions under \"Revised CONUS and Hawaii\" and \"Original Alaska\" beneath the Download Bps Models and Descriptions heading."}
+![*Where to download the Reference Conditions Table*](images/8-refcon-download.bmp){fig-alt="The LANDFIRE Program website showing arrows pointing to Reference Conditions under \"Revised CONUS and Hawaii\" and \"Revised Alaska\" beneath the Download Bps Models and Descriptions heading."}
 
 
 # Helpful Resources
@@ -116,5 +116,3 @@ To access the file, open the .csv in Excel, R, or any other program you use to v
 -   [Succession Class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
 
 -   [SClass Readme file](https://www.landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf)
-
--   [LANDFIRE Office Hours: How to use, interpret, and access LANDFIRE Reference Database Products](https://youtu.be/0yUIw8kF0TA) (links to a YouTube video)

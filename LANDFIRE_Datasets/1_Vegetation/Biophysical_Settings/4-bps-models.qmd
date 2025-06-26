@@ -123,8 +123,6 @@ We do not suggest selecting many strata at once until you are familiar with the 
 
 💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
 
-OK you are doing a great job. Now you have a library with a subset of strata (i.e., BpS in this case) that you care about. Now what?
-
 By exploring the BpS models you can learn how the modeling experts parameterized them, and more interactively see how the disturbances and states all fit together.
 
 Start exploring:
@@ -139,13 +137,17 @@ Start exploring:
 
 5.  If you want to run the scenario:
 
-    -   Go to the Output Options tab within the scenario, make sure that the 'State classes every' box is set to 100 (i.e., not 1).
+    -   Go to the Output Options tab within the scenario, make sure that the 'State classes every' box is set to 100 (i.e., not 1). 
+    
+:::callout-note
+The model results will not change significantly unless you change the model parameters.
+:::
 
     -   Go to the Run Control tab and set the Total iterations to 2.
 
-    -   In the Initial Conditions tab, insure that the Total Acres and Number of Simulation Cells boxes both have 1,000 For exploring we recommend these three steps as it will speed up your runs.
+    -   In the Initial Conditions tab, ensure that the Total Acres and Number of Simulation Cells boxes both have 1,000. For exploring, we recommend these three steps as it will speed up your runs.
 
-    -   In the Library Explorer highlight the scenario, then click the small green triangle at the top of the screen.
+    -   In the Library Explorer, highlight the scenario, then click the small green triangle at the top of the screen.
 
 6.  Make a chart by clicking the New icon in the Charts pane, then name it appropriately. You will change some settings to get your first chart:
 
@@ -198,7 +200,7 @@ The BpS models were developed by LANDFIRE to support objectives related to mappi
 
 3. **Introduce a new disturbance** ([open the Introduce Disturbance pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video3newdisturbance.pdf) or [watch the Introduce Disturbance video on YouTube](https://youtu.be/YgTCwCabojo))
 
-4. **Add a new state** ([open the Add a State pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video4newState.pdf) or [watch the Add a State video on YouTube](https://youtu.be/-EbW8vAg_bg))
+4. **Add a new state (succession class)** ([open the Add a State pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video4newState.pdf) or [watch the Add a State video on YouTube](https://youtu.be/-EbW8vAg_bg))
 
 5. **Delete a state** ([open the Delete a State pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video5deleteState.pdf) or [watch the Delete a State video on YouTube](https://youtu.be/Z9O3VHv0Vs8))
 

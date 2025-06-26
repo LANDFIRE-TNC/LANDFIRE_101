@@ -11,13 +11,13 @@ format: html
 
 -   Who should use LANDFIRE data streaming
 
--   Several ways to access LANDFIRE data via data streaming
+-   Several ways to access LANDFIRE data via streaming
 
 -   Helpful resources for accessing and using the LANDFIRE data streams
 
 # Accessing data with LANDFIRE Data Streaming
 
-The LANDFIRE Data Streams are a practical option for those who don’t want to (or need to) download datasets and just want to use data for display. This option can also be used to stream data into ArcGIS Pro or ArcGIS Online for analysis. There are several ways you can access data via data stream, all of which are found on the [Data page](https://landfire.gov/data) of the LANDFIRE Program website under the ‘Stream Data’ heading.
+The LANDFIRE Data Streams are a practical option for those who don’t want to (or need to) download datasets and just want to use data for display or exploration. This option can also be used to stream data into ArcGIS Pro or ArcGIS Online for analysis. There are several ways you can access data via data stream, all of which are found on the [Data page](https://landfire.gov/data) of the LANDFIRE Program website under the ‘Stream Data’ heading.
 
 We discuss each of these options in more depth below, and you can also find more information by clicking the links for each data stream type from the LANDFIRE Program website.
 
@@ -28,7 +28,7 @@ We discuss each of these options in more depth below, and you can also find more
 The LANDFIRE Products Service (LFPS) is a powerful tool that allows users to download various landscape data products. Here’s a quick overview to get you started:
 
 - **What is LFPS?**
-    - LFPS is a service that provides access to a wide range of landscape data products through a REST API. This allows you to request and download LANDFIRE products through an API using HTTPS requests.
+    - LFPS is a service that provides access to a wide range of landscape data products through a REST API. This allows you to request and download LANDFIRE products through an API using HTTPS requests. It can also be used within standalone applications to request data from LANDFIRE.
     
 - **How to Make a Request**
     - To get data, you’ll need to specify certain parameters in your request, such as the product layer you want and the area of interest. This helps the service understand exactly what data you need.
@@ -46,7 +46,29 @@ The LANDFIRE Products Service (LFPS) is a powerful tool that allows users to dow
 - **Understanding Responses**
     - When you make a request, you’ll receive messages that tell you if your request was successful or if there were any errors. These messages help you troubleshoot and ensure you get the data you need.
 
-For more detailed instructions and examples, please refer to the full [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/helpdocs/LFProductsServiceUserGuide.pdf).
+For more detailed instructions and examples, please refer to the full [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf).
+
+# Web Map Service and Web Coverage Service
+
+**The OpenGIS® Web Map Service Interface Standard (WMS)** is an HTTP interface for requesting and serving geospatial map images over the internet. A WMS request defines the geographic layer(s) and area of interest to be processed and serves, or responds, with one or more geospatial map images that are able to be displayed in a browser application. A WMS call allows you to access and view LF data within your desktop mapping session that are formatted as they appear on the LF Map Viewer.
+
+**Web Coverage Service (WCS)** is also an HTTP interface that provides an open specification for sharing datasets on the web. WCS allows you to access LF products for analysis or modeling without downloading data. WCS provides the pixel value of the data.
+
+- **Hawaii only**: The provided WCS URLs will work with ESRI tools. QGIS and other non-ESRI products will be unable to use the WCS URL to view the Hawaii LF data as it is projected in ESRI 102007. Users **can** use non-ESRI products to view downloaded LF data from the map viewer or mosaic download.
+
+You can find the WMS and WCS urls on the [LANDFIRE Stream Data page](https://landfire.gov/data/lf_stream) on the LANDFIRE Program website.
+
+::: callout-note
+You cannot change symbology or do analysis with the WMS. You can simply view a simplified form of the data and display it in your maps. Often WCS and WMS are combined to get the correct display and access the data.
+:::
+
+For information on how to use these products within ArcMap and ArcGIS Pro, please see the instructions on how to use WCS and WMS calls in Arc on the LANDFIRE Program Website. You can find these at the bottom of the [LANDFIRE Stream Data page](https://landfire.gov/data/lf_stream).
+
+-   [Instructions on how to use WCS or WMS Calls](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf)
+
+-   [Instructions on how to use WCS or WMS Calls in ArcGis Pro](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf)
+
+-   [Instructions on how to use ArcGIS Online](https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf)
 
 # ESRI Image Service
 
@@ -81,28 +103,6 @@ It’s important to follow the documents linked below very carefully, as the Ima
 
 By following these steps, you can effectively use ESRI Image Service to publish and access LANDFIRE spatial data for further analysis and visualization within the ArcGIS platform.
 
-# Web Map Service and Web Coverage Service
-
-**The OpenGIS® Web Map Service Interface Standard (WMS)** is an HTTP interface for requesting and serving geospatial map images over the internet. A WMS request defines the geographic layer(s) and area of interest to be processed and serves, or responds, with one or more geospatial map images that are able to be displayed in a browser application. A WMS call allows you to access and view LF data within your desktop mapping session that are formatted as they appear on the LF Map Viewer.
-
-**Web Coverage Service (WCS)** is also an HTTP interface that provides an open specification for sharing datasets on the web. WCS allows you to access LF products for analysis or modeling without downloading data. WCS provides the pixel value of the data.
-
-- **Hawaii only**: The provided WCS URLs will work with ESRI tools. QGIS and other non-ESRI products will be unable to use the WCS URL to view the Hawaii LF data as it is projected in ESRI 102007. Users **can** use non-ESRI products to view downloaded LF data from the map viewer or mosaic download.
-
-You can find the WMS and WCS urls on the [LANDFIRE Stream Data page](https://landfire.gov/data/lf_stream) on the LANDFIRE Program website.
-
-::: callout-note
-You cannot change symbology or do analysis with the WMS or WCS. You can simply view the data and display it in your maps.
-:::
-
-For information on how to use these products within ArcMap and ArcGIS Pro, please see the instructions on how to use WCS and WMS calls in Arc on the LANDFIRE Program Website. You can find these at the bottom of the [LANDFIRE Stream Data page](https://landfire.gov/data/lf_stream).
-
--   [Instructions on how to use WCS or WMS Calls](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf)
-
--   [Instructions on how to use WCS or WMS Calls in ArcGis Pro](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf)
-
--   [Instructions on how to use ArcGIS Online](https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf)
-
 # ArcGIS Online
 
 You can also simply find the LANDFIRE data layers in the ArcGIS Online catalog and access them (as hosted imagery services) in ArcGIS Online or via the portal in ArcGIS Pro. To do this, you need to know the name of the dataset you’re looking for or know the direct URL or feature ID, found on the item page on ArcGIS Online.
@@ -111,9 +111,9 @@ USGS has collected LANDFIRE datasets in their gallery on ArcGIS Online. You can 
 
 # Helpful Resources
 
-- [Video tutorial about using LANDFIRE Streaming Services](https://youtu.be/1PMzNI73A9Y?feature=shared)
+- [Video tutorial about using LANDFIRE Streaming Services](https://www.youtube.com/watch?v=SkZi5KW7Weg&t=2s)
 
-- [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/helpdocs/LFProductsServiceUserGuide.pdf)
+- [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf)
 
 - [How to use Image Service URLs in ArcPro document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf)
 

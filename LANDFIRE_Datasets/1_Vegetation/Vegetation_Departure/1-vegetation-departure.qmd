@@ -22,7 +22,7 @@ We are developing another section of this training site that will be entirely de
 - Some misconceptions about the Vegetation Departure metric
 
 # LANDFIRE’s Vegetation Departure metric
-![LANDFIRE delivers Vegetation Departure data for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not have VDEP data developed. Departure ranges from 0 (least departed) to 100 (most departed). In this map, lower departure scores are in darker purple colors, ranging through pink, red, and orange with yellow as the highest departure. Agricultural areas (tan), urban areas (black), and sparsely vegetated (light grey) areas are not included in departure calculations. This map was designed using a custom color ramp created by Sarah Hagen.](images/1-vdep-map.bmp){fig-alt="A map of LANDFIRE Vegetation Departure for the Contiguous US, Alaska, and Hawaii."}
+![LANDFIRE delivers Vegetation Departure data for the entire United States, including Alaska and Hawaii. Puerto Rico and the US Virgin Islands do not have VDep data developed. Departure ranges from 0 (least departed) to 100 (most departed). In this map, lower departure scores are in darker purple colors, ranging through pink, red, and orange with yellow as the highest departure. Agricultural areas (tan), urban areas (black), and sparsely vegetated (light grey) areas are not included in departure calculations. This map was designed using a custom color ramp created by Sarah Hagen.](images/1-vdep-map.bmp){fig-alt="A map of LANDFIRE Vegetation Departure for the Contiguous US, Alaska, and Hawaii."}
 
 
 The Vegetation Departure (VDep) metric from LANDFIRE measures how current vegetation on a landscape differs from expected historical conditions. This difference is assessed based on changes in vegetation composition, structural stage, and canopy closure. VDep values range from 0 to 100, with higher values indicating greater departure from historical conditions. It’s important to note that VDep is scale-dependent, meaning it can vary across different landscape units.
@@ -55,27 +55,27 @@ In a [later section of this site](../../../Get_Data/1-ways-to-get-data.qmd), you
 
 # How does the Vegetation Departure metric help?
 
-The most common application of the Vegetation Departure metric is evaluating overall vegetation condition using a numerical score between 1 and 100. The score is useful for comparing conditions on different landscapes. VDep can also provide insight into management needs for a specific BpS. By using the appropriate reference conditions, a user can determine which seral states are overrepresented, underrepresented, or well represented on the landscape. This information provides useful information on where/how to focus management activities to achieve the desired result. Examples include the [Ecological Conservation Risk Index](https://pmc.ncbi.nlm.nih.gov/articles/PMC3151280/), [Landscape Conservation Forecasting](https://www.mdpi.com/2225-1154/9/5/79), the USFS [Watershed Condition Class](https://www.fs.usda.gov/sites/default/files/Watershed_Condition_Framework.pdf) metric, and the USFS [Terrestrial Condition Assessment}(https://terrestrial-condition-assessment-usfs.hub.arcgis.com/).
+The most common application of the Vegetation Departure metric is evaluating overall vegetation condition using a numerical score between 1 and 100. The score is useful for comparing conditions on different landscapes. VDep can also provide insight into management needs for a specific BpS. By using the appropriate reference conditions, a user can determine which seral states are overrepresented, underrepresented, or well represented on the landscape. This provides useful information on where/how to focus management activities to achieve the desired result. Examples include the [Ecological Conservation Risk Index](https://pmc.ncbi.nlm.nih.gov/articles/PMC3151280/), [Landscape Conservation Forecasting](https://www.mdpi.com/2225-1154/9/5/79), the USFS [Watershed Condition Class](https://www.fs.usda.gov/sites/default/files/Watershed_Condition_Framework.pdf) metric, and the USFS [Terrestrial Condition Assessment](https://terrestrial-condition-assessment-usfs.hub.arcgis.com/).
 
 # Customizing the Vegetation Departure metric
 
 [Swaty, *et al.* (2022)](https://www.mdpi.com/2073-445X/11/1/28) describes the vegetation departure metric’s calculation, its application by LANDFIRE, and provides case studies to illustrate its use in assessing ecosystem health and guiding management decisions. They also provide several ways to customize the VDep metric to make it more relevant to local conditions and specific conservation goals, including:
 
-1. **Reference Conditions**: Users can define reference conditions based on any baseline of interest, which can represent historical, current, or desired future conditions. This flexibility allows the VDEP metric to be tailored to specific conservation objectives or local ecological contexts.
+1. **Reference Conditions**: Users can define reference conditions based on any baseline of interest, which can represent historical, current, or desired future conditions. This flexibility allows the VDep metric to be tailored to specific conservation objectives or local ecological contexts.
 
 2. **Input Data**: The paper emphasizes the importance of using thematically consistent input data. Users are encouraged to review and modify existing data sets to ensure they meet their specific needs. This might involve aggregating or splitting ecosystem types to achieve the desired level of detail.
 
-3. **Current Conditions**: Customizing the current condition inputs can include defining structural stages based on various attributes such as species composition, canopy cover, vegetation height, tree diameter, or stand age. This allows for a more accurate representation of the local ecosystem.
+3. **Current Conditions**: Customizing the current condition inputs can include defining structural stages based on various attributes such as species composition, canopy cover, vegetation height, tree diameter, or stand age. This may allow for a more accurate representation of current conditions when high quality, local datasets are available.
 
-4. **Summary Unit**: The size and boundaries of the summary unit, which is the area over which VDEP values are computed, can be adjusted. This ensures that the summary unit is ecologically meaningful and captures the full suite of structural stages in their reference proportions
+4. **Summary Unit**: The size and boundaries of the summary unit, which is the area over which VDep values are computed, can be adjusted. This ensures that the summary unit is ecologically meaningful and captures the full suite of structural stages in their reference proportions
 
 5. **Local Calculation**: By calculating VDep, locally, users can customize inputs to increase local relevancy. This includes setting locally meaningful reference values that may reflect a desired future condition rather than historical conditions.
 
-These customizations help make the VDEP metric a more precise and useful tool for assessing ecosystem conditions and informing management decisions in diverse ecological settings.
+These customizations help make the VDep metric a more precise and useful tool for assessing ecosystem conditions and informing management decisions in diverse ecological settings.
 
 # Enhancing the Vegetation Departure for Conservation Risk Assessment
 
-Provencher, *et al.* detail how vegetation departure can be utilized to assess and manage risks to biodiversity and ecosystem health. They outline several key methods and considerations for applying the VDEP metric in conservation contexts, including:
+[Provencher, *et al.*, 2024](https://www.publish.csiro.au/WF/pdf/WF23038) detail how vegetation departure can be utilized to assess and manage risks to biodiversity and ecosystem health. They outline several key methods and considerations for applying the VDep metric in conservation contexts, including:
 
 1. **Risk Identification**: The metric helps identify areas where current vegetation conditions significantly differ from reference states, indicating potential threats to ecological integrity.
 
@@ -85,7 +85,7 @@ Provencher, *et al.* detail how vegetation departure can be utilized to assess a
 
 4. **Risk Prioritization**: By adjusting summary units based on ecological significance, users can better prioritize risk management efforts across different scales.
 
-These methodologies enhance the VDEP metric's applicability for evaluating and addressing conservation risks in varied ecological settings, providing a robust framework for informed decision-making in natural resource management.
+These methodologies enhance the VDep metric's applicability for evaluating and addressing conservation risks in varied ecological settings, providing a robust framework for informed decision-making in natural resource management.
 
 # Common misconceptions about the Vegetation Departure metric
 

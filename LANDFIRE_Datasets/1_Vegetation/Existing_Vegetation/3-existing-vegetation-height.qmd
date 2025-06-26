@@ -25,7 +25,7 @@ For the most up-to-date information on each LANDFIRE data product, please view t
 
 [LANDFIRE’s Existing Vegetation Height dataset](https://www.landfire.gov/vegetation/evh), also known as EVH, works in tandem with the Existing Vegetation Type dataset to give a more detailed picture of the current vegetation on a landscape. EVH represents the average height of the dominant vegetation for a 30-m cell.
 
-EVH is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Only the EVH for the primary upper layer lifeform is included in each pixel. Decision tree relationships are used to generate lifeform specific height class layers, which are merged into a single composite EVH layer. For more information on how EVH was created, review the [Technical Documentation](https://pubs.usgs.gov/publication/ofr20231045) provided on the LANDFIRE program website.
+EVH is generated separately for tree, shrub, and herbaceous cover lifeforms using training data and other geospatial layers. Decision tree relationships are used to generate lifeform specific height class layers, which are merged into a single composite EVH layer. Only the EVH for the primary upper layer lifeform is included in each pixel. For more information on how EVH was created, review the [Technical Documentation](https://pubs.usgs.gov/publication/ofr20231045) provided on the LANDFIRE program website.
 
 LANDFIRE uses EVH in several subsequent layers, including the development of the fuels products and Succession Classes.
 
@@ -35,10 +35,10 @@ LANDFIRE uses EVH in several subsequent layers, including the development of the
     - **Tree Height**: average tree height in meters
     - **Shrub Height**: average shrub height in meters
     - **Herb Height**: average herb/grass height in meters
-    - **Developed-Upland Forest**: Five classes of developed upland forest
+    - **Developed-Upland Vegeatation**: Five classes of developed upland vegetation
     - **Developed**: Seven classes of developed landscapes
     - **Developed-Roads**: Pixels identified as roads
-    - **NASS Crops**: Ten classes of National Agricultural Statistics Service defined cropland
+    - **NASS Crops**: Seven classes of National Agricultural Statistics Service defined cropland
     
 # Where to find Existing Vegetation Height data
 
@@ -64,11 +64,11 @@ EVH can be used to simply map and quantify vegetation height. This is done by cl
 
 In addition to basic viewing, mapping, and quantifying of ecosystems using the EVH dataset, this data also supports various analyses and operations, such as:
 
-- [Heeren et al., (2023)](https://www.mdpi.com/2571-6255/6/12/474) developed a model to **map wildfire structure defensibility**, using LANDFIRE Existing Vegetation Height (and other LANDFIRE) datasets. As delivered the dataset represents the average height of a lifeform. The authors did not need lifeform, so they wrangled the data into a continuous height dataset that did not have herbaceous, shrub or tree modifiers.
+- [Heeren et al., (2023)](https://www.mdpi.com/2571-6255/6/12/474) developed a model to **map wildfire structure defensibility**, using LANDFIRE Existing Vegetation Height (and other LANDFIRE) datasets. As delivered, the dataset represents the average height of a lifeform. The authors did not need lifeform, so they modified the data to represent one continuous height dataset that did not have herbaceous, shrub or tree modifiers.
 
 - In an exploration of **how targeted cattle grazing might impact vegetation of a wetland habitat** area, [Balaji et al., (2023)](https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf) of a NASA Develop team used different versions of the EVH dataset. Coupled with other datasets they were able to detect changes in vegetation due to grazing, and to develop a workflow for future monitoring.
 
-- **Landscape Assessments**: We often use LANDFIRE EVH in combination with EVT and EVC to better understand landscapes using something we call landscape assessments. We will have a later section of this website specifically dedicated to how we create landscape assessments using GIS and R.
+- **Landscape Assessments**: LANDFIRE-TNC often uses LANDFIRE EVH in combination with EVT and EVC to better understand landscapes using something we call landscape assessments. We will have a later section of this website specifically dedicated to how we create landscape assessments using GIS and R.
 
 - **Succession Class**: EVH, once again in combination with EVT and EVC, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVH contributes to the calculation of [Vegetation Departure](https://www.landfire.gov/vegetation/vdep) and [Vegetation Condition Class](https://www.landfire.gov/vegetation/vcc).
 
@@ -76,6 +76,6 @@ In addition to basic viewing, mapping, and quantifying of ecosystems using the E
 
 - [Existing Vegetation Height Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVHADD_240.pdf)
 
-- Mapping wildfire structure density with [LANDFIRE Existing Vegetation Height](https://www.mdpi.com/2571-6255/6/12/474)
+- Mapping wildfire structure defensibility with [LANDFIRE Existing Vegetation Height](https://www.mdpi.com/2571-6255/6/12/474)
 
 - Detecting [changes in vegetation height](https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf) due to grazing

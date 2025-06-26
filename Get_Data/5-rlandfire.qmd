@@ -11,17 +11,17 @@ format: html
 
 -   How the rlandfire package can be useful
 
--   Basic information on how to use the rlandfire package to access landfire data
+-   Basic information on how to use the rlandfire package to access LANDFIRE data
 
 # Downloading LANDFIRE data with the rlandfire package by Mark Buckner
 
 ## What is the rlandfire package?
 
-The [rlandfire](https://github.com/bcknr/rlandfire) package, developed by Dr. Mark Buckner, provides a way to download LANDFIRE products directly into your R environment. At the package page, Dr. Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire.
+The [rlandfire](https://github.com/bcknr/rlandfire) package, developed by Dr. Mark Buckner, provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr. Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire.
 
 ## How can the rlandfire package be useful?
 
-We often use R code for LANDFIRE data processing and analysis. There are many cases when using the rlandfire package makes sense, including:
+LANDFIRE-TNC often uses R code for LANDFIRE data processing and analysis. There are many cases when using the rlandfire package makes sense, including:
 
 -   Needing to work in a reproducible manner, i.e., needing to document LF datasets used (and versions) in your code,
 
@@ -37,7 +37,7 @@ The basic workflow is similar across all methods. Steps include:
 
 1.  Read in a shapefile of your Area of Interest (AoI)
 
-2.  Determine names and list of products you need. One way to do that is to visit the [products table](https://lfps.usgs.gov/helpdocs/productstable.html).
+2.  Determine names and list of products you need. One way to do that is to visit the [products table](https://lfps.usgs.gov/products).
 
 3.  Create necessary and optional r objects:
 
@@ -49,7 +49,7 @@ The basic workflow is similar across all methods. Steps include:
 
     -   Path for temporary .zip file
 
-4.  Call the landfire API
+4.  Call the LFPS REST API
 
 5.  Load and process the downloaded data
 

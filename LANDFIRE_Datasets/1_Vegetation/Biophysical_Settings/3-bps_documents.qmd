@@ -9,7 +9,7 @@ format: html
 For the most up-to-date information on each LANDFIRE data product, please view the individual product pages on the [LANDFIRE Program website](https://www.landfire.gov).
 :::
 
-The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product. They set the stage for the development of many other LANDFIRE products such as the Biophysical Settings, Succession Class, and Vegetation Departure spatial datasets. They have components imported from the BpS models, which we will discuss in the [following section](4-bps-models.qmd).
+The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product. They set the stage for the development of many other LANDFIRE products such as the associated spatial datasets: Biophysical Settings, Succession Class, and Vegetation Departure. They have components imported from the BpS models, which we will discuss in the [following section](4-bps-models.qmd).
 
 # What you will find in this section
 
@@ -21,7 +21,7 @@ The Biophysical Settings (BpS) Descriptions are a foundational LANDFIRE product.
 
 -   What is contained in the BpS descriptions
 
-# Downloading all of the BpS descriptions
+# Downloading all BpS descriptions
 
 While we typically work with one or a small set of BpSs, there are times when downloading the entire set developed for the lower 48 states plus Hawaii and Alaska is most efficient.
 
@@ -33,7 +33,7 @@ While we typically work with one or a small set of BpSs, there are times when do
 
 2.  Scroll down to the Download BpS Models and Descriptions Section near the bottom of the page.
 
-3.  Here you will see two options: 'Revised CONUS and Hawaii' models and 'Original Alaska' models. Select whichever set you would like, then click on the 'BpS Descriptions' which will trigger downloading of a .zip file. This file will most likely land in your Downloads directory.
+3.  Here you will see two options: 'Revised CONUS and Hawaii' models and 'Revised Alaska' models. Select whichever set you would like, then click on the 'BpS Descriptions' which will trigger downloading of a .zip file. This file will most likely land in your Downloads directory.
 
 4.  Use your extraction tool of choice to unzip and explore. One possible way if you are using Windows is to:
 
@@ -47,7 +47,7 @@ While we typically work with one or a small set of BpSs, there are times when do
 
 ### Screenshot for downloading and unzipping all BpS descriptions
 
-![Where to click to download all BpS descriptions](images/7-bps-models-download.bmp){fig-alt="The bottom of the BpS Models and Descriptions page of the LANDFIRE Program website. There are two boxes with the headings Revised CONUS and Hawaii and Original Alaska. Arrows point to the second link below each heading, BpS Descriptions" fig-align="center"}
+![Where to click to download all BpS descriptions](images/7-bps-models-download.bmp){fig-alt="The bottom of the BpS Models and Descriptions page of the LANDFIRE Program website. There are two boxes with the headings Revised CONUS and Hawaii and Revised Alaska. Arrows point to the second link below each heading, BpS Descriptions" fig-align="center"}
 
 # Downloading one or a set of BpS documents
 
@@ -120,7 +120,7 @@ The BpS documents were saved with a numeric code such as '13700_60_63_64_65_66.d
 3.  *Map Zones*: the string of numbers separated by an underscore represents the Map Zones that this particular document (and associated BpS state and transition model) apply to.
 
 ::: callout-note
-You are able to rename the files once downloaded, but please be cautious about deleting the BpS code in the document, as this is the code that will link the document to all other Biophysical Settings products. For more information on the BpS model code and it’s importance, see the [Deciphering the BpS Model Code](https://tnc.app.box.com/file/735697112845?s=72zucxhtzq5xfc36pkf46llh531v1onh) pdf.
+You are able to rename the files once downloaded, but please be cautious about deleting the BpS code in the document, as this is the code that will link the document to all other Biophysical Settings products. For more information on the BpS model code and its importance, see the [Deciphering the BpS Model Code](https://tnc.app.box.com/file/735697112845?s=72zucxhtzq5xfc36pkf46llh531v1onh) pdf.
 :::
 
 ::: callout-tip
@@ -129,7 +129,7 @@ The BpS code allows you to link the BpS description to the BpS spatial data.
 
 ## Modelers and reviewers table
 
-This table provides the names of people who contributed to the development of the BpS description and model. The additional list of reviewers below the table lists the individuals who provided additional review circa 2018 to incorporate new science when possible..
+This table provides the names of people who contributed to the development of the BpS description and model. The additional list of reviewers below the table lists the individuals who provided additional review circa 2018 to incorporate new science when possible.
 
 ## Fire Frequency Table
 
@@ -156,7 +156,517 @@ Fire interval is expressed in years for each fire severity class and for all typ
 
 LANDFIRE did not attempt to map where succession classes were prior to European colonization, as they would have moved around. This table is used to map where succession classes are today. For example, in the ‘Succession Class Table’ below we have highlighted combinations of Existing Height and Cover (and lifeform) that would be mapped as Succession Class A.
 
-[![](images/sclass_table.png){fig-alt="A succession class table showing the Mapping Rules, Upper Layer Lifeform (herb, shrub, or tree), the vegetation height, and several columns of canopy cover in groups of 10 (i.e. 0 - 10, 11 - 20, etc.). Below the Canopy Cover % groups is a letter corresponding to the succession class. A purple box around 6 boxes corresponding to tree 0-5m, 71-80% canopy, 81 -90% canopy, and 91 - 100% canopy and tree 5-10m with the same canopy covered percents shows that those classes should be in succession Class A." fig-align="center"}](https://landfirereview.org/search.php)
+<div id="SClass_MappingRules_Table_99" class="sclass-table-container">
+<table border="1.5" cellpadding="0.1" cellspacing="0" style="border-collapse:
+ collapse; table-layout:fixed; width:100%">
+<tbody><tr>
+<td colspan="12" class="xl6999">
+Mapping Rules
+</td>
+</tr>
+<tr>
+<td rowspan="2" class="x17299'">
+Upper Layer Lifeform
+</td>
+<td rowspan="2" class="xl6499'">
+Height (m)
+</td>
+<td colspan="10" class="xl6499">
+Canopy Cover (%)
+</td>
+</tr>
+<tr>
+<td class="xl6499">
+0-10
+</td>
+<td class="xl6499">
+11-20
+</td>
+<td class="xl6499">
+21-30
+</td>
+<td class="xl6499">
+31-40
+</td>
+<td class="xl6499">
+41-50
+</td>
+<td class="xl6499">
+51-60
+</td>
+<td class="xl6499">
+61-70
+</td>
+<td class="xl6499">
+71-80
+</td>
+<td class="xl6499">
+81-90
+</td>
+<td class="xl7499">
+91-100
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Herb
+</td>
+<td>
+0-0.5
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td class="xl7699">
+UN
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Herb
+</td>
+<td>
+0.5-1.0
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td class="xl7699">
+UN
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Herb
+</td>
+<td>
+&gt;1.0
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td class="xl7699">
+UN
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Shrub
+</td>
+<td>
+0-0.5
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td class="xl7699">
+UN
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Shrub
+</td>
+<td>
+0.5-1.0
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td class="xl7699">
+UN
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Shrub
+</td>
+<td>
+1.0-3.0
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td class="xl7699">
+UN
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Shrub
+</td>
+<td>
+&gt;3.0
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td class="xl7699">
+UN
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Tree
+</td>
+<td>
+0-5
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td class="xl8199">
+A
+</td>
+<td class="xl8199">
+A
+</td>
+<td class="xl8299">
+A
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Tree
+</td>
+<td>
+5-10
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+C
+</td>
+<td>
+C
+</td>
+<td>
+C
+</td>
+<td class="xl8199">
+A
+</td>
+<td class="xl8199">
+A
+</td>
+<td class="xl8299">
+A
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Tree
+</td>
+<td>
+10-25
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+C
+</td>
+<td>
+C
+</td>
+<td>
+C
+</td>
+<td>
+B
+</td>
+<td>
+B
+</td>
+<td class="xl7699">
+B
+</td>
+</tr>
+<tr>
+<td class="xl7599">
+Tree
+</td>
+<td>
+25-50
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+UN
+</td>
+<td>
+C
+</td>
+<td>
+C
+</td>
+<td>
+C
+</td>
+<td>
+D
+</td>
+<td>
+D
+</td>
+<td class="xl7699">
+D
+</td>
+</tr>
+<tr>
+<td class="xl7799">
+Tree
+</td>
+<td class="xl7899">
+&gt;50
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl7899">
+UN
+</td>
+<td class="xl8099">
+UN
+</td>
+</tr>
+</tbody></table>
+</div>
+
+Succession class letters A-E are described in the Succession Class Description section. Some classes use a leafform distinction wher a qualifier is added to the class letter (i.e. Brdl (broadleaf), Con (conifer), or Mix (mixed conifer and broadleaf)). UN refers to uncharacteristic native or a combination of height and cover that would not be expected under the reference condition. NP refers to not possible or a combination of height and cover which is not physiologically possible for the species in the BpS.
 
 ::: callout-tip
 LANDFIRE also delivers a [succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the [Biophysical Settings Description and Quantitative Models page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website.
@@ -168,7 +678,7 @@ This section provides a description of the development states of a BpS as concep
 
 The combination of the BpS code and the class letter links the succession class description to the reference condition table. The BpS code and class name link the succession class to the BpS model. For more detail on this, see our [linking the BpS models and descriptions](https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c) pdf.
 
-The number to the right of the class letter represents the modeled reference condition for that class. In other words, the percent of the landscape that you would expect to be in the class on average, over long time periods, for the extent of a BpS within a mapzone..
+The number to the right of the class letter represents the modeled reference condition for that class. In other words, the percent of the landscape that you would expect to be in the class on average, over long time periods, for the extent of a BpS within a mapzone.
 
 ## Model Parameters Table
 
@@ -184,12 +694,17 @@ In ST-Sim, the ‘Age Reset’ field indicates whether a transition resets the a
 
 Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 20, it means that this transition can only happen if 20 years have passed since the last fire.
 
-| Disturbance Type | Disturbance occurs in | Moves vegetation to | Disturbance Probability | Return Interval (yrs) | Reset Age to New Class Start Age after Disturbance? | Years Since Last Disturbance |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| Wind or Weather Stress | Early1:ALL | Early1:ALL | 0.001 | 1000 | Yes | 0 |
-| Replacement Fire | Early1:ALL | Early1:ALL | 0.001 | 1000 | Yes | 0 |
-| Alternative Succession | Mid1:OPN | Late1:CLS | 1 | 1 | Yes | 100 |
-| Mixed Fire | Mid1:OPN | Mid1:OPN | 0.001 | 1000 | No | 0 |
++------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
+| Disturbance Type       | Disturbance occurs in | Moves vegetation to | Disturbance Probability | Return Interval (yrs) | Reset Age to New Class Start Age after Disturbance? | Years Since Last Disturbance |
++========================+=======================+=====================+=========================+=======================+=====================================================+==============================+
+| Wind or Weather Stress | Early1:ALL            | Early1:ALL          | 0.001                   | 1000                  | Yes                                                 | 0                            |
++------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
+| Replacement Fire       | Early1:ALL            | Early1:ALL          | 0.001                   | 1000                  | Yes                                                 | 0                            |
++------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
+| Alternative Succession | Mid1:OPN              | Late1:CLS           | 1                       | 1                     | Yes                                                 | 100                          |
++------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
+| Mixed Fire             | Mid1:OPN              | Mid1:OPN            | 0.001                   | 1000                  | No                                                  | 0                            |
++------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
 
 ------------------------------------------------------------------------
 
@@ -199,7 +714,7 @@ Years since last disturbance, referred to as TST Min (time-since-transition mini
 
 -   [Linking the Bps models and descriptions](https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c) (opens a pdf on Box)
 
--   [Succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.ziphttps://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
+-   [Succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
 
 -   Blankenship, K., Swaty, R., Hall, K.R., Hagen, S., Pohl, K., Shlisky Hunt, A., Patton, J., Frid, L. and Smith, J., 2021. Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Ecosphere, 12(4), p.e03484. [Link to paper](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484)
 

@@ -7,17 +7,17 @@ format: html
 
 # What you will find in this section
 
--   What LANDFIRE mosaics are
+-   What LANDFIRE full extent mosaics are
 
--   Who should use LANDFIRE Full Extent mosaics
+-   Who should use LANDFIRE full extent mosaics
 
--   How to download the LANDFIRE mosaics
+-   How to download the LANDFIRE full extent mosaics
 
 -   Helpful resources for downloading and using the LANDFIRE mosaics
 
-# Full Extent Mosaics
+# Full Extent Products
 
-For users who want to assess larger landscapes (all of CONUS, the full US, or large regions encompassing multiple states or map zones), or users who frequently work in different landscapes around the US, we recommend downloading full extent mosaics. LANDFIRE delivers these as they are available for each product and each release. You can select which version, which theme (Disturbance, Fire Regime, Fuel, Reference, Topographic, Vegetation) and which region (CONUS, Alaska, Hawaii, Insular Areas). An additional benefit is that the files include attribute tables, which is not the case when using streaming services (see next section).
+For users who want to assess larger landscapes (all of CONUS, the full US, or large regions encompassing multiple states or map zones), or users who frequently work in different landscapes around the US, we recommend downloading full extent products (i.e. mosaic layers for spatial data or databases for Reference products). LANDFIRE delivers these as they are available for each product and each release. You can select which version, which theme (Disturbance, Fire Regime, Fuel, Reference, Topographic, Vegetation) and which region (CONUS, Alaska, Hawaii, Insular Areas). An additional benefit is that the files include attribute tables, which is not the case when using streaming services (see next section).
 
 ::: callout-important
 CONUS releases data for GeoAreas throughout the calendar year, so the latest version available may not include all of CONUS. See each specific version page here for more information.
@@ -55,7 +55,7 @@ You can download the full extent mosaics from the [Full Extent Downloads page](h
 ![From the data page](Images/full-extent-data.bmp){fig-alt="The data page of the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."}
 
 
-![From the From the individual product page](Images/full-extent-product.bmp){fig-alt="A product page on the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."}
+![From the individual product page](Images/full-extent-product.bmp){fig-alt="A product page on the LANDFIRE Program website. An arrow points to the Full Extent Downloads section - the middle of three boxes across the main section of the page."}
 
 
 # Downloading Data
@@ -69,7 +69,7 @@ Not all datasets are available with every version. See the [data page on the LAN
     -   For example, let’s search for LF 2022 Vegetation data for CONUS. To do so, we select Version: LF2022 - Theme: Vegetation, Region ID: CONUS, then hit apply. This narrows our search to only CONUS-wide vegetation projects from LANDFIRE 2022.
 
 ::: callout-tip
-If you would like multiple versions, multiple regions, or multiple themes of data, simply leave that dropdown as -Any- and you will have the option to download whichever datasets you’d like. You cannot select multiple items from the dropdowns, and you will need to download each dataset individually..
+If you would like multiple versions, multiple regions, or multiple themes of data, simply leave that dropdown as -Any- and you will have the option to download whichever datasets you’d like. You cannot select multiple items from the dropdowns, and you will need to download each dataset individually.
 :::
 
 2.  From here, we can select from EVC, EVH, EVT, SClass, VCC, and VDep. BpS is not an option because BpS data were not created in LF 2022. To find the most recent versions of your dataset of interest, see the [version comparison table](https://landfire.gov/data/comparison-table) on the LANDFIRE Program Website.

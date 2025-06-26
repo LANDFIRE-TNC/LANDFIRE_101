@@ -20,6 +20,7 @@ website:
         contents:
           - href: LANDFIRE_Datasets/1_Vegetation/1_lf-vegetation-data.qmd
           - section: "Biophysical Settings"
+            href: LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/1-bps.qmd
             contents:
               - href: LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/1-bps.qmd
               - href: LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/2-bps_spatial.qmd
@@ -27,20 +28,25 @@ website:
               - href: LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/4-bps-models.qmd
               - href: LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/5-refcon-table.qmd
           - section: "Existing Vegetation"
+            href: LANDFIRE_Datasets/1_Vegetation/Existing_Vegetation/1-existing-vegetation-type.qmd
             contents:
               - href: LANDFIRE_Datasets/1_Vegetation/Existing_Vegetation/1-existing-vegetation-type.qmd
               - href: LANDFIRE_Datasets/1_Vegetation/Existing_Vegetation/2-existing-vegetation-cover.qmd
               - href: LANDFIRE_Datasets/1_Vegetation/Existing_Vegetation/3-existing-vegetation-height.qmd
           - section: "Succession Class"
+            href: LANDFIRE_Datasets/1_Vegetation/Succession_Class/1-succession-class.qmd
             contents:
               - href: LANDFIRE_Datasets/1_Vegetation/Succession_Class/1-succession-class.qmd
           - section: "Vegetation Departure"
+            href: LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.qmd
             contents:
               - href: LANDFIRE_Datasets/1_Vegetation/Vegetation_Departure/1-vegetation-departure.qmd
       - section: "LANDFIRE Fuels Datasets"
+        href: LANDFIRE_Datasets/2_Fuels/1_fuels.qmd
         contents:
           - href: LANDFIRE_Datasets/2_Fuels/1_fuels.qmd
       - section: "Ways to get LANDFIRE Data"
+        href: Get_Data/1-ways-to-get-data.qmd
         contents:
           - href: Get_Data/1-ways-to-get-data.qmd
           - href: Get_Data/2-LANDFIRE-map-viewer.qmd
@@ -57,7 +63,7 @@ website:
 
     -   Search and subscribe to the [LANDFIRE YouTube Channel](https://www.youtube.com/@LANDFIREvideo) (see tutorials, Office Hours, quick demonstrations).
 
-    -   [Join an Office Hour](https://tnc.zoom.us/meeting/register/tJwvcOqopz4uHNbBBWNoFeLIHpdH8YFO7QLS) (monthly meeting with open format Q & A with LANDFIRE experts).
+    -   [Join an Office Hour](https://tnc.zoom.us/meeting/register/tJArf-igqD8oE9S7qGDsOm7oeF7aZBJDMqBG#/registration) (monthly meeting with open format Q & A with LANDFIRE experts).
 
     -   [Schedule a meeting](mailto:landfire@tnc.org?subject=landfirehelp) (email link) with TNC’s LANDFIRE Team.
     

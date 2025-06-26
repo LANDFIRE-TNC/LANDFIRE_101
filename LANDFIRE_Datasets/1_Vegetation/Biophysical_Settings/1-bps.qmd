@@ -49,13 +49,13 @@ Three quick reasons to use BPS:
 For more, watch this [quick guide on Biophysical Settings](https://youtu.be/xjaWJCe7udQ) on YouTube (4-minute video). {{< video https://youtu.be/xjaWJCe7udQ >}}
 
 # Comparing BPS with other similar concepts
-There are other ecological concepts that are worth contrasting the BPS concept to including potential natural vegetation and pre-colonization vegetation. We discuss a few of them below.
+There are other ecological concepts that are worth contrasting the BPS concept, including potential natural vegetation and pre-colonization vegetation. We discuss a few of them below.
 
 ## Potential Natural Vegetation
 
 PNV refers to the type of vegetation that would naturally grow in a specific area, based on the local climate.
 
--   PNVs examine vegetation that might exist without any human intervention. Various definitions deal with natural disturbances differently (i.e. ignoring or including impacts). The BPS concept explicitly includes natural disturbances prior to European colonization.
+-   PNVs examine vegetation that might exist without any human intervention. Various definitions deal with natural disturbances differently (i.e. ignoring or including impacts). The BPS concept explicitly includes natural disturbances, such as fire, drought, and insects, prior to European colonization.
 
 -   PNVs are typically static, meaning they represent one state which is often the climax state. BPS almost always includes multiple states representing a dynamic system.
 
@@ -73,7 +73,7 @@ The BPSs differ in that they:
 
 [Environmental Site Potential](https://landfire.gov/vegetation/esp) (ESP) was created by LANDFIRE as a precursor to BPS data to represent the vegetation that could be supported at a given site based on the biophysical environment.
 
-Adding in the impact of natural disturbances is how an ESP becomes a BPS. For example, in the Pacific Northwest sites that support grand fir and white fir could be classified as a Mesic Mixed Conifer ESP, but when historically frequent fire regimes are considered, these same areas are likely to be classified as Dry-Mesic Mixed Conifer BPS.
+Adding in the impact of natural disturbances is how an ESP becomes a BPS. For example, in the Pacific Northwest, sites that support grand fir and white fir could be classified as a Mesic Mixed Conifer ESP, but when historically frequent fire regimes are considered, these same areas are likely to be classified as Dry-Mesic Mixed Conifer BPS.
 
 # How does BPS flow through the product suite?
 
