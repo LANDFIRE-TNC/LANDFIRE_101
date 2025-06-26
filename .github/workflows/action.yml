@@ -1,5 +1,10 @@
 name: Linkspector
-on: [pull_request]
+on:
+  push:
+    branches:
+      - main  # Or the branch(es) you want to trigger on push
+  pull_request:  # Trigger on pull requests
+  workflow_dispatch:  # Trigger manually via workflow_dispatch
 jobs:
   check-links:
     name: runner / linkspector
