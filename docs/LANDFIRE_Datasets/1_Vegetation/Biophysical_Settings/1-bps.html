@@ -293,30 +293,6 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
  <span class="menu-text">Four Ways to Get LANDFIRE Data</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../Get_Data/2-LANDFIRE-map-viewer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: The LANDFIRE Map Viewer</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../Get_Data/3-full-extent-mosaics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: Download full extent rasters</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../Get_Data/4-LANDFIRE-data-streaming.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: LANDFIRE data streaming</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../Get_Data/5-rlandfire.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: rlandfire package</span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -331,7 +307,10 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
   <ul>
   <li><a href="#what-you-will-find-in-this-section" id="toc-what-you-will-find-in-this-section" class="nav-link active" data-scroll-target="#what-you-will-find-in-this-section">What you will find in this section</a></li>
   <li><a href="#what-does-biophysical-settings-mean" id="toc-what-does-biophysical-settings-mean" class="nav-link" data-scroll-target="#what-does-biophysical-settings-mean">What does Biophysical Settings mean?</a></li>
-  <li><a href="#what-are-the-bps-products" id="toc-what-are-the-bps-products" class="nav-link" data-scroll-target="#what-are-the-bps-products">What are the BPS products?</a></li>
+  <li><a href="#what-are-the-bps-products" id="toc-what-are-the-bps-products" class="nav-link" data-scroll-target="#what-are-the-bps-products">What are the BPS products?</a>
+  <ul class="collapse">
+  <li><a href="#an-overview-of-the-biophysical-settings-product-suite" id="toc-an-overview-of-the-biophysical-settings-product-suite" class="nav-link" data-scroll-target="#an-overview-of-the-biophysical-settings-product-suite">An overview of the Biophysical Settings Product suite</a></li>
+  </ul></li>
   <li><a href="#why-use-bps-in-a-current-analysis" id="toc-why-use-bps-in-a-current-analysis" class="nav-link" data-scroll-target="#why-use-bps-in-a-current-analysis">Why use BpS in a current analysis?</a></li>
   <li><a href="#comparing-bps-with-other-similar-concepts" id="toc-comparing-bps-with-other-similar-concepts" class="nav-link" data-scroll-target="#comparing-bps-with-other-similar-concepts">Comparing BPS with other similar concepts</a>
   <ul class="collapse">
@@ -407,6 +386,15 @@ Note
 <section id="what-are-the-bps-products" class="level1">
 <h1>What are the BPS products?</h1>
 <p>LANDFIRE’s BPS product suite includes the BpS models and descriptions and the BpS spatial data. There are several related products derived from the core BPS products including: fire regimes, reference conditions, succession class, and vegetation departure. In addition, the BPS spatial data are sometimes used in rulesets to help map fire behavior fuel models.</p>
+<p>The original development of LANDFIRE’s BPS data occurred through a series of expert workshops conducted between 2004 and 2009. These workshops brought together ecologists, land managers, and fire experts to collaboratively define reference vegetation conditions and ecological dynamics for each BPS. The resulting models and descriptions were later refined through a comprehensive BPS Review, which incorporated feedback from a broad community of practitioners and scientists to improve consistency and ecological accuracy. Additional details and access to the reviewed models and documentation can be found on the <a href="https://landfirereview.org">LANDFIRE Review website</a> and the <a href="https://thenatureconservancy.github.io/landfiremodels/index.html">LANDFIRE Vegetation Modeling website</a>.</p>
+<section id="an-overview-of-the-biophysical-settings-product-suite" class="level2">
+<h2 class="anchored" data-anchor-id="an-overview-of-the-biophysical-settings-product-suite">An overview of the Biophysical Settings Product suite</h2>
+<p>The BPS product suite includes several core components that work together to describe and model the natural vegetation potential of landscapes. These products provide both spatial and conceptual tools for understanding how ecosystems functioned under historical disturbance regimes and how they might respond to future changes. Below is a brief overview of the primary BpS products. You can learn more about each of these products on the following pages of this website—just click on the product name (in bold) below to jump to its dedicated section.</p>
+<p><strong><a href="../../../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/2-bps_spatial.html">BPS Spatial Data</a></strong> This 30m pixel raster dataset represents the potential natural vegetation types that likely existed prior to significant Euro-American influence. It serves as a spatial foundation for modeling ecological processes and is used in a wide range of applications, from fire behavior modeling to habitat assessment.</p>
+<p><strong><a href="../../../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/3-bps_documents.html">BPS Descriptions</a></strong> These narrative documents provide detailed ecological context for each BPS, including dominant vegetation, disturbance regimes, and successional dynamics. They support interpretation of the spatial data and models and are developed with input from regional experts.</p>
+<p><strong><a href="../../../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/4-bps-models.html">BPS Models</a></strong> These are quantitative state-and-transition models that simulate how vegetation changes over time in response to natural disturbances and succession. Built using the SyncroSim platform, they form the basis for estimating reference conditions and understanding long-term ecological dynamics.</p>
+<p><strong><a href="../../../LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/5-refcon-table.html">Reference Conditions Table</a></strong> This table summarizes the expected proportions of different vegetation classes under historical, pre-settlement conditions for each BpS. It is derived from the state-and-transition models and is used to assess how current landscapes differ from their natural range of variability.</p>
+</section>
 </section>
 <section id="why-use-bps-in-a-current-analysis" class="level1">
 <h1>Why use BpS in a current analysis?</h1>
@@ -447,6 +435,19 @@ Note
 </section>
 <section id="how-does-bps-flow-through-the-product-suite" class="level1">
 <h1>How does BPS flow through the product suite?</h1>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Understanding the Bigger Picture</strong> Biophysical Settings products are applied in many different contexts across LANDFIRE, including fire behavior modeling, ecological assessments, and conservation planning. Because these products are deeply interconnected, understanding one often requires familiarity with the others. We encourage you to explore this entire section to get a full picture of how BpS products work together to support landscape-scale analysis and decision-making.</p>
+</div>
+</div>
 <p>The process of integrating BPS into our product suite begins with the development of <a href="https://www.landfire.gov/vegetation/bps-models">BPS Models and Descriptions</a>. These models provide a foundational understanding of the ecological characteristics and the disturbance dynamics of different vegetation systems. They are used to estimate historical fire frequency and severity.</p>
 <p>From these models, we generate <a href="https://www.landfire.gov/vegetation/sclass">Succession Class</a> mapping rules and establish <a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">Reference Conditions</a> (downloads a 19KB zip file) that represent the Historical Range of Variability. These reference conditions are crucial for understanding the natural variability and resilience of ecosystems.</p>
 <p>Next, we create <a href="https://www.landfire.gov/vegetation/bps">BPS Spatial Data</a>, which maps the distribution of these biophysical settings across the estimated pre-European colonization landscape. Linking the BPS map to the modeled estimate of fire frequency and severity allows LANDFIRE to map historical fire regimes.</p>

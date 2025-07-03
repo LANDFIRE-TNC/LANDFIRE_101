@@ -293,30 +293,6 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
  <span class="menu-text">Four Ways to Get LANDFIRE Data</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../Get_Data/2-LANDFIRE-map-viewer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: The LANDFIRE Map Viewer</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../Get_Data/3-full-extent-mosaics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: Download full extent rasters</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../Get_Data/4-LANDFIRE-data-streaming.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: LANDFIRE data streaming</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../Get_Data/5-rlandfire.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: rlandfire package</span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -354,6 +330,7 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
   <li><a href="#succession-classes-mapping-rules" id="toc-succession-classes-mapping-rules" class="nav-link" data-scroll-target="#succession-classes-mapping-rules">Succession Classes – mapping rules</a></li>
   <li><a href="#succession-classes-description" id="toc-succession-classes-description" class="nav-link" data-scroll-target="#succession-classes-description">Succession Classes – description</a></li>
   <li><a href="#model-parameters-table" id="toc-model-parameters-table" class="nav-link" data-scroll-target="#model-parameters-table">Model Parameters Table</a></li>
+  <li><a href="#years-since-last-disturbance-referred-to-as-tst-min-time-since-transition-minimum-in-syncrosim-specifies-the-minimum-number-of-years-that-must-pass-before-a-transition-can-occur.-in-landfire-models-this-is-used-only-with-alternative-succession-transitions-and-is-related-to-fire-disturbances-surface-mixed-and-replacement.-for-example-if-an-alternative-succession-transition-has-a-tst-min-value-of-100-it-means-that-this-transition-can-only-happen-if-100-years-have-passed-since-the-last-fire." id="toc-years-since-last-disturbance-referred-to-as-tst-min-time-since-transition-minimum-in-syncrosim-specifies-the-minimum-number-of-years-that-must-pass-before-a-transition-can-occur.-in-landfire-models-this-is-used-only-with-alternative-succession-transitions-and-is-related-to-fire-disturbances-surface-mixed-and-replacement.-for-example-if-an-alternative-succession-transition-has-a-tst-min-value-of-100-it-means-that-this-transition-can-only-happen-if-100-years-have-passed-since-the-last-fire." class="nav-link" data-scroll-target="#years-since-last-disturbance-referred-to-as-tst-min-time-since-transition-minimum-in-syncrosim-specifies-the-minimum-number-of-years-that-must-pass-before-a-transition-can-occur.-in-landfire-models-this-is-used-only-with-alternative-succession-transitions-and-is-related-to-fire-disturbances-surface-mixed-and-replacement.-for-example-if-an-alternative-succession-transition-has-a-tst-min-value-of-100-it-means-that-this-transition-can-only-happen-if-100-years-have-passed-since-the-last-fire.">Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 100, it means that this transition can only happen if 100 years have passed since the last fire.</a></li>
   </ul></li>
   <li><a href="#helpful-resources" id="toc-helpful-resources" class="nav-link" data-scroll-target="#helpful-resources">Helpful Resources</a></li>
   </ul>
@@ -651,6 +628,19 @@ Tip
 <section id="succession-classes-mapping-rules" class="level2">
 <h2 class="anchored" data-anchor-id="succession-classes-mapping-rules">Succession Classes – mapping rules</h2>
 <p>LANDFIRE did not attempt to map where succession classes were prior to European colonization, as they would have moved around. This table is used to map where succession classes are today. For example, in the ‘Succession Class Table’ below we have highlighted combinations of Existing Height and Cover (and lifeform) that would be mapped as Succession Class A.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For more information on Succession Classes and how they are mapped, visit the <a href="./Succession_Class/1-succession-class.qmd">Succession Class page of the website</a>.</p>
+</div>
+</div>
 <div id="SClass_MappingRules_Table_99" class="sclass-table-container">
 <table border="1.5" cellpadding="0.1" cellspacing="0" style="border-collapse:
  collapse; table-layout:fixed; width:100%">
@@ -1185,12 +1175,18 @@ Tip
 </section>
 <section id="model-parameters-table" class="level2">
 <h2 class="anchored" data-anchor-id="model-parameters-table">Model Parameters Table</h2>
-<p>This table is essentially an export of the SyncroSim BpS model parameters. In other words, this table compiles information provided by model developers about the probability and impact of natural disturbances into the modeling software.</p>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>A word about SyncroSim</strong> <a href="https://syncrosim.com/">SyncroSim</a> is a modeling platform used to build and run state-and-transition simulation models (STSMs), which represent how ecosystems change over time due to natural disturbances and succession. In LANDFIRE, SyncroSim is used to manage and update the Biophysical Settings models, replacing the earlier VDDT software. It allows model developers to define probabilities and impacts of disturbances like fire, and to simulate how ecosystems would have looked under historical conditions. The reference conditions table is essentially an export of these model parameters from SyncroSim.</p>
+</div>
+</div>
+</div>
+<p>The model parameters table is essentially an export of the SyncroSim BpS model parameters. In other words, this table compiles information provided by model developers about the probability and impact of natural disturbances into the modeling software.</p>
 <p>In the Model Parameters Table below, the top row would read something like “the wind/weather/stress disturbance would impact the Early1:All succession class once every 1000 years on average (or 0.001% of the succession class yearly on average), and when that disturbance happened, the vegetation would respond by returning back to the beginning of the Early1: All succession class.”</p>
-<p><strong>Reset age class start after disturbance</strong></p>
-<p>In ST-Sim, the ‘Age Reset’ field indicates whether a transition resets the age of a simulation cell to the ‘Age Min’ of the destination class. If the value is yes, the age is reset; if no, the age remains unchanged. According to LANDFIRE standards, probabilistic transitions that do not change the class do not reset the age (Age Reset = No), except for class A to A replacement disturbances. Transitions that result in a state change do reset the age (Age Reset = Yes).</p>
-<p><strong>Years since last disturbance</strong></p>
-<p>Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 20, it means that this transition can only happen if 20 years have passed since the last fire.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 11%">
@@ -1251,7 +1247,12 @@ Tip
 </tr>
 </tbody>
 </table>
-<hr>
+<p><strong>Reset age class start after disturbance</strong></p>
+<p>In SyncroSim, the ‘Age Reset’ field indicates whether a transition resets the age of a simulation cell to the ‘Age Min’ of the destination class. If the value is yes, the age is reset; if no, the age remains unchanged. According to LANDFIRE standards, probabilistic transitions that do not change the class do not reset the age (Age Reset = No), except for class A to A replacement disturbances. Transitions that result in a state change do reset the age (Age Reset = Yes).</p>
+<p><strong>Years since last disturbance</strong></p>
+</section>
+<section id="years-since-last-disturbance-referred-to-as-tst-min-time-since-transition-minimum-in-syncrosim-specifies-the-minimum-number-of-years-that-must-pass-before-a-transition-can-occur.-in-landfire-models-this-is-used-only-with-alternative-succession-transitions-and-is-related-to-fire-disturbances-surface-mixed-and-replacement.-for-example-if-an-alternative-succession-transition-has-a-tst-min-value-of-100-it-means-that-this-transition-can-only-happen-if-100-years-have-passed-since-the-last-fire." class="level2">
+<h2 class="anchored" data-anchor-id="years-since-last-disturbance-referred-to-as-tst-min-time-since-transition-minimum-in-syncrosim-specifies-the-minimum-number-of-years-that-must-pass-before-a-transition-can-occur.-in-landfire-models-this-is-used-only-with-alternative-succession-transitions-and-is-related-to-fire-disturbances-surface-mixed-and-replacement.-for-example-if-an-alternative-succession-transition-has-a-tst-min-value-of-100-it-means-that-this-transition-can-only-happen-if-100-years-have-passed-since-the-last-fire.">Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 100, it means that this transition can only happen if 100 years have passed since the last fire.</h2>
 </section>
 </section>
 <section id="helpful-resources" class="level1">

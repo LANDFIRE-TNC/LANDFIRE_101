@@ -38,7 +38,7 @@ LANDFIRE uses EVC in several subsequent layers, including the development of the
     -   **Developed-Upland Vegetation**: Five classes of developed upland vegetation
     -   **Developed**: Three classes of developed landscapes
     -   **Developed-Roads**: Pixels identified as roads
-    -   **NASS Crops**: Seven classes of National Agricultural Statistics Service defined cropland
+    -   **Agriculture**: Several classes of cropland and other agricultural land
   
 # Where to find Existing Vegetation Cover data
 

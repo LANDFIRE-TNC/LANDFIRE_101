@@ -38,7 +38,7 @@ LANDFIRE uses EVH in several subsequent layers, including the development of the
     - **Developed-Upland Vegeatation**: Five classes of developed upland vegetation
     - **Developed**: Seven classes of developed landscapes
     - **Developed-Roads**: Pixels identified as roads
-    - **NASS Crops**: Seven classes of National Agricultural Statistics Service defined cropland
+    - **Agriculture**: Several classes of cropland and other agricultural land
     
 # Where to find Existing Vegetation Height data
 

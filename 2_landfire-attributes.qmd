@@ -17,7 +17,11 @@ How to explore the attribute tables of LANDFIRE datasets:
 
 # Why explore the attributes of LANDFIRE data?
 
-Exploring the attributes of any dataset is a fundamental step in the data analysis process. It lays the foundation for accurate analyses, informed decision-making, and successful outcomes in various fields, from scientific research to business intelligence.
+Exploring the attributes (the individual properties or characteristics that describe each data point) of any dataset is a fundamental step in the data analysis process. It lays the foundation for accurate analyses, informed decision-making, and successful outcomes in various fields, from scientific research to business intelligence.
+
+::: callout-tip
+Many LANDFIRE spatial datasets allow for analysis and display at various levels of specificity and on various different values from within their attribute tables. We encourage you to explore all the attributes of the data before getting started with analysis and mapping. We have provided some examples of mapping using different spatial layer attributes later in this site when we discuss [Biophysical Settings](LANDFIRE_Datasets/1_Vegetation/Biophysical_Settings/2-bps_spatial.qmd) and [Existing Vegetation Type](LANDFIRE_Datasets/1_Vegetation/Existing_Vegetation/1-existing-vegetation-type.qmd).
+:::
 
 Here are three main reasons to understand the attributes of LANDFIRE data before any analysis in GIS or R, or use in fire behavior or other applications:
 
@@ -27,9 +31,7 @@ Here are three main reasons to understand the attributes of LANDFIRE data before
 
 3.  **Effective Data Visualization**: Exploring attributes aids in creating effective data visualizations. Understanding the range and distribution of variables helps you choose appropriate visualization techniques that convey the intended message and insights.
 
-::: callout-tip
-Many LANDFIRE datasets allow for analysis and display at various levels of specificity and on various different attributes. We encourage you to explore all the attributes of the data before getting started with analysis and mapping. We have provided some examples of mapping using different spatial layer attributes later in this site when we discuss the individual datasets.
-:::
+
 
 # How to explore the attributes of LANDFIRE datasets
 

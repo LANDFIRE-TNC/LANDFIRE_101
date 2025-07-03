@@ -139,15 +139,15 @@ Start exploring:
 
     -   Go to the Output Options tab within the scenario, make sure that the 'State classes every' box is set to 100 (i.e., not 1). 
     
-:::callout-note
-The model results will not change significantly unless you change the model parameters.
-:::
-
     -   Go to the Run Control tab and set the Total iterations to 2.
 
     -   In the Initial Conditions tab, ensure that the Total Acres and Number of Simulation Cells boxes both have 1,000. For exploring, we recommend these three steps as it will speed up your runs.
 
     -   In the Library Explorer, highlight the scenario, then click the small green triangle at the top of the screen.
+    
+:::callout-note
+The model results will not change significantly unless you change the model parameters.
+:::
 
 6.  Make a chart by clicking the New icon in the Charts pane, then name it appropriately. You will change some settings to get your first chart:
 

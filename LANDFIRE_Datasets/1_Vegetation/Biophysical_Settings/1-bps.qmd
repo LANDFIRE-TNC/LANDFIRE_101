@@ -24,7 +24,6 @@ For the most up-to-date information on each LANDFIRE data product, please view t
 Biophysical Settings (BPS) are a foundational concept for LANDFIRE defined on the [LANDFIRE Program website](https://landfire.gov/vegetation/bps) as:
 
 > *“…a modeled representation of the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of modeled past disturbance regimes.”*
-> 
 
 We like to think of the Biophysical Settings as ‘ecosystem habitats’, or ‘potential ecosystem footprints’. The BPS concept asks “where might an ecosystem occur” based on abiotic factors such as soils, surficial geology, slope and elevation as well as natural disturbance regimes.
 
@@ -33,6 +32,24 @@ For more information on ecological systems in LANDFIRE, see the [LANDFIRE Vegeta
 # What are the BPS products?
 
 LANDFIRE’s BPS product suite includes the BpS models and descriptions and the BpS spatial data. There are several related products derived from the core BPS products including: fire regimes, reference conditions, succession class, and vegetation departure. In addition, the BPS spatial data are sometimes used in rulesets to help map fire behavior fuel models.
+
+The original development of LANDFIRE’s BPS data occurred through a series of expert workshops conducted between 2004 and 2009. These workshops brought together ecologists, land managers, and fire experts to collaboratively define reference vegetation conditions and ecological dynamics for each BPS. The resulting models and descriptions were later refined through a comprehensive BPS Review, which incorporated feedback from a broad community of practitioners and scientists to improve consistency and ecological accuracy. Additional details and access to the reviewed models and documentation can be found on the [LANDFIRE Review website](https://landfirereview.org) and the [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/index.html).
+
+## An overview of the Biophysical Settings Product suite
+
+The BPS product suite includes several core components that work together to describe and model the natural vegetation potential of landscapes. These products provide both spatial and conceptual tools for understanding how ecosystems functioned under historical disturbance regimes and how they might respond to future changes. Below is a brief overview of the primary BpS products. You can learn more about each of these products on the following pages of this website—just click on the product name (in bold) below to jump to its dedicated section.
+
+**[BPS Spatial Data](2-bps_spatial.qmd)**
+This 30m pixel raster dataset represents the potential natural vegetation types that likely existed prior to significant Euro-American influence. It serves as a spatial foundation for modeling ecological processes and is used in a wide range of applications, from fire behavior modeling to habitat assessment.
+
+**[BPS Descriptions](3-bps_documents.qmd)**
+These narrative documents provide detailed ecological context for each BPS, including dominant vegetation, disturbance regimes, and successional dynamics. They support interpretation of the spatial data and models and are developed with input from regional experts.
+
+**[BPS Models](4-bps-models.qmd)**
+These are quantitative state-and-transition models that simulate how vegetation changes over time in response to natural disturbances and succession. Built using the SyncroSim platform, they form the basis for estimating reference conditions and understanding long-term ecological dynamics.
+
+**[Reference Conditions Table](5-refcon-table.qmd)**
+This table summarizes the expected proportions of different vegetation classes under historical, pre-settlement conditions for each BpS. It is derived from the state-and-transition models and is used to assess how current landscapes differ from their natural range of variability. 
 
 # Why use BpS in a current analysis?
 
@@ -49,6 +66,7 @@ Three quick reasons to use BPS:
 For more, watch this [quick guide on Biophysical Settings](https://youtu.be/xjaWJCe7udQ) on YouTube (4-minute video). {{< video https://youtu.be/xjaWJCe7udQ >}}
 
 # Comparing BPS with other similar concepts
+
 There are other ecological concepts that are worth contrasting the BPS concept, including potential natural vegetation and pre-colonization vegetation. We discuss a few of them below.
 
 ## Potential Natural Vegetation
@@ -61,7 +79,7 @@ PNV refers to the type of vegetation that would naturally grow in a specific are
 
 ## Pre-colonization vegetation
 
-These datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of ~ 1830s. 
+These datasets rely on historical accounts, early land surveys and other methods such as sediment analysis to map ecosystems at a certain point in time. For example, land survey driven ecosystem maps often represent conditions as of \~ 1830s.
 
 The BPSs differ in that they:
 
@@ -76,6 +94,11 @@ The BPSs differ in that they:
 Adding in the impact of natural disturbances is how an ESP becomes a BPS. For example, in the Pacific Northwest, sites that support grand fir and white fir could be classified as a Mesic Mixed Conifer ESP, but when historically frequent fire regimes are considered, these same areas are likely to be classified as Dry-Mesic Mixed Conifer BPS.
 
 # How does BPS flow through the product suite?
+
+:::callout-tip
+**Understanding the Bigger Picture**
+Biophysical Settings products are applied in many different contexts across LANDFIRE, including fire behavior modeling, ecological assessments, and conservation planning. Because these products are deeply interconnected, understanding one often requires familiarity with the others. We encourage you to explore this entire section to get a full picture of how BpS products work together to support landscape-scale analysis and decision-making.
+:::
 
 The process of integrating BPS into our product suite begins with the development of [BPS Models and Descriptions](https://www.landfire.gov/vegetation/bps-models). These models provide a foundational understanding of the ecological characteristics and the disturbance dynamics of different vegetation systems. They are used to estimate historical fire frequency and severity.
 
@@ -97,12 +120,12 @@ Map zones are used in LANDFIRE to break up the landscape into geographic areas s
 
 # Helpful Links
 
-- Using Biophysical Settings to explore vegetation departure. ([Swaty et al., 2021](https://www.mdpi.com/2073-445X/11/1/28))
+-   Using Biophysical Settings to explore vegetation departure. ([Swaty et al., 2021](https://www.mdpi.com/2073-445X/11/1/28))
 
-- Using BPS and local knowledge to understand a landscape’s potential. ([Provencher. et al., 2021](https://www.mdpi.com/2225-1154/9/5/79/pdf) - downloads a pdf)
+-   Using BPS and local knowledge to understand a landscape’s potential. ([Provencher. et al., 2021](https://www.mdpi.com/2225-1154/9/5/79/pdf) - downloads a pdf)
 
-- Modifying BPS models to represent current and future scenarios. ([LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/index.html))
+-   Modifying BPS models to represent current and future scenarios. ([LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/index.html))
 
-- [Quick guide on Biophysical Settings](https://youtu.be/xjaWJCe7udQ) on YouTube (4-minute video)
+-   [Quick guide on Biophysical Settings](https://youtu.be/xjaWJCe7udQ) on YouTube (4-minute video)
 
-- [Linking the LANDFIRE BPS models and geospatial data](https://tnc.app.box.com/s/jyostw32akl86j3s9q3481tjmkus9w58) (pdf on Box)
+-   [Linking the LANDFIRE BPS models and geospatial data](https://tnc.app.box.com/s/jyostw32akl86j3s9q3481tjmkus9w58) (pdf on Box)

@@ -19,14 +19,65 @@ format: html
 
 # Ways to get LANDFIRE data
 
-There are four ways to get LANDFIRE data (that we know of-there may be more!):
+There are four main ways to access LANDFIRE data, each suited to different needs and technical skill levels. The summaries below provide a quick overview of each method. Visit the links to learn more and begin accessing and working with LANDFIRE data.
 
-1. [LANDFIRE Map Viewer](https://www.landfire.gov/viewer/). This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations.
+## [LANDFIRE Map Viewer](https://www.landfire.gov/viewer/)
+This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations. For many users the LANDFIRE Map Viewer (LFMV) will be the best way to get LANDFIRE data. Once you get the knack of it, obtaining data will be quick and easy.
 
-2. [Download Full Extent Mosaics](https://landfire.gov/data/FullExtentDownloads) for CONUS, HI or AK, or the U.S. Insular Areas. Obtaining these full extent mosaic datasets are best for users who have several landscapes of interest and/or have plenty of storage space.
+::: callout-tip
+You can also access a [User Instructions page](https://landfire.gov/data/LFViewerUserInstructions) on the LANDFIRE Program website that may provide more complete instructions than we are able to give here. You can also find help by visiting the [Map Viewer tutorial videos](https://www.youtube.com/playlist?list=PLwRbAc4x5n944a9T1Ss84Ji8UYP_nqHXz) on our YouTube channel.
+:::
 
-3. Stream data with the [LANDFIRE Product Service](https://lfps.usgs.gov/arcgis/rest/services/LandfireProductService/GPServer), or by [webservice](https://landfire.gov/data/lf_stream) (WCS, WMS, or ESRI Image Service). You can also access hosted imagery layers in ArcGIS Online from the [U.S. Geological Survey gallery](https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&sortOrder=desc&focus=layers-weblayers-imagery). These options are good for users who do not want to store data locally. 
+### Helpful Resources for using the LANDFIRE Map Viewer
 
-4. The [rlandfire](https://github.com/bcknr/rlandfire) R package, by [Mark Buckner](https://github.com/bcknr/rlandfire) who is a LANDFIRE super user. This package allows you to import LANDFIRE data directly into your R environment. To learn more about using the rlandfire package, check out the Office Hour [LANDFIRE & Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!](https://youtu.be/Go5foMcOG-c)
+-   [Video tutorial about using the LANDFIRE Map Viewer, Part 1](https://youtu.be/-VbmEdRwihU)
+
+-   [Video tutorial about using the LANDFIRE Map Viewer, Part 2](https://youtu.be/wN2x1LOKrgI?si=SNkxVqls3dF3QV9Z)
+
+-   [LANDFIRE Map Viewer user instructions page on the LANDFIRE Program Website](https://landfire.gov/data/LFViewerUserInstructions)
+
+## [Download Full Extent Mosaics](https://landfire.gov/data/FullExtentDownloads)
+You can download full national datasets for the conterminous U.S., Alaska, Hawaii, and U.S. Insular Areas from the [Full Extent Downloads page](https://landfire.gov/data/FullExtentDownloads). These mosaics are best for users working across multiple regions or who want to store and process LANDFIRE data locally. Be aware that these files are large and require adequate storage and computing resources.
+
+::: callout-note
+Many of the full extent mosaics are very large files. The downloads will take several minutes. We recommend downloading them while connected to your best available internet connection and making sure you have several gigabytes of storage space available in your download location.
+:::
+
+You can download the full extent mosaics from the [Full Extent Downloads page](https://landfire.gov/data/FullExtentDownloads) on the LANDFIRE Program website.
+
+::: callout-important
+CONUS releases data for GeoAreas throughout the calendar year, so the latest version available may not include all of CONUS. See each specific version page here for more information.
+:::
+
+### Helpful resources for downloading full extent mosaics
+
+-   [LANDFIRE data version information](https://landfire.gov/data#versions)
+
+-   [LANDFIRE version comparison table](https://landfire.gov/data/comparison-table)
+
+-   [LANDFIRE data alerts and notifications](https://www.landfire.gov/data/alerts) - where you can find out when new versions or datasets are available for download
+
+## Stream data with the [LANDFIRE Product Service](https://lfps.usgs.gov/arcgis/rest/services/LandfireProductService/GPServer)
+LANDFIRE data can be streamed directly into GIS software using the [LANDFIRE Product Service](https://lfps.usgs.gov/arcgis/rest/services/LandfireProductService/GPServer) or through standard web services like WMS, WCS, and ESRI Image Services. You can also access hosted imagery layers in ArcGIS Online from the [U.S. Geological Survey gallery](https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&sortOrder=desc&focus=layers-weblayers-imagery). These services are ideal for users who want to access LANDFIRE layers without downloading them, especially in web mapping applications or cloud-based workflows. You can find links to these services on the LANDFIRE Data Access page, under “Stream Data.”
+
+### Helpful resources for using LANDFIRE data streaming services
+
+- [Video tutorial about using LANDFIRE Streaming Services](https://www.youtube.com/watch?v=SkZi5KW7Weg&t=2s)
+
+- [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf)
+
+- [How to use Image Service URLs in ArcPro document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf)
+
+- [How to Use Image Services in ArcGIS Online document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_AGOL.pdf)
+
+- [Instructions on how to use WCS or WMS Calls](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf)
+
+- [Instructions on how to use WCS or WMS Calls in ArcGis Pro](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf)
+
+- [Instructions on how to use ArcGIS Online](https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf)
+
+- [USGS Organizational ArcGIS Online platform](https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&sortOrder=desc&focus=layers-weblayers-imagery)
+
+4. The [rlandfire](https://github.com/bcknr/rlandfire) package, developed by Dr. Mark Buckner, provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr. Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire. To learn more about using the rlandfire package, check out the Office Hour [LANDFIRE & Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!](https://youtu.be/Go5foMcOG-c)
 
 We will walk you through how to use each of these options in the following sections of this website.

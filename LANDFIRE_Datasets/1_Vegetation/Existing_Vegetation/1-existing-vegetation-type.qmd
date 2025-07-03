@@ -60,10 +60,7 @@ LANDFIRE EVT can be used at a variety of scales but should only be used after co
 Caution should be taken when comparing LANDFIRE versions as attribute tables are often changed to reflect the changing needs of users.
 :::
 
-The LANDFIRE spatial data layers allow for display and analysis at varying levels of specificity. Three examples of how you can display, aggregate, and evaluate Existing Vegetation Type data from most specific (EVT Name) to least specific (Lifeform) information are presented in the following images. These three maps are presented as examples, but you can display or analyze EVT data on any of the attributes mentioned above.
-
-![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Name attribute. In this map Existing Vegetation Type data are grouped into seven major vegetation classes (conifer, conifer-hardwood, hardwood, shrubland, grassland, riparian, and sparsely vegetated) and displayed using a continuous, monochromatic ramp within  each class, with each EVT getting its own specific color code. This map was designed using a custom color ramp created by Sarah Hagen.](images/2-evt-map-name.bmp){fig-alt="A map of the Existing Vegtation Type data for the Contiguous United States. Text across the top reads 'EVT Name'." fig-align="center"}
-
+The LANDFIRE spatial data layers allow for display and analysis at varying levels of specificity. Given that the LANDFIRE EVT layer has over 1000 individual classes, users may need to craft a legend that meets their specific needs rather than using the default display. Two examples of how you can easily display EVT data using existing attributes are presented in the following images. These maps are presented as examples, but you can display or analyze EVT data on any of the attributes mentioned above. 
 
 ![Existing Vegetation Type data for the contiguous United States (CONUS) are displayed on the EVT_Phys attribute. In this map Existing Vegetation Type data are grouped into thirteen major classes and displayed using one color for each class. This map was designed using a custom color ramp created by Sarah Hagen.](images/3-evt-map-phys.bmp){fig-alt="A map of the Existing Vegetation Type data for the Contiguous United States. Text across the top reads 'EVT Physiognomy'." fig-align="center"}
 

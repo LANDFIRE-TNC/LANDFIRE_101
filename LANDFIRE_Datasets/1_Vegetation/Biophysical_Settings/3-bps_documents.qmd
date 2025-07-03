@@ -156,6 +156,10 @@ Fire interval is expressed in years for each fire severity class and for all typ
 
 LANDFIRE did not attempt to map where succession classes were prior to European colonization, as they would have moved around. This table is used to map where succession classes are today. For example, in the ‘Succession Class Table’ below we have highlighted combinations of Existing Height and Cover (and lifeform) that would be mapped as Succession Class A.
 
+:::callout-note
+For more information on Succession Classes and how they are mapped, visit the [Succession Class page of the website](./Succession_Class/1-succession-class.qmd).
+:::
+
 <div id="SClass_MappingRules_Table_99" class="sclass-table-container">
 <table border="1.5" cellpadding="0.1" cellspacing="0" style="border-collapse:
  collapse; table-layout:fixed; width:100%">
@@ -682,17 +686,14 @@ The number to the right of the class letter represents the modeled reference con
 
 ## Model Parameters Table
 
-This table is essentially an export of the SyncroSim BpS model parameters. In other words, this table compiles information provided by model developers about the probability and impact of natural disturbances into the modeling software.
+:::{.callout}
+**A word about SyncroSim**
+[SyncroSim](https://syncrosim.com/) is a modeling platform used to build and run state-and-transition simulation models (STSMs), which represent how ecosystems change over time due to natural disturbances and succession. In LANDFIRE, SyncroSim is used to manage and update the Biophysical Settings models, replacing the earlier VDDT software. It allows model developers to define probabilities and impacts of disturbances like fire, and to simulate how ecosystems would have looked under historical conditions. The reference conditions table is essentially an export of these model parameters from SyncroSim.
+:::
+
+The model parameters table is essentially an export of the SyncroSim BpS model parameters. In other words, this table compiles information provided by model developers about the probability and impact of natural disturbances into the modeling software.
 
 In the Model Parameters Table below, the top row would read something like “the wind/weather/stress disturbance would impact the Early1:All succession class once every 1000 years on average (or 0.001% of the succession class yearly on average), and when that disturbance happened, the vegetation would respond by returning back to the beginning of the Early1: All succession class.”
-
-**Reset age class start after disturbance**
-
-In ST-Sim, the ‘Age Reset’ field indicates whether a transition resets the age of a simulation cell to the ‘Age Min’ of the destination class. If the value is yes, the age is reset; if no, the age remains unchanged. According to LANDFIRE standards, probabilistic transitions that do not change the class do not reset the age (Age Reset = No), except for class A to A replacement disturbances. Transitions that result in a state change do reset the age (Age Reset = Yes).
-
-**Years since last disturbance**
-
-Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 20, it means that this transition can only happen if 20 years have passed since the last fire.
 
 +------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
 | Disturbance Type       | Disturbance occurs in | Moves vegetation to | Disturbance Probability | Return Interval (yrs) | Reset Age to New Class Start Age after Disturbance? | Years Since Last Disturbance |
@@ -706,6 +707,13 @@ Years since last disturbance, referred to as TST Min (time-since-transition mini
 | Mixed Fire             | Mid1:OPN              | Mid1:OPN            | 0.001                   | 1000                  | No                                                  | 0                            |
 +------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
 
+**Reset age class start after disturbance**
+
+In SyncroSim, the ‘Age Reset’ field indicates whether a transition resets the age of a simulation cell to the ‘Age Min’ of the destination class. If the value is yes, the age is reset; if no, the age remains unchanged. According to LANDFIRE standards, probabilistic transitions that do not change the class do not reset the age (Age Reset = No), except for class A to A replacement disturbances. Transitions that result in a state change do reset the age (Age Reset = Yes).
+
+**Years since last disturbance**
+
+Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 100, it means that this transition can only happen if 100 years have passed since the last fire.
 ------------------------------------------------------------------------
 
 # Helpful Resources

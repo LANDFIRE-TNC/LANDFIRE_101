@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../Get_Data/2-LANDFIRE-map-viewer.html" rel="next">
+<link href="../Get_Data/2-LANDFIRE-map-viewer.qmd" rel="next">
 <link href="../LANDFIRE_Datasets/2_Fuels/1_fuels.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -293,30 +293,6 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
  <span class="menu-text">Four Ways to Get LANDFIRE Data</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Get_Data/2-LANDFIRE-map-viewer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: The LANDFIRE Map Viewer</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Get_Data/3-full-extent-mosaics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: Download full extent rasters</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Get_Data/4-LANDFIRE-data-streaming.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: LANDFIRE data streaming</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Get_Data/5-rlandfire.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get LANDFIRE Data: rlandfire package</span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -330,7 +306,21 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
    
   <ul>
   <li><a href="#what-you-will-find-in-this-section" id="toc-what-you-will-find-in-this-section" class="nav-link active" data-scroll-target="#what-you-will-find-in-this-section">What you will find in this section</a></li>
-  <li><a href="#ways-to-get-landfire-data" id="toc-ways-to-get-landfire-data" class="nav-link" data-scroll-target="#ways-to-get-landfire-data">Ways to get LANDFIRE data</a></li>
+  <li><a href="#ways-to-get-landfire-data" id="toc-ways-to-get-landfire-data" class="nav-link" data-scroll-target="#ways-to-get-landfire-data">Ways to get LANDFIRE data</a>
+  <ul class="collapse">
+  <li><a href="#landfire-map-viewer" id="toc-landfire-map-viewer" class="nav-link" data-scroll-target="#landfire-map-viewer">LANDFIRE Map Viewer</a>
+  <ul class="collapse">
+  <li><a href="#helpful-resources-for-using-the-landfire-map-viewer" id="toc-helpful-resources-for-using-the-landfire-map-viewer" class="nav-link" data-scroll-target="#helpful-resources-for-using-the-landfire-map-viewer">Helpful Resources for using the LANDFIRE Map Viewer</a></li>
+  </ul></li>
+  <li><a href="#download-full-extent-mosaics" id="toc-download-full-extent-mosaics" class="nav-link" data-scroll-target="#download-full-extent-mosaics">Download Full Extent Mosaics</a>
+  <ul class="collapse">
+  <li><a href="#helpful-resources-for-downloading-full-extent-mosaics" id="toc-helpful-resources-for-downloading-full-extent-mosaics" class="nav-link" data-scroll-target="#helpful-resources-for-downloading-full-extent-mosaics">Helpful resources for downloading full extent mosaics</a></li>
+  </ul></li>
+  <li><a href="#stream-data-with-the-landfire-product-service" id="toc-stream-data-with-the-landfire-product-service" class="nav-link" data-scroll-target="#stream-data-with-the-landfire-product-service">Stream data with the LANDFIRE Product Service</a>
+  <ul class="collapse">
+  <li><a href="#helpful-resources-for-using-landfire-data-streaming-services" id="toc-helpful-resources-for-using-landfire-data-streaming-services" class="nav-link" data-scroll-target="#helpful-resources-for-using-landfire-data-streaming-services">Helpful resources for using LANDFIRE data streaming services</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -376,16 +366,94 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
 </section>
 <section id="ways-to-get-landfire-data" class="level1">
 <h1>Ways to get LANDFIRE data</h1>
-<p>There are four ways to get LANDFIRE data (that we know of-there may be more!):</p>
-<ol type="1">
-<li><p><a href="https://www.landfire.gov/viewer/">LANDFIRE Map Viewer</a>. This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations.</p></li>
-<li><p><a href="https://landfire.gov/data/FullExtentDownloads">Download Full Extent Mosaics</a> for CONUS, HI or AK, or the U.S. Insular Areas. Obtaining these full extent mosaic datasets are best for users who have several landscapes of interest and/or have plenty of storage space.</p></li>
-<li><p>Stream data with the <a href="https://lfps.usgs.gov/arcgis/rest/services/LandfireProductService/GPServer">LANDFIRE Product Service</a>, or by <a href="https://landfire.gov/data/lf_stream">webservice</a> (WCS, WMS, or ESRI Image Service). You can also access hosted imagery layers in ArcGIS Online from the <a href="https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&amp;sortOrder=desc&amp;focus=layers-weblayers-imagery">U.S. Geological Survey gallery</a>. These options are good for users who do not want to store data locally.</p></li>
-<li><p>The <a href="https://github.com/bcknr/rlandfire">rlandfire</a> R package, by <a href="https://github.com/bcknr/rlandfire">Mark Buckner</a> who is a LANDFIRE super user. This package allows you to import LANDFIRE data directly into your R environment. To learn more about using the rlandfire package, check out the Office Hour <a href="https://youtu.be/Go5foMcOG-c">LANDFIRE &amp; Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!</a></p></li>
+<p>There are four main ways to access LANDFIRE data, each suited to different needs and technical skill levels. The summaries below provide a quick overview of each method. Visit the links to learn more and begin accessing and working with LANDFIRE data.</p>
+<section id="landfire-map-viewer" class="level2">
+<h2 class="anchored" data-anchor-id="landfire-map-viewer"><a href="https://www.landfire.gov/viewer/">LANDFIRE Map Viewer</a></h2>
+<p>This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations. For many users the LANDFIRE Map Viewer (LFMV) will be the best way to get LANDFIRE data. Once you get the knack of it, obtaining data will be quick and easy.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can also access a <a href="https://landfire.gov/data/LFViewerUserInstructions">User Instructions page</a> on the LANDFIRE Program website that may provide more complete instructions than we are able to give here. You can also find help by visiting the <a href="https://www.youtube.com/playlist?list=PLwRbAc4x5n944a9T1Ss84Ji8UYP_nqHXz">Map Viewer tutorial videos</a> on our YouTube channel.</p>
+</div>
+</div>
+<section id="helpful-resources-for-using-the-landfire-map-viewer" class="level3">
+<h3 class="anchored" data-anchor-id="helpful-resources-for-using-the-landfire-map-viewer">Helpful Resources for using the LANDFIRE Map Viewer</h3>
+<ul>
+<li><p><a href="https://youtu.be/-VbmEdRwihU">Video tutorial about using the LANDFIRE Map Viewer, Part 1</a></p></li>
+<li><p><a href="https://youtu.be/wN2x1LOKrgI?si=SNkxVqls3dF3QV9Z">Video tutorial about using the LANDFIRE Map Viewer, Part 2</a></p></li>
+<li><p><a href="https://landfire.gov/data/LFViewerUserInstructions">LANDFIRE Map Viewer user instructions page on the LANDFIRE Program Website</a></p></li>
+</ul>
+</section>
+</section>
+<section id="download-full-extent-mosaics" class="level2">
+<h2 class="anchored" data-anchor-id="download-full-extent-mosaics"><a href="https://landfire.gov/data/FullExtentDownloads">Download Full Extent Mosaics</a></h2>
+<p>You can download full national datasets for the conterminous U.S., Alaska, Hawaii, and U.S. Insular Areas from the <a href="https://landfire.gov/data/FullExtentDownloads">Full Extent Downloads page</a>. These mosaics are best for users working across multiple regions or who want to store and process LANDFIRE data locally. Be aware that these files are large and require adequate storage and computing resources.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Many of the full extent mosaics are very large files. The downloads will take several minutes. We recommend downloading them while connected to your best available internet connection and making sure you have several gigabytes of storage space available in your download location.</p>
+</div>
+</div>
+<p>You can download the full extent mosaics from the <a href="https://landfire.gov/data/FullExtentDownloads">Full Extent Downloads page</a> on the LANDFIRE Program website.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>CONUS releases data for GeoAreas throughout the calendar year, so the latest version available may not include all of CONUS. See each specific version page here for more information.</p>
+</div>
+</div>
+<section id="helpful-resources-for-downloading-full-extent-mosaics" class="level3">
+<h3 class="anchored" data-anchor-id="helpful-resources-for-downloading-full-extent-mosaics">Helpful resources for downloading full extent mosaics</h3>
+<ul>
+<li><p><a href="https://landfire.gov/data#versions">LANDFIRE data version information</a></p></li>
+<li><p><a href="https://landfire.gov/data/comparison-table">LANDFIRE version comparison table</a></p></li>
+<li><p><a href="https://www.landfire.gov/data/alerts">LANDFIRE data alerts and notifications</a> - where you can find out when new versions or datasets are available for download</p></li>
+</ul>
+</section>
+</section>
+<section id="stream-data-with-the-landfire-product-service" class="level2">
+<h2 class="anchored" data-anchor-id="stream-data-with-the-landfire-product-service">Stream data with the <a href="https://lfps.usgs.gov/arcgis/rest/services/LandfireProductService/GPServer">LANDFIRE Product Service</a></h2>
+<p>LANDFIRE data can be streamed directly into GIS software using the <a href="https://lfps.usgs.gov/arcgis/rest/services/LandfireProductService/GPServer">LANDFIRE Product Service</a> or through standard web services like WMS, WCS, and ESRI Image Services. You can also access hosted imagery layers in ArcGIS Online from the <a href="https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&amp;sortOrder=desc&amp;focus=layers-weblayers-imagery">U.S. Geological Survey gallery</a>. These services are ideal for users who want to access LANDFIRE layers without downloading them, especially in web mapping applications or cloud-based workflows. You can find links to these services on the LANDFIRE Data Access page, under “Stream Data.”</p>
+<section id="helpful-resources-for-using-landfire-data-streaming-services" class="level3">
+<h3 class="anchored" data-anchor-id="helpful-resources-for-using-landfire-data-streaming-services">Helpful resources for using LANDFIRE data streaming services</h3>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=SkZi5KW7Weg&amp;t=2s">Video tutorial about using LANDFIRE Streaming Services</a></p></li>
+<li><p><a href="https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf">LANDFIRE Products Service User Guide</a></p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf">How to use Image Service URLs in ArcPro document</a></p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/Instructions_ImageService_AGOL.pdf">How to Use Image Services in ArcGIS Online document</a></p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf">Instructions on how to use WCS or WMS Calls</a></p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf">Instructions on how to use WCS or WMS Calls in ArcGis Pro</a></p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf">Instructions on how to use ArcGIS Online</a></p></li>
+<li><p><a href="https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&amp;sortOrder=desc&amp;focus=layers-weblayers-imagery">USGS Organizational ArcGIS Online platform</a></p></li>
+</ul>
+<ol start="4" type="1">
+<li>The <a href="https://github.com/bcknr/rlandfire">rlandfire</a> package, developed by Dr.&nbsp;Mark Buckner, provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr.&nbsp;Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire. To learn more about using the rlandfire package, check out the Office Hour <a href="https://youtu.be/Go5foMcOG-c">LANDFIRE &amp; Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!</a></li>
 </ol>
 <p>We will walk you through how to use each of these options in the following sections of this website.</p>
 
 
+</section>
+</section>
 </section>
 
 <section id="still-have-questions-landfire-is-here-to-help." class="level1">
@@ -965,8 +1033,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../Get_Data/2-LANDFIRE-map-viewer.html" class="pagination-link" aria-label="Get LANDFIRE Data: The LANDFIRE Map Viewer">
-        <span class="nav-page-text">Get LANDFIRE Data: The LANDFIRE Map Viewer</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../Get_Data/2-LANDFIRE-map-viewer.qmd" class="pagination-link" aria-label="">
+        <span class="nav-page-text"></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
