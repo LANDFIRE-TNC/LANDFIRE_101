@@ -25,7 +25,7 @@ For the most up-to-date information on each LANDFIRE data product, please view t
 
 # What are Biophysical Settings models, and how were they created?
 
-LANDFIRE, in collaboration with hundreds of experts around the country, created a set of over 900 state-and-transition simulation models (STSMs, hereafter referred to as BpS Models) for ecosystems in the United States. Each LANDFIRE BpS model represents a Biophysical Setting (BpS). The BpS models, originally created in the Vegetation Dynamics Development Tool (VDDT), now updated and manipulated in the [SyncroSim](http://syncrosim/) ST-Sim package, essentially capture historical disturbance regimes and succession of each BpS. BpS model results include an estimate of the frequency and severity of fire and other disturbances, as well as how much of each succession class would have been on the landscape historically. Further, they are now a platform for: 
+LANDFIRE, in collaboration with hundreds of experts around the country, created a set of over 900 state-and-transition simulation models (STSMs, hereafter referred to as BpS Models) for ecosystems in the United States. Each LANDFIRE BpS model represents a Biophysical Setting (BpS). The BpS models, originally created in the Vegetation Dynamics Development Tool (VDDT), now updated and manipulated in the [SyncroSim](https://syncrosim.com/) ST-Sim package, essentially capture historical disturbance regimes and succession of each BpS. BpS model results include an estimate of the frequency and severity of fire and other disturbances, as well as how much of each succession class would have been on the landscape historically. Further, they are now a platform for: 
 
 - Understanding historical dynamics
 
@@ -186,11 +186,11 @@ The BpS models were developed by LANDFIRE to support objectives related to mappi
 
 - **Evaluate changes in disturbance regimes.** [Haugo and others](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.2702) used BpS models to compare current area burned to a reference condition in the northwestern U.S.
 
-- **Represent current, desired, or future conditions.** [Costanza and others](https://www.aimspress.com/fileOther/PDF/environmental/20150205.pdf) modified 45 BpS models to represent current conditions for ecosystems in North Carolina.
+- **Represent current, desired, or future conditions.** [Costanza and others](https://www.aimspress.com/fileOther/PDF/environmental/20150205.pdf) (opens a pdf) modified 45 BpS models to represent current conditions for ecosystems in North Carolina.
 
-- **Evaluate management actions.** [Low and others](http://appliedconservation.com/wp-content/uploads/2013/07/JCP_v6_3_Low.pdf) modified BpS models to measure vegetation departure and evaluate the effects of various management actions.
+- **Evaluate management actions.** [Low and others](http://appliedconservation.com/wp-content/uploads/2013/07/JCP_v6_3_Low.pdf) (opens a pdf) modified BpS models to measure vegetation departure and evaluate the effects of various management actions.
 
-- **Support collaborative management efforts.** [Price and others](http://faculty.nelson.wisc.edu/silbernagel/docs/Price_etal_EcoMod2012.pdf) worked with experts to modify BpS models as the foundation of a collaborative process to support conservation planning.
+- **Support collaborative management efforts.** [Price and others](http://faculty.nelson.wisc.edu/silbernagel/docs/Price_etal_EcoMod2012.pdf) (opens a pdf) worked with experts to modify BpS models as the foundation of a collaborative process to support conservation planning.
 
 # Other things you might want to do with Biophysical Settings models
 

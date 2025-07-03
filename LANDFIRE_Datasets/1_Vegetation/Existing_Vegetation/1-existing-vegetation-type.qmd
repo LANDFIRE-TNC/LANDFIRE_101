@@ -26,7 +26,7 @@ For the most up-to-date information on each LANDFIRE data product, please view t
 
 LANDFIRE's Existing Vegetation Type (EVT-ES) represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016. A terrestrial ecological system is defined as a group of plant community types (associations) that tend to co-occur within landscapes with similar ecological processes, substrates, and/or environmental gradients. EVT is mapped using a combination of satellite imagery, biophysical gradient layers, and field plots. For more on this, see the [LANDFIRE technical documentation](https://www.usgs.gov/publications/landfire-technical-documentation).
 
-EVT also includes ruderal or semi-natural vegetation types within the [U.S. National Vegetation Classification](https://usnvc.org/) (NVC). The [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf) provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada.
+EVT also includes ruderal or semi-natural vegetation types within the [U.S. National Vegetation Classification](https://usnvc.org/) (NVC). The [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf) (opens a pdf) provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada.
 
 ::: callout-important
 EVT's were created based on the NatureServe terrestrial ecosystems classification. You can still find information on these data under [Existing Vegetation Type - Ecological Systems](https://landfire.gov/vegetation/evt). Additional information about each of these ecological systems classifications can be found on the separate product pages on the [LANDFIRE Program Website](https://landfire.gov/vegetation). Due to the differences in the classification, over time, users should be careful when comparing different EVT versions.
@@ -103,7 +103,7 @@ Beyond simple viewing, mapping and quantifying of ecosystems with the EVT datase
 
 - [U.S. National Vegetation Classification](https://usnvc.org/)
 
-- [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://www.landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf)
+- [LANDFIRE Ruderal NVC Groups Descriptions for CONUS](https://www.landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf) (opens a pdf)
 
 - Wildfire Exposure Risk mapping - [Beverly et al., 2021](https://link.springer.com/article/10.1007/s10980-020-01173-8)
 

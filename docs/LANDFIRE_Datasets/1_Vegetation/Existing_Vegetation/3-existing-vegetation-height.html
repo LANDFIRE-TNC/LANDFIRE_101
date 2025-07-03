@@ -435,7 +435,7 @@ Note
 <p>In addition to basic viewing, mapping, and quantifying of ecosystems using the EVH dataset, this data also supports various analyses and operations, such as:</p>
 <ul>
 <li><p><a href="https://www.mdpi.com/2571-6255/6/12/474">Heeren et al., (2023)</a> developed a model to <strong>map wildfire structure defensibility</strong>, using LANDFIRE Existing Vegetation Height (and other LANDFIRE) datasets. As delivered, the dataset represents the average height of a lifeform. The authors did not need lifeform, so they modified the data to represent one continuous height dataset that did not have herbaceous, shrub or tree modifiers.</p></li>
-<li><p>In an exploration of <strong>how targeted cattle grazing might impact vegetation of a wetland habitat</strong> area, <a href="https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf">Balaji et al., (2023)</a> of a NASA Develop team used different versions of the EVH dataset. Coupled with other datasets they were able to detect changes in vegetation due to grazing, and to develop a workflow for future monitoring.</p></li>
+<li><p>In an exploration of <strong>how targeted cattle grazing might impact vegetation of a wetland habitat</strong> area, <a href="https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf">Balaji et al., (2023)</a> (opens a pdf) of a NASA Develop team used different versions of the EVH dataset. Coupled with other datasets they were able to detect changes in vegetation due to grazing, and to develop a workflow for future monitoring.</p></li>
 <li><p><strong>Landscape Assessments</strong>: LANDFIRE-TNC often uses LANDFIRE EVH in combination with EVT and EVC to better understand landscapes using something we call landscape assessments. We will have a later section of this website specifically dedicated to how we create landscape assessments using GIS and R.</p></li>
 <li><p><strong>Succession Class</strong>: EVH, once again in combination with EVT and EVC, is a key component in the way LANDFIRE creates and maps succession class. Through Succession Class, EVH contributes to the calculation of <a href="https://www.landfire.gov/vegetation/vdep">Vegetation Departure</a> and <a href="https://www.landfire.gov/vegetation/vcc">Vegetation Condition Class</a>.</p></li>
 </ul>
@@ -443,9 +443,9 @@ Note
 <section id="helpful-resources" class="level1">
 <h1>Helpful Resources</h1>
 <ul>
-<li><p><a href="https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVHADD_240.pdf">Existing Vegetation Height Attribute Data Dictionary</a></p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVHADD_240.pdf">Existing Vegetation Height Attribute Data Dictionary</a> (opens a pdf)</p></li>
 <li><p>Mapping wildfire structure defensibility with <a href="https://www.mdpi.com/2571-6255/6/12/474">LANDFIRE Existing Vegetation Height</a></p></li>
-<li><p>Detecting <a href="https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf">changes in vegetation height</a> due to grazing</p></li>
+<li><p>Detecting <a href="https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf">changes in vegetation height</a> (opens a pdf) due to grazing</p></li>
 </ul>
 
 
@@ -460,6 +460,29 @@ Note
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

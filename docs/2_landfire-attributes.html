@@ -399,7 +399,7 @@ Tip
 <li><p>Navigate to the <a href="https://www.landfire.gov/">LANDFIRE Program website</a>.</p></li>
 <li><p>You will find yourself on the main page, where you’ll see several icons across the top, as well as three images in the main body of the page and links to several key resources at the bottom.</p>
 <ul>
-<li><p>One useful link for exploring the attributes of each dataset is the <a href="https://landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a>, under the Data Details heading at the bottom of the page. The data dictionary provides a comprehensive look at LANDFIRE data and serves as a guide to direct users to information about products, attributes, and metadata.</p>
+<li><p>One useful link for exploring the attributes of each dataset is the <a href="https://landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> (opens a pdf), under the Data Details heading at the bottom of the page. The data dictionary provides a comprehensive look at LANDFIRE data and serves as a guide to direct users to information about products, attributes, and metadata.</p>
 <ul>
 <li>Within the data dictionary table of contents, click the layer you’re interested in and jump to the section of the document that shows the attributes and descriptions of that layer</li>
 </ul></li>
@@ -534,7 +534,7 @@ Warning
 <section id="helpful-resources" class="level1">
 <h1>Helpful Resources</h1>
 <ul>
-<li>Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> to help understand and locate LANDFIRE information.</li>
+<li>Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> (opens a pdf) to help understand and locate LANDFIRE information.</li>
 </ul>
 
 
@@ -549,6 +549,29 @@ Warning
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

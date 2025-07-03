@@ -382,7 +382,7 @@ Note
 <p>The LANDFIRE Succession Class (SClass) spatial product maps the current condition of vegetation in terms of species composition (leafform and lifeform), percent cover, and the range of heights of each successional state in a Biophysical Setting. Succession classes represent vegetative states with unique dynamics related to succession and disturbances, such as structural development or fire frequency. The succession classes don’t directly measure the fuel characteristics of the current vegetation, but they represent specific stages in plant development or how often fire and other disturbances occur and their likely impact. LANDFIRE uses these classes to describe the current landscape and compare it to historical conditions to calculate Vegetation Departure and Vegetation Condition Class. Classes are defined primarily by combinations of EVC and EVH.</p>
 <p>Reference states are identified by a letter (A-E) and represent different stages of vegetation development. Non-reference states are represented by the codes UE, uncharacteristic exotic, and UN, Uncharacteristic Native.</p>
 <p>Non-native plants and tree plantations are considered uncharacteristic exotic. Uncharacteristic native vegetation can include conditions such as too much or too little canopy cover relative to the natural range of variability or native species that have migrated out of their normal range. These additional components are not part of the usual variation in the types and structures of plants in a BpS, but they may be present on the current landscape. The BpS description document describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.</p>
-<p>To produce SClass, <a href="https://landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf">mapping rules</a> defined by local and regional experts during the original development and subsequent review of each BpS are applied to the relevant current vegetation layers including the Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH). SClass mapping rules for all BpS are available for <a href="https://landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">download in spreadsheet format</a>.</p>
+<p>To produce SClass, <a href="https://landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf">mapping rules</a> (opens a pdf) defined by local and regional experts during the original development and subsequent review of each BpS are applied to the relevant current vegetation layers including the Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH). SClass mapping rules for all BpS are available for <a href="https://landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">download in spreadsheet format</a>.</p>
 <p>It is important to understand that the Succession Class dataset alone isn’t incredibly useful. It needs to be combined with the Biophysical Settings Models and Descriptions and the Biophysical Settings spatial data and/or Existing Vegetation data in order to be meaningful. Without a deeper understanding of the underlying Biophysical Setting and its related successional states and a better picture of the current vegetation type, cover, and height, all succession class gives us is a letter without a lot of meaning. Succession Class B for one BpS may be totally different than Succession Class B for another. There are some exceptions where the label may be useful, such as Class A, which is typically the first class in the successional pathway (i.e., result of a replacement disturbance) and classes UN and UE described above. LANDFIRE datasets are designed to be used together to generate the best picture of your landscape condition in the past and present, helping you make a plan for where you want to go in the future.</p>
 <section id="key-succession-class-attributes-include" class="level2">
 <h2 class="anchored" data-anchor-id="key-succession-class-attributes-include">Key Succession Class attributes include:</h2>
@@ -459,7 +459,7 @@ Note
 <li><p><a href="https://landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf">Succession Class mapping rules documentation</a> (opens a pdf)</p></li>
 <li><p><a href="https://landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">Succession Class mapping rules for all natural BpS</a> (opens a zip file)</p></li>
 <li><p><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">Reference Conditions Table</a> (downloads a zip file)</p></li>
-<li><p>The <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/How2Sclass_March19%20FINAL.pdf">How to Map Successional Stages</a> guide</p></li>
+<li><p>The <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/How2Sclass_March19%20FINAL.pdf">How to Map Successional Stages guide</a> (opens a pdf)</p></li>
 <li><p>Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric paper from <a href="https://www.mdpi.com/1421304">Swaty <em>et al.</em>, 2022</a></p></li>
 <li><p>The <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf">Modifying LANDFIRE Geospatial Data for Local Applications</a> guide</p></li>
 </ul>
@@ -476,6 +476,29 @@ Note
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

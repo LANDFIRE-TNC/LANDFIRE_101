@@ -378,7 +378,7 @@ Note
 </figure>
 </div>
 <p>LANDFIRE’s Existing Vegetation Type (EVT-ES) represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016. A terrestrial ecological system is defined as a group of plant community types (associations) that tend to co-occur within landscapes with similar ecological processes, substrates, and/or environmental gradients. EVT is mapped using a combination of satellite imagery, biophysical gradient layers, and field plots. For more on this, see the <a href="https://www.usgs.gov/publications/landfire-technical-documentation">LANDFIRE technical documentation</a>.</p>
-<p>EVT also includes ruderal or semi-natural vegetation types within the <a href="https://usnvc.org/">U.S. National Vegetation Classification</a> (NVC). The <a href="https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf">LANDFIRE Ruderal NVC Groups Descriptions for CONUS</a> provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada.</p>
+<p>EVT also includes ruderal or semi-natural vegetation types within the <a href="https://usnvc.org/">U.S. National Vegetation Classification</a> (NVC). The <a href="https://landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf">LANDFIRE Ruderal NVC Groups Descriptions for CONUS</a> (opens a pdf) provides info for each ruderal NVC Group, including species, distribution, and classification details. At this time, EVT (and other LANDFIRE vegetation layers) extend 90km past the United States border into Mexico and Canada.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -483,7 +483,7 @@ Note
 <ul>
 <li><p><a href="https://www.usgs.gov/publications/landfire-technical-documentation">LANDFIRE Technical Documentation</a></p></li>
 <li><p><a href="https://usnvc.org/">U.S. National Vegetation Classification</a></p></li>
-<li><p><a href="https://www.landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf">LANDFIRE Ruderal NVC Groups Descriptions for CONUS</a></p></li>
+<li><p><a href="https://www.landfire.gov/sites/default/files/documents/LANDFIRE_Ruderal_NVC_Groups_Descriptions_CONUS.pdf">LANDFIRE Ruderal NVC Groups Descriptions for CONUS</a> (opens a pdf)</p></li>
 <li><p>Wildfire Exposure Risk mapping - <a href="https://link.springer.com/article/10.1007/s10980-020-01173-8">Beverly et al., 2021</a></p></li>
 <li><p><a href="https://conservation-data-lab.github.io/cup_assessment/fire.html">Central Upper Peninsula Vegetation Assessment</a></p></li>
 <li><p>Changes in ecosystems over time - <a href="https://link.springer.com/article/10.1186/s42408-019-0061-9#Abs1">Morgan et al., 2020</a></p></li>
@@ -503,6 +503,29 @@ Note
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

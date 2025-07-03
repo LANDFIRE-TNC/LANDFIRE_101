@@ -447,7 +447,7 @@ Note
 <section id="helpful-resources" class="level1">
 <h1>Helpful Resources</h1>
 <ul>
-<li><p><a href="https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVCADD_240.pdf">Existing Vegetation Cover Attribute Data Dictionary</a></p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVCADD_240.pdf">Existing Vegetation Cover Attribute Data Dictionary</a> (opens a pdf)</p></li>
 <li><p>An overview of <a href="https://storymaps.arcgis.com/collections/21a22e163439413c9ce1d8e2ef0b1311?item=3">LANDFIRE in Landscape Assessments</a> on the LANDFIRE Portfolio</p></li>
 </ul>
 
@@ -463,6 +463,29 @@ Note
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

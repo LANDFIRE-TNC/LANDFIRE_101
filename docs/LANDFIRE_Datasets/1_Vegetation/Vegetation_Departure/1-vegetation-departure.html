@@ -386,7 +386,7 @@ Note
 </div>
 <p>The Vegetation Departure (VDep) metric from LANDFIRE measures how current vegetation on a landscape differs from expected historical conditions. This difference is assessed based on changes in vegetation composition, structural stage, and canopy closure. VDep values range from 0 to 100, with higher values indicating greater departure from historical conditions. It’s important to note that VDep is scale-dependent, meaning it can vary across different landscape units.</p>
 <p>VDep is calculated using current vegetation data and reference conditions that are based on the BpS models. These models represent a pre-European colonization time period and are updated periodically. As a result of these periodic updates to BpS models and changes in existing vegetation, VDep values can change with each new version of LANDFIRE data. However, caution is advised when comparing VDep values across different versions due to potential differences in the underlying data and methods used.</p>
-<p>LANDFIRE uses several datasets to calculate and map vegetation departure. First, the Biophysical Settings map is combined with the Succession Class map to calculate the current amount of each succession class within a BpS. Next, the current amount is compared to the reference amount provided in the reference conditions table. Finally, the value of VDep is calculated following methods in the <a href="https://www.frames.gov/documents/frcc/frcc-guidebook_200505_v1-2.pdf">Fire Regime Condition Class Guidebook</a>.</p>
+<p>LANDFIRE uses several datasets to calculate and map vegetation departure. First, the Biophysical Settings map is combined with the Succession Class map to calculate the current amount of each succession class within a BpS. Next, the current amount is compared to the reference amount provided in the reference conditions table. Finally, the value of VDep is calculated following methods in the <a href="https://www.frames.gov/documents/frcc/frcc-guidebook_200505_v1-2.pdf">Fire Regime Condition Class Guidebook</a> (opens a pdf).</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -436,7 +436,7 @@ Note
 </section>
 <section id="how-does-the-vegetation-departure-metric-help" class="level1">
 <h1>How does the Vegetation Departure metric help?</h1>
-<p>The most common application of the Vegetation Departure metric is evaluating overall vegetation condition using a numerical score between 1 and 100. The score is useful for comparing conditions on different landscapes. VDep can also provide insight into management needs for a specific BpS. By using the appropriate reference conditions, a user can determine which seral states are overrepresented, underrepresented, or well represented on the landscape. This provides useful information on where/how to focus management activities to achieve the desired result. Examples include the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3151280/">Ecological Conservation Risk Index</a>, <a href="https://www.mdpi.com/2225-1154/9/5/79">Landscape Conservation Forecasting</a>, the USFS <a href="https://www.fs.usda.gov/sites/default/files/Watershed_Condition_Framework.pdf">Watershed Condition Class</a> metric, and the USFS <a href="https://terrestrial-condition-assessment-usfs.hub.arcgis.com/">Terrestrial Condition Assessment</a>.</p>
+<p>The most common application of the Vegetation Departure metric is evaluating overall vegetation condition using a numerical score between 1 and 100. The score is useful for comparing conditions on different landscapes. VDep can also provide insight into management needs for a specific BpS. By using the appropriate reference conditions, a user can determine which seral states are overrepresented, underrepresented, or well represented on the landscape. This provides useful information on where/how to focus management activities to achieve the desired result. Examples include the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3151280/">Ecological Conservation Risk Index</a>, <a href="https://www.mdpi.com/2225-1154/9/5/79">Landscape Conservation Forecasting</a>, the USFS <a href="https://www.fs.usda.gov/sites/default/files/Watershed_Condition_Framework.pdf">Watershed Condition Class metric</a> (opens a pdf), and the USFS <a href="https://terrestrial-condition-assessment-usfs.hub.arcgis.com/">Terrestrial Condition Assessment</a>.</p>
 </section>
 <section id="customizing-the-vegetation-departure-metric" class="level1">
 <h1>Customizing the Vegetation Departure metric</h1>
@@ -484,11 +484,11 @@ Note
 <h1>Helpful Resources</h1>
 <ul>
 <li><p><a href="https://www.youtube.com/watch?v=NToZt9CV8ZM&amp;list=PLwRbAc4x5n96qaq-Skeg4iYhw1FFz08AR">Vegetation Departure Workshop video series</a> on the LANDFIRE YouTube channel (opens a 13 video YouTube playlist)</p></li>
-<li><p><a href="https://www.fs.usda.gov/rm/pubs/rmrs_gtr292/2010_barrett.pdf">The Fire Regime Condition Class Guidebook</a></p></li>
+<li><p><a href="https://www.fs.usda.gov/rm/pubs/rmrs_gtr292/2010_barrett.pdf">The Fire Regime Condition Class Guidebook</a> (opens a pdf)</p></li>
 <li><p><a href="https://www.mdpi.com/2073-445X/11/1/28">Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric</a> by Swaty, <em>et.al</em> (2022)</p></li>
 <li><p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3151280/">Ecological Conservation Risk Index</a></p></li>
 <li><p><a href="https://www.mdpi.com/2225-1154/9/5/79">Landscape Conservation Forecasting</a></p></li>
-<li><p>The USFS <a href="https://www.fs.usda.gov/sites/default/files/Watershed_Condition_Framework.pdf">Watershed Condition Class</a> metric</p></li>
+<li><p>The USFS <a href="https://www.fs.usda.gov/sites/default/files/Watershed_Condition_Framework.pdf">Watershed Condition Class metric</a> (opens a pdf)</p></li>
 <li><p>The USFS <a href="https://terrestrial-condition-assessment-usfs.hub.arcgis.com/">Terrestrial Condition Assessment</a></p></li>
 </ul>
 
@@ -504,6 +504,29 @@ Note
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

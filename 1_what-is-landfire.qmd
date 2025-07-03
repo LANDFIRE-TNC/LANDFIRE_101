@@ -8,7 +8,7 @@ css: styles.css
 
 # What does LANDFIRE provide?
 
-The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai'i, and insular areas (Puerto Rico, US Virgin Islands, American Samoa, Guam, Commonwealth of the Northern Mariana Islands (CNMI), Federated States of Micoronesia, Republic of Palau, Republic of Marshall Islands). Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the [LANDFIRE Technical Documentation](https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates these products. Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE product information.
+The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai'i, and insular areas (Puerto Rico, US Virgin Islands, American Samoa, Guam, Commonwealth of the Northern Mariana Islands (CNMI), Federated States of Micoronesia, Republic of Palau, Republic of Marshall Islands). Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the [LANDFIRE Technical Documentation](https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates these products. Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) (opens a pdf) to help understand and locate LANDFIRE product information.
 
 ## LANDFIRE data products by category
 
@@ -186,10 +186,10 @@ For more on application scale, you can read Jim Smith’s [blog post](https://ww
 
 -   Use the [LANDFIRE Technical Documentation](https://pubs.usgs.gov/publication/ofr20231045) to learn how LANDFIRE creates the data.
 
--   Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE information.
+-   Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf)  (opens a pdf) to help understand and locate LANDFIRE information.
 
 -   Visit the [data page of the LANDFIRE Program website](https://landfire.gov/data#schedule) to find the data delivery schedule.
 
 -   Use the [Version Description table](https://landfire.gov/data/comparison-table) to see LANDFIRE’s version history.
 
--   See the [Modifying LANDFIRE Geospatial Data for Local Applications](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf) guide by Don Helmbrecht and Kori Blankenship for help adapting LANDFIRE datasets to your landscape.
+-   See the [Modifying LANDFIRE Geospatial Data for Local Applications guide](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf) (opens a pdf) by Don Helmbrecht and Kori Blankenship for help adapting LANDFIRE datasets to your landscape.

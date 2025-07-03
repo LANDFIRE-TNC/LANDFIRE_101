@@ -383,7 +383,7 @@ Note
 </section>
 <section id="what-are-biophysical-settings-models-and-how-were-they-created" class="level1">
 <h1>What are Biophysical Settings models, and how were they created?</h1>
-<p>LANDFIRE, in collaboration with hundreds of experts around the country, created a set of over 900 state-and-transition simulation models (STSMs, hereafter referred to as BpS Models) for ecosystems in the United States. Each LANDFIRE BpS model represents a Biophysical Setting (BpS). The BpS models, originally created in the Vegetation Dynamics Development Tool (VDDT), now updated and manipulated in the <a href="http://syncrosim/">SyncroSim</a> ST-Sim package, essentially capture historical disturbance regimes and succession of each BpS. BpS model results include an estimate of the frequency and severity of fire and other disturbances, as well as how much of each succession class would have been on the landscape historically. Further, they are now a platform for:</p>
+<p>LANDFIRE, in collaboration with hundreds of experts around the country, created a set of over 900 state-and-transition simulation models (STSMs, hereafter referred to as BpS Models) for ecosystems in the United States. Each LANDFIRE BpS model represents a Biophysical Setting (BpS). The BpS models, originally created in the Vegetation Dynamics Development Tool (VDDT), now updated and manipulated in the <a href="https://syncrosim.com/">SyncroSim</a> ST-Sim package, essentially capture historical disturbance regimes and succession of each BpS. BpS model results include an estimate of the frequency and severity of fire and other disturbances, as well as how much of each succession class would have been on the landscape historically. Further, they are now a platform for:</p>
 <ul>
 <li><p>Understanding historical dynamics</p></li>
 <li><p>Exploring how LANDFIRE got to ‘reference conditions’</p></li>
@@ -541,7 +541,10 @@ Note
 <li><p>Click on any box to see the pathways associated with that state (i.e., succession class).</p></li>
 <li><p>If you want to run the scenario:</p>
 <ul>
-<li>Go to the Output Options tab within the scenario, make sure that the ‘State classes every’ box is set to 100 (i.e., not 1).</li>
+<li><p>Go to the Output Options tab within the scenario, make sure that the ‘State classes every’ box is set to 100 (i.e., not 1).</p></li>
+<li><p>Go to the Run Control tab and set the Total iterations to 2.</p></li>
+<li><p>In the Initial Conditions tab, ensure that the Total Acres and Number of Simulation Cells boxes both have 1,000. For exploring, we recommend these three steps as it will speed up your runs.</p></li>
+<li><p>In the Library Explorer, highlight the scenario, then click the small green triangle at the top of the screen.</p></li>
 </ul></li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -557,11 +560,6 @@ Note
 <p>The model results will not change significantly unless you change the model parameters.</p>
 </div>
 </div>
-<pre><code>-   Go to the Run Control tab and set the Total iterations to 2.
-
--   In the Initial Conditions tab, ensure that the Total Acres and Number of Simulation Cells boxes both have 1,000. For exploring, we recommend these three steps as it will speed up your runs.
-
--   In the Library Explorer, highlight the scenario, then click the small green triangle at the top of the screen.</code></pre>
 <ol start="6" type="1">
 <li><p>Make a chart by clicking the New icon in the Charts pane, then name it appropriately. You will change some settings to get your first chart:</p>
 <ul>
@@ -626,9 +624,9 @@ Tip
 <p>The BpS models were developed by LANDFIRE to support objectives related to mapping historical vegetation patterns and fire regimes, and for evaluating landscape conditions with the Vegetation Departure metric. Beyond LANDFIRE, the BpS models and descriptions have been used to:</p>
 <ul>
 <li><p><strong>Evaluate changes in disturbance regimes.</strong> <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.2702">Haugo and others</a> used BpS models to compare current area burned to a reference condition in the northwestern U.S.</p></li>
-<li><p><strong>Represent current, desired, or future conditions.</strong> <a href="https://www.aimspress.com/fileOther/PDF/environmental/20150205.pdf">Costanza and others</a> modified 45 BpS models to represent current conditions for ecosystems in North Carolina.</p></li>
-<li><p><strong>Evaluate management actions.</strong> <a href="http://appliedconservation.com/wp-content/uploads/2013/07/JCP_v6_3_Low.pdf">Low and others</a> modified BpS models to measure vegetation departure and evaluate the effects of various management actions.</p></li>
-<li><p><strong>Support collaborative management efforts.</strong> <a href="http://faculty.nelson.wisc.edu/silbernagel/docs/Price_etal_EcoMod2012.pdf">Price and others</a> worked with experts to modify BpS models as the foundation of a collaborative process to support conservation planning.</p></li>
+<li><p><strong>Represent current, desired, or future conditions.</strong> <a href="https://www.aimspress.com/fileOther/PDF/environmental/20150205.pdf">Costanza and others</a> (opens a pdf) modified 45 BpS models to represent current conditions for ecosystems in North Carolina.</p></li>
+<li><p><strong>Evaluate management actions.</strong> <a href="http://appliedconservation.com/wp-content/uploads/2013/07/JCP_v6_3_Low.pdf">Low and others</a> (opens a pdf) modified BpS models to measure vegetation departure and evaluate the effects of various management actions.</p></li>
+<li><p><strong>Support collaborative management efforts.</strong> <a href="http://faculty.nelson.wisc.edu/silbernagel/docs/Price_etal_EcoMod2012.pdf">Price and others</a> (opens a pdf) worked with experts to modify BpS models as the foundation of a collaborative process to support conservation planning.</p></li>
 </ul>
 </section>
 <section id="other-things-you-might-want-to-do-with-biophysical-settings-models" class="level1">
@@ -667,6 +665,29 @@ Tip
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

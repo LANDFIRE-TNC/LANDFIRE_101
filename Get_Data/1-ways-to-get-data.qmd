@@ -30,9 +30,9 @@ You can also access a [User Instructions page](https://landfire.gov/data/LFViewe
 
 ### Helpful Resources for using the LANDFIRE Map Viewer
 
--   [Video tutorial about using the LANDFIRE Map Viewer, Part 1](https://youtu.be/-VbmEdRwihU)
+-   [Video tutorial about using the LANDFIRE Map Viewer, Part 1](https://youtu.be/-VbmEdRwihU) (opens a YouTube video)
 
--   [Video tutorial about using the LANDFIRE Map Viewer, Part 2](https://youtu.be/wN2x1LOKrgI?si=SNkxVqls3dF3QV9Z)
+-   [Video tutorial about using the LANDFIRE Map Viewer, Part 2](https://youtu.be/wN2x1LOKrgI?si=SNkxVqls3dF3QV9Z) (opens a YouTube video)
 
 -   [LANDFIRE Map Viewer user instructions page on the LANDFIRE Program Website](https://landfire.gov/data/LFViewerUserInstructions)
 
@@ -62,22 +62,20 @@ LANDFIRE data can be streamed directly into GIS software using the [LANDFIRE Pro
 
 ### Helpful resources for using LANDFIRE data streaming services
 
-- [Video tutorial about using LANDFIRE Streaming Services](https://www.youtube.com/watch?v=SkZi5KW7Weg&t=2s)
+- [Video tutorial about using LANDFIRE Streaming Services](https://www.youtube.com/watch?v=SkZi5KW7Weg&t=2s) (opens a YouTube video)
 
-- [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf)
+- [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf) (opens a pdf)
 
-- [How to use Image Service URLs in ArcPro document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf)
+- [How to use Image Service URLs in ArcPro document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf) (opens a pdf)
 
-- [How to Use Image Services in ArcGIS Online document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_AGOL.pdf)
+- [How to Use Image Services in ArcGIS Online document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_AGOL.pdf) (opens a pdf)
 
-- [Instructions on how to use WCS or WMS Calls](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf)
+- [Instructions on how to use WCS or WMS Calls](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf) (opens a pdf)
 
-- [Instructions on how to use WCS or WMS Calls in ArcGis Pro](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf)
+- [Instructions on how to use WCS or WMS Calls in ArcGis Pro](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf) (opens a pdf)
 
-- [Instructions on how to use ArcGIS Online](https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf)
+- [Instructions on how to use ArcGIS Online](https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf) (opens a pdf)
 
 - [USGS Organizational ArcGIS Online platform](https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&sortOrder=desc&focus=layers-weblayers-imagery)
 
-4. The [rlandfire](https://github.com/bcknr/rlandfire) package, developed by Dr. Mark Buckner, provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr. Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire. To learn more about using the rlandfire package, check out the Office Hour [LANDFIRE & Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!](https://youtu.be/Go5foMcOG-c)
-
-We will walk you through how to use each of these options in the following sections of this website.
+4. The [rlandfire](https://github.com/bcknr/rlandfire) package, developed by Dr. Mark Buckner, provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr. Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire. To learn more about using the rlandfire package, check out the Office Hour [LANDFIRE & Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!](https://youtu.be/Go5foMcOG-c) (opens a YouTube video)

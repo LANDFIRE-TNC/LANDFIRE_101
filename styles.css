@@ -11,6 +11,37 @@ body {
   font-size: 1rem;
 }
 
+/* accessibility overrides */
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+  a {
+    color: #004085;
+  }
+
+  a:hover,
+  a:focus {
+    color: #002752;
+  }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #66b2ff; /* Light blue for dark backgrounds */
+  }
+
+  a:hover,
+  a:focus {
+    color: #99ccff;
+  }
+  
+  a .pagination-link {
+    color: white;
+  }
+}
+
+
 /*FLEXBOX*/
 /* Base styles for the container and items */
 .container, .row {
@@ -115,13 +146,13 @@ body {
 /* .xl6499: "Height (m)" header "Canopy Cover (%)" header Styles for Canopy Cover range headers (0-10, 11-20, etc.)*/
 .xl6499 {
   /* Overrides base styles */
-  font-weight: 700;
+  font-weight: bold;
 }
 
 /* .xl6999: Styles for a specific cell (e.g., top-left) */
 .xl6999 {
   /* Overrides base styles (font size, borders) */
-  font-size: 14.0pt;/
+  font-size: 14.0pt;
   border-top: 1.5pt solid black; /* Replace 'windowtext' with black */
   border-right: 0.5pt solid black;
   border-bottom: 0.5pt solid black;
@@ -152,7 +183,7 @@ body {
 /* .xl7299: Similar to xl6499/xl6599/xl6699 with different border */
 .xl7299 {
   /* Overrides base styles (font size, weight, borders) */
-  font-weight: 700;
+  font-weight: bold;
   border-top: 0.5pt solid black; /* Replace 'windowtext' with black */
   border-right: 0.5pt solid black;
   border-bottom: 0.5pt solid black;
@@ -164,7 +195,7 @@ body {
 /* .xl7499: Adds specific borders */
 .xl7399 {
   /* Overrides base styles (weight, borders) */
-  font-weight: 700;
+  font-weight: bold;
   border-top: 0.5pt solid black; /* Replace 'windowtext' with black */
   border-right: 1.5pt solid black;
   border-bottom: 0.5pt solid black;

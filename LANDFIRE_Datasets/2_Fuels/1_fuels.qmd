@@ -84,6 +84,6 @@ A frequent misconception is that FVH and FVC represent current fuel conditions. 
 
 - [Updating LANDFIRE fuels data for recent wildfires](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/Updating%20LF%20fuels%20data_Mar%2021_Blankenship.pdf) pdf guide
 
-- The [Modifying LANDFIRE Geospatial Data for Local Applications](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf) guide
+- The [Modifying LANDFIRE Geospatial Data for Local Applications](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf) pdf guide
 
 - [LANDFIRE Office Hour: Acquiring and using LANDFIRE fuels data in geospatial modeling applications](https://youtu.be/FNtey0ALZK4) (opens a YouTube video)

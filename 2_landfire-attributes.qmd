@@ -47,7 +47,7 @@ The [LANDFIRE Program website](https://www.landfire.gov/) is the most comprehens
 
 2.  You will find yourself on the main page, where you’ll see several icons across the top, as well as three images in the main body of the page and links to several key resources at the bottom.
 
-    -   One useful link for exploring the attributes of each dataset is the [LANDFIRE Data Dictionary](https://landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf), under the Data Details heading at the bottom of the page. The data dictionary provides a comprehensive look at LANDFIRE data and serves as a guide to direct users to information about products, attributes, and metadata.
+    -   One useful link for exploring the attributes of each dataset is the [LANDFIRE Data Dictionary](https://landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) (opens a pdf), under the Data Details heading at the bottom of the page. The data dictionary provides a comprehensive look at LANDFIRE data and serves as a guide to direct users to information about products, attributes, and metadata.
 
         -   Within the data dictionary table of contents, click the layer you’re interested in and jump to the section of the document that shows the attributes and descriptions of that layer
 
@@ -123,4 +123,4 @@ Be sure to use the selection tools in the Map section at the top of the ribbon b
 
 # Helpful Resources
 
--   Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) to help understand and locate LANDFIRE information.
+-   Use the [LANDFIRE Data Dictionary](https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf) (opens a pdf) to help understand and locate LANDFIRE information.

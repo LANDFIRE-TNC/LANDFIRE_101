@@ -70,6 +70,6 @@ EVC, once again in combination with EVT and EVH, is a key component in the way L
 
 # Helpful Resources
 
-- [Existing Vegetation Cover Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVCADD_240.pdf)
+- [Existing Vegetation Cover Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVCADD_240.pdf) (opens a pdf)
 
 - An overview of [LANDFIRE in Landscape Assessments](https://storymaps.arcgis.com/collections/21a22e163439413c9ce1d8e2ef0b1311?item=3) on the LANDFIRE Portfolio

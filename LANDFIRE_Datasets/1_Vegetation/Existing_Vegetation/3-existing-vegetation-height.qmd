@@ -66,7 +66,7 @@ In addition to basic viewing, mapping, and quantifying of ecosystems using the E
 
 - [Heeren et al., (2023)](https://www.mdpi.com/2571-6255/6/12/474) developed a model to **map wildfire structure defensibility**, using LANDFIRE Existing Vegetation Height (and other LANDFIRE) datasets. As delivered, the dataset represents the average height of a lifeform. The authors did not need lifeform, so they modified the data to represent one continuous height dataset that did not have herbaceous, shrub or tree modifiers.
 
-- In an exploration of **how targeted cattle grazing might impact vegetation of a wetland habitat** area, [Balaji et al., (2023)](https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf) of a NASA Develop team used different versions of the EVH dataset. Coupled with other datasets they were able to detect changes in vegetation due to grazing, and to develop a workflow for future monitoring.
+- In an exploration of **how targeted cattle grazing might impact vegetation of a wetland habitat** area, [Balaji et al., (2023)](https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf) (opens a pdf) of a NASA Develop team used different versions of the EVH dataset. Coupled with other datasets they were able to detect changes in vegetation due to grazing, and to develop a workflow for future monitoring.
 
 - **Landscape Assessments**: LANDFIRE-TNC often uses LANDFIRE EVH in combination with EVT and EVC to better understand landscapes using something we call landscape assessments. We will have a later section of this website specifically dedicated to how we create landscape assessments using GIS and R.
 
@@ -74,8 +74,8 @@ In addition to basic viewing, mapping, and quantifying of ecosystems using the E
 
 # Helpful Resources
 
-- [Existing Vegetation Height Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVHADD_240.pdf)
+- [Existing Vegetation Height Attribute Data Dictionary](https://landfire.gov/sites/default/files/DataDictionary/LF2023/LF23_EVHADD_240.pdf) (opens a pdf)
 
 - Mapping wildfire structure defensibility with [LANDFIRE Existing Vegetation Height](https://www.mdpi.com/2571-6255/6/12/474)
 
-- Detecting [changes in vegetation height](https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf) due to grazing
+- Detecting [changes in vegetation height](https://ntrs.nasa.gov/api/citations/20230006331/downloads/2023Spring_ID_SouthernIdahoEco_TechPaper_FD_v2.pdf) (opens a pdf) due to grazing

@@ -345,7 +345,7 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
 
 <section id="what-does-landfire-provide" class="level1">
 <h1>What does LANDFIRE provide?</h1>
-<p>The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai’i, and insular areas (Puerto Rico, US Virgin Islands, American Samoa, Guam, Commonwealth of the Northern Mariana Islands (CNMI), Federated States of Micoronesia, Republic of Palau, Republic of Marshall Islands). Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the <a href="https://pubs.usgs.gov/publication/ofr20231045">LANDFIRE Technical Documentation</a> to learn how LANDFIRE creates these products. Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> to help understand and locate LANDFIRE product information.</p>
+<p>The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai’i, and insular areas (Puerto Rico, US Virgin Islands, American Samoa, Guam, Commonwealth of the Northern Mariana Islands (CNMI), Federated States of Micoronesia, Republic of Palau, Republic of Marshall Islands). Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the <a href="https://pubs.usgs.gov/publication/ofr20231045">LANDFIRE Technical Documentation</a> to learn how LANDFIRE creates these products. Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> (opens a pdf) to help understand and locate LANDFIRE product information.</p>
 <section id="landfire-data-products-by-category" class="level2">
 <h2 class="anchored" data-anchor-id="landfire-data-products-by-category">LANDFIRE data products by category</h2>
 <p>The following is a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.</p>
@@ -560,10 +560,10 @@ Note
 <h1>Helpful Resources</h1>
 <ul>
 <li><p>Use the <a href="https://pubs.usgs.gov/publication/ofr20231045">LANDFIRE Technical Documentation</a> to learn how LANDFIRE creates the data.</p></li>
-<li><p>Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> to help understand and locate LANDFIRE information.</p></li>
+<li><p>Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> (opens a pdf) to help understand and locate LANDFIRE information.</p></li>
 <li><p>Visit the <a href="https://landfire.gov/data#schedule">data page of the LANDFIRE Program website</a> to find the data delivery schedule.</p></li>
 <li><p>Use the <a href="https://landfire.gov/data/comparison-table">Version Description table</a> to see LANDFIRE’s version history.</p></li>
-<li><p>See the <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf">Modifying LANDFIRE Geospatial Data for Local Applications</a> guide by Don Helmbrecht and Kori Blankenship for help adapting LANDFIRE datasets to your landscape.</p></li>
+<li><p>See the <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf">Modifying LANDFIRE Geospatial Data for Local Applications guide</a> (opens a pdf) by Don Helmbrecht and Kori Blankenship for help adapting LANDFIRE datasets to your landscape.</p></li>
 </ul>
 
 
@@ -578,6 +578,29 @@ Note
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -386,8 +386,8 @@ Tip
 <section id="helpful-resources-for-using-the-landfire-map-viewer" class="level3">
 <h3 class="anchored" data-anchor-id="helpful-resources-for-using-the-landfire-map-viewer">Helpful Resources for using the LANDFIRE Map Viewer</h3>
 <ul>
-<li><p><a href="https://youtu.be/-VbmEdRwihU">Video tutorial about using the LANDFIRE Map Viewer, Part 1</a></p></li>
-<li><p><a href="https://youtu.be/wN2x1LOKrgI?si=SNkxVqls3dF3QV9Z">Video tutorial about using the LANDFIRE Map Viewer, Part 2</a></p></li>
+<li><p><a href="https://youtu.be/-VbmEdRwihU">Video tutorial about using the LANDFIRE Map Viewer, Part 1</a> (opens a YouTube video)</p></li>
+<li><p><a href="https://youtu.be/wN2x1LOKrgI?si=SNkxVqls3dF3QV9Z">Video tutorial about using the LANDFIRE Map Viewer, Part 2</a> (opens a YouTube video)</p></li>
 <li><p><a href="https://landfire.gov/data/LFViewerUserInstructions">LANDFIRE Map Viewer user instructions page on the LANDFIRE Program Website</a></p></li>
 </ul>
 </section>
@@ -437,19 +437,18 @@ Important
 <section id="helpful-resources-for-using-landfire-data-streaming-services" class="level3">
 <h3 class="anchored" data-anchor-id="helpful-resources-for-using-landfire-data-streaming-services">Helpful resources for using LANDFIRE data streaming services</h3>
 <ul>
-<li><p><a href="https://www.youtube.com/watch?v=SkZi5KW7Weg&amp;t=2s">Video tutorial about using LANDFIRE Streaming Services</a></p></li>
-<li><p><a href="https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf">LANDFIRE Products Service User Guide</a></p></li>
-<li><p><a href="https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf">How to use Image Service URLs in ArcPro document</a></p></li>
-<li><p><a href="https://landfire.gov/sites/default/files/documents/Instructions_ImageService_AGOL.pdf">How to Use Image Services in ArcGIS Online document</a></p></li>
-<li><p><a href="https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf">Instructions on how to use WCS or WMS Calls</a></p></li>
-<li><p><a href="https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf">Instructions on how to use WCS or WMS Calls in ArcGis Pro</a></p></li>
-<li><p><a href="https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf">Instructions on how to use ArcGIS Online</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=SkZi5KW7Weg&amp;t=2s">Video tutorial about using LANDFIRE Streaming Services</a> (opens a YouTube video)</p></li>
+<li><p><a href="https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf">LANDFIRE Products Service User Guide</a> (opens a pdf)</p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf">How to use Image Service URLs in ArcPro document</a> (opens a pdf)</p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/Instructions_ImageService_AGOL.pdf">How to Use Image Services in ArcGIS Online document</a> (opens a pdf)</p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf">Instructions on how to use WCS or WMS Calls</a> (opens a pdf)</p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf">Instructions on how to use WCS or WMS Calls in ArcGis Pro</a> (opens a pdf)</p></li>
+<li><p><a href="https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf">Instructions on how to use ArcGIS Online</a> (opens a pdf)</p></li>
 <li><p><a href="https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&amp;sortOrder=desc&amp;focus=layers-weblayers-imagery">USGS Organizational ArcGIS Online platform</a></p></li>
 </ul>
 <ol start="4" type="1">
-<li>The <a href="https://github.com/bcknr/rlandfire">rlandfire</a> package, developed by Dr.&nbsp;Mark Buckner, provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr.&nbsp;Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire. To learn more about using the rlandfire package, check out the Office Hour <a href="https://youtu.be/Go5foMcOG-c">LANDFIRE &amp; Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!</a></li>
+<li>The <a href="https://github.com/bcknr/rlandfire">rlandfire</a> package, developed by Dr.&nbsp;Mark Buckner, provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr.&nbsp;Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire. To learn more about using the rlandfire package, check out the Office Hour <a href="https://youtu.be/Go5foMcOG-c">LANDFIRE &amp; Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!</a> (opens a YouTube video)</li>
 </ol>
-<p>We will walk you through how to use each of these options in the following sections of this website.</p>
 
 
 </section>
@@ -465,6 +464,29 @@ Important
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -115,4 +115,4 @@ To access the file, open the .csv in Excel, R, or any other program you use to v
 
 -   [Succession Class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
 
--   [SClass Readme file](https://www.landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf)
+-   [SClass Readme file](https://www.landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf) (opens a pdf)

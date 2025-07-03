@@ -157,59 +157,59 @@ Fire interval is expressed in years for each fire severity class and for all typ
 LANDFIRE did not attempt to map where succession classes were prior to European colonization, as they would have moved around. This table is used to map where succession classes are today. For example, in the ‘Succession Class Table’ below we have highlighted combinations of Existing Height and Cover (and lifeform) that would be mapped as Succession Class A.
 
 :::callout-note
-For more information on Succession Classes and how they are mapped, visit the [Succession Class page of the website](./Succession_Class/1-succession-class.qmd).
+For more information on Succession Classes and how they are mapped, visit the [Succession Class page of the website](../Succession_Class/1-succession-class.qmd).
 :::
 
 <div id="SClass_MappingRules_Table_99" class="sclass-table-container">
 <table border="1.5" cellpadding="0.1" cellspacing="0" style="border-collapse:
  collapse; table-layout:fixed; width:100%">
 <tbody><tr>
-<td colspan="12" class="xl6999">
+<th colspan="12" class="xl6999">
 Mapping Rules
-</td>
+</th>
 </tr>
 <tr>
-<td rowspan="2" class="x17299'">
+<th rowspan="2" class="x17299'">
 Upper Layer Lifeform
-</td>
-<td rowspan="2" class="xl6499'">
+</th>
+<th rowspan="2" class="xl6499'">
 Height (m)
-</td>
-<td colspan="10" class="xl6499">
+</th>
+<th colspan="10" class="xl6499">
 Canopy Cover (%)
-</td>
+</th>
 </tr>
 <tr>
-<td class="xl6499">
+<th class="xl6499">
 0-10
-</td>
-<td class="xl6499">
+</th>
+<th class="xl6499">
 11-20
-</td>
-<td class="xl6499">
+</th>
+<th class="xl6499">
 21-30
-</td>
-<td class="xl6499">
+</th>
+<th class="xl6499">
 31-40
-</td>
+</th>
 <td class="xl6499">
 41-50
-</td>
-<td class="xl6499">
+</th>
+<th class="xl6499">
 51-60
-</td>
-<td class="xl6499">
+</th>
+<th class="xl6499">
 61-70
-</td>
-<td class="xl6499">
+</th>
+<th class="xl6499">
 71-80
-</td>
-<td class="xl6499">
+</th>
+<th class="xl6499">
 81-90
-</td>
-<td class="xl7499">
+</th>
+<th class="xl7499">
 91-100
-</td>
+</th>
 </tr>
 <tr>
 <td class="xl7599">
@@ -706,6 +706,7 @@ In the Model Parameters Table below, the top row would read something like “th
 +------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
 | Mixed Fire             | Mid1:OPN              | Mid1:OPN            | 0.001                   | 1000                  | No                                                  | 0                            |
 +------------------------+-----------------------+---------------------+-------------------------+-----------------------+-----------------------------------------------------+------------------------------+
+------------------------------------------------------------------------
 
 **Reset age class start after disturbance**
 
@@ -714,7 +715,7 @@ In SyncroSim, the ‘Age Reset’ field indicates whether a transition resets th
 **Years since last disturbance**
 
 Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 100, it means that this transition can only happen if 100 years have passed since the last fire.
-------------------------------------------------------------------------
+
 
 # Helpful Resources
 

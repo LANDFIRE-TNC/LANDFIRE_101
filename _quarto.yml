@@ -75,6 +75,7 @@ format:
     theme: 
       light: lumen
       dark: cyborg
+    include-after-body: scripts/custom.js
     css: styles.css
     toc: false
     grid:

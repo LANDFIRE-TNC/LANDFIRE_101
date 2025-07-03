@@ -463,7 +463,7 @@ Note
 <li><p><a href="https://www.landfire.gov/resources/lftfc">LANDFIRE Total Fuels Change Tool</a> (LFTFC)</p></li>
 <li><p><a href="https://wildfirerisk.org/">Wildfire Risk to Communities</a> uses LANDFIRE fuels to provide a free, easy-to-use website with interactive maps, charts, and resources to help communities understand, explore, and reduce wildfire risk</p></li>
 <li><p><a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/Updating%20LF%20fuels%20data_Mar%2021_Blankenship.pdf">Updating LANDFIRE fuels data for recent wildfires</a> pdf guide</p></li>
-<li><p>The <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf">Modifying LANDFIRE Geospatial Data for Local Applications</a> guide</p></li>
+<li><p>The <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf">Modifying LANDFIRE Geospatial Data for Local Applications</a> pdf guide</p></li>
 <li><p><a href="https://youtu.be/FNtey0ALZK4">LANDFIRE Office Hour: Acquiring and using LANDFIRE fuels data in geospatial modeling applications</a> (opens a YouTube video)</p></li>
 </ul>
 
@@ -479,6 +479,29 @@ Note
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
+
+document.addEventListener("DOMContentLoaded", function () {
+  // 1. Add aria-label to the sidebar nav
+  const sidebar = document.getElementById("quarto-sidebar");
+  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
+    sidebar.setAttribute("aria-label", "Main site navigation");
+  }
+
+  // 2. Fix sidebar toggle links
+  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
+    el.setAttribute("role", "button");
+    const targetId = el.getAttribute("data-bs-target");
+    if (targetId) {
+      el.setAttribute("aria-controls", targetId.replace("#", ""));
+    }
+  });
+
+  // 3. Add aria-label to secondary nav
+  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
+  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
+    secondaryNav.setAttribute("aria-label", "Secondary navigation");
+  }
+});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
