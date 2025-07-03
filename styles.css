@@ -18,37 +18,97 @@ body {
 /* accessibility overrides */
 
 /* Light mode styles */
-/*@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   a {
     color: #004085;
   }
   
-  a .nav-link:active,
-  a .nav-link:hover  {
-    color: #004085;
+  body .sidebar nav[role=doc-toc] ul {
+    font-size: 1rem;
+  }
+  
+  body .sidebar nav[role=doc-toc] ul > li > a.active, 
+  body .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  color: #004085 !important; /* Use !important if necessary to override Bootstrap's */
+  border-left: 1px solid #004085 !important; /* Override the border as well */
+  }
+  
+  body .sidebar nav[role=doc-toc] ul > li > a:focus, 
+  body .sidebar nav[role=doc-toc] ul > li > ul > li > a:focus,
+  body .sidebar nav[role=doc-toc] ul > li > a:hover, 
+  body .sidebar nav[role=doc-toc] ul > li > ul > li > a:hover {
+  color: #002752 !important; /* Use !important if necessary to override Bootstrap's */
+  border-left: 1px solid #002752 !important; /* Override the border as well */
   }
 
   a:hover,
   a:focus {
     color: #002752;
   }
-}
+ }
 
 /* Dark mode styles */
-/* @media (prefers-color-scheme: dark) {
+ @media (prefers-color-scheme: dark) {
   a {
     color: #66b2ff; /* Light blue for dark backgrounds */
-  /*}
+  }
 
   a:hover,
   a:focus {
     color: #99ccff;
   }
   
-  a .pagination-link {
+  body .sidebar nav[role=doc-toc] ul {
+    font-size: 1rem;
+  }
+  
+  .nav-page a {
     color: white;
   }
-} */
+  
+  .sidebar-navigation a {
+    color: #fff; /* Desired default color: white */
+  }
+ } 
+ 
+ /* --- Dark mode styles based on toggle (override system preference if needed) --- */
+
+body.quarto-dark a {
+  color: #66b2ff; /* Light blue for dark backgrounds */
+}
+
+body.quarto-dark a:hover,
+body.quarto-dark a:focus {
+  color: #99ccff;
+}
+
+body.quarto-dark .pagination-link {
+  color: white;
+}
+
+body.quarto-dark .nav-page a {
+    color: white; /* Ensure nav page links are white with toggle */
+}
+
+/* Include specific overrides for sidebar toc in toggle mode */
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.active,
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  color: #66b2ff !important; /* Adjust color for toggle dark mode */
+  border-left: 1px solid #66b2ff !important;
+}
+
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.focus,
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.focus,
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.hover,
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.hover {
+  color: #99ccff !important; /* Adjust hover/focus color for toggle dark mode */
+  border-left: 1px solid #99ccff !important;
+}
+
+body.quarto-dark .sidebar-navigation a {
+    color: #fff; /* Desired default color: white */
+}
+
 
 
 /*FLEXBOX*/
