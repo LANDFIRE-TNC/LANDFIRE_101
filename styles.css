@@ -11,11 +11,20 @@ body {
   font-size: 1rem;
 }
 
+.menu-text {
+  font-size: 1rem;
+}
+
 /* accessibility overrides */
 
 /* Light mode styles */
-@media (prefers-color-scheme: light) {
+/*@media (prefers-color-scheme: light) {
   a {
+    color: #004085;
+  }
+  
+  a .nav-link:active,
+  a .nav-link:hover  {
     color: #004085;
   }
 
@@ -26,10 +35,10 @@ body {
 }
 
 /* Dark mode styles */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   a {
     color: #66b2ff; /* Light blue for dark backgrounds */
-  }
+  /*}
 
   a:hover,
   a:focus {
@@ -39,7 +48,7 @@ body {
   a .pagination-link {
     color: white;
   }
-}
+} */
 
 
 /*FLEXBOX*/

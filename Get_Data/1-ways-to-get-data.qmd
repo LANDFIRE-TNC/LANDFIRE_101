@@ -22,7 +22,7 @@ format: html
 There are four main ways to access LANDFIRE data, each suited to different needs and technical skill levels. The summaries below provide a quick overview of each method. Visit the links to learn more and begin accessing and working with LANDFIRE data.
 
 ## [LANDFIRE Map Viewer](https://www.landfire.gov/viewer/)
-This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations. For many users the LANDFIRE Map Viewer (LFMV) will be the best way to get LANDFIRE data. Once you get the knack of it, obtaining data will be quick and easy.
+This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations. For many users the LANDFIRE Map Viewer will be the best way to get LANDFIRE data. Once you get the knack of it, obtaining data will be quick and easy.
 
 ::: callout-tip
 You can also access a [User Instructions page](https://landfire.gov/data/LFViewerUserInstructions) on the LANDFIRE Program website that may provide more complete instructions than we are able to give here. You can also find help by visiting the [Map Viewer tutorial videos](https://www.youtube.com/playlist?list=PLwRbAc4x5n944a9T1Ss84Ji8UYP_nqHXz) on our YouTube channel.

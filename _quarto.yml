@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - assets/js/fix-accessibility.js
+
 
 website:
   title: "LANDFIRE 101"
@@ -75,7 +78,9 @@ format:
     theme: 
       light: lumen
       dark: cyborg
-    include-after-body: scripts/custom.js
+    include-after-body:
+      text: |
+        <script type="application/javascript" src="assets/js/fix-accessibility.js"></script>
     css: styles.css
     toc: false
     grid:

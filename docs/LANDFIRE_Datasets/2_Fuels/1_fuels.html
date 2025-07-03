@@ -479,29 +479,6 @@ Note
 <li><p><a href="mailto:landfire@tnc.org?subject=landfirehelp">Schedule a meeting</a> (email link) with TNC’s LANDFIRE Team.</p></li>
 </ul>
 </section></main> <!-- /main -->
-
-document.addEventListener("DOMContentLoaded", function () {
-  // 1. Add aria-label to the sidebar nav
-  const sidebar = document.getElementById("quarto-sidebar");
-  if (sidebar &amp;&amp; !sidebar.hasAttribute("aria-label")) {
-    sidebar.setAttribute("aria-label", "Main site navigation");
-  }
-
-  // 2. Fix sidebar toggle links
-  document.querySelectorAll('a.sidebar-item-toggle[role="navigation"]').forEach(el =&gt; {
-    el.setAttribute("role", "button");
-    const targetId = el.getAttribute("data-bs-target");
-    if (targetId) {
-      el.setAttribute("aria-controls", targetId.replace("#", ""));
-    }
-  });
-
-  // 3. Add aria-label to secondary nav
-  const secondaryNav = document.querySelector("nav.quarto-secondary-nav");
-  if (secondaryNav &amp;&amp; !secondaryNav.hasAttribute("aria-label")) {
-    secondaryNav.setAttribute("aria-label", "Secondary navigation");
-  }
-});
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1076,6 +1053,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script type="application/javascript" src="assets/js/fix-accessibility.js"></script>
 
 
 
