@@ -13,213 +13,221 @@ For the most up-to-date information on each LANDFIRE data product, please view t
 
 -   The basics of Biophysical Settings models
 
--   How to download and install SyncroSim, the software we use for LANDFIRE’s Biophyiscal Settings models 
+-   Where to get more information on how to work with the Biophysical Settings models
 
--   How to load all LANDFIRE BpS models using the LANDFIRE Package
+-   Some interesting uses of the Biophysical Settings models
 
--   How to isolate a subset of BpS models 
-
--   Ways to explore the models you are interested in
-
--   Other resources that will help you utilize the Biophyiscal Settings models 
+-   Other resources that will help you utilize the Biophyiscal Settings models
 
 # What are Biophysical Settings models, and how were they created?
 
-LANDFIRE, in collaboration with hundreds of experts around the country, created a set of over 900 state-and-transition simulation models (STSMs, hereafter referred to as BpS Models) for ecosystems in the United States. Each LANDFIRE BpS model represents a Biophysical Setting (BpS). The BpS models, originally created in the Vegetation Dynamics Development Tool (VDDT), now updated and manipulated in the [SyncroSim](https://syncrosim.com/) ST-Sim package, essentially capture historical disturbance regimes and succession of each BpS. BpS model results include an estimate of the frequency and severity of fire and other disturbances, as well as how much of each succession class would have been on the landscape historically. Further, they are now a platform for: 
+LANDFIRE, in collaboration with hundreds of experts around the country, created a set of over 900 state-and-transition simulation models (STSMs, hereafter referred to as BpS Models) for ecosystems in the United States. Each LANDFIRE BpS model represents a Biophysical Setting (BpS). The BpS models, originally created in the Vegetation Dynamics Development Tool (VDDT), now updated and manipulated in the [SyncroSim](https://syncrosim.com/) ST-Sim package, essentially capture historical disturbance regimes and succession of each BpS. BpS model results include an estimate of the frequency and severity of fire and other disturbances, as well as how much of each succession class would have been on the landscape historically. Further, they are now a platform for:
 
-- Understanding historical dynamics
+-   Understanding historical dynamics
 
-- Exploring how LANDFIRE got to ‘reference conditions’
+-   Exploring how LANDFIRE got to ‘reference conditions’
 
-- Adding, subtracting, and modifying disturbances and succession classes to not only better understand today’s landscape, but also to look forward
+-   Adding, subtracting, and modifying disturbances and succession classes to not only better understand today’s landscape, but also to look forward
 
 To learn more about the creation of the models, see [Blankenship et al., (2021)](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484). For more information on working with the models, see the [Working with BpS page](https://landfirereview.org/WorkWithBpS.html) of our LANDFIRE Biophysical Settings Models and Descriptions Support website.
 
 # Working with the Biophysical Settings Models
+[LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/VegetationModeling.html) provides step-by-step guidance for working with Biophysical Settings (BpS) models using the SyncroSim platform. The website emphasizes practical application -- helping users understand how to use these models to evaluate ecological conditions and simulate the effects of various management strategies. It also includes links to documentation and tutorials to support your workflow as you explore and adapt the models for your specific landscape or project goals.
 
-## Download and install SyncroSim
+<!-- ## Download and install SyncroSim -->
 
-Installing SyncroSim on a computer with a Windows operating system is similar to installing most software, i.e., you download the application, then click to start an installer, etc. You can find the software on the [SyncroSim website](https://syncrosim.com/) - we typically accept all defaults when installing.
+<!-- Installing SyncroSim on a computer with a Windows operating system is similar to installing most software, i.e., you download the application, then click to start an installer, etc. You can find the software on the [SyncroSim website](https://syncrosim.com/) - we typically accept all defaults when installing. -->
 
-::: callout-warning
-Installing on a governmental machine may present challenges, but approval and updates are in the works.
+<!-- ::: callout-warning -->
+<!-- Installing on a governmental machine may present challenges, but approval and updates are in the works. -->
 
-Running SyncroSim on a Mac is generally not recommended. For more information on this, see the [getting started documentation](https://docs.syncrosim.com/getting_started/inst_lin.html) on the SyncroSim website.
-:::
-
-## Load all LANDFIRE BpS models using the LANDFIRE Package
-
-💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
-
-While SyncroSim is powerful as downloaded, adding packages will bring even more functionality. For our work you will need to add in the ST-Sim and landfirevegmodels packages. In SyncroSim:
-
-1.  Go to File -\> Packages. Click the Install button.
-
-2.  From the list check the St-Sim and landfirevegmodels packages, then click OK. The install will happen automatically.
-
-3.  Close the Packages window.
-
-Once you have those packages installed, you are ready to bring in the LANDFIRE vegetation models. To do that will take a few steps:
-
-::: callout-note
-You will need internet access for this section.
-:::
-
-1.  Go to File -\> New… This will bring up a New Library window.
-
-2.  In the New Library window highlight 'landfirevegmodels' at the top of the window, *then* select Reference Models near the bottom.
-
-3.  Note where the Reference Models library will be saved. Change the location if needed. Hit OK, then grab a beverage or go for a walk as this will take a few minutes.
-
-::: callout-note
-An Update Library window may open once the Reference Models library is downloaded. Click Apply at the bottom of that window to proceed.
-:::
-
-Once you complete these steps, SyncroSim will have downloaded and loaded the LANDFIRE BpS Reference Condition Models library into your Library Explorer window.
-
-### Screenshots of loading LANDFIRE Package and Reference Conditions Library
-
-![*Packages Pane*](images/packages1.JPG){fig-alt="A SyncroSim window showing nothing in installed packages with an \"Install\" button at the bottom left of the page."}
+<!-- Running SyncroSim on a Mac is generally not recommended. For more information on this, see the [getting started documentation](https://docs.syncrosim.com/getting_started/inst_lin.html) on the SyncroSim website. -->
+<!-- ::: -->
 
 
-![*Select packages*](images/packages3.JPG){fig-alt="A SyncroSim window with a long list of packages you can install. The far left column are selectable checkboxes allowing you to select which packages to install. An \"OK\" button at the bottom right of the page is highlighted."}
 
+<!-- ## Load all LANDFIRE BpS models using the LANDFIRE Package -->
 
-## Isolate a subset of BpS models
+<!-- 💡 *Screenshots of the process are included below the written instructions for those who find them useful.* -->
 
-::: callout-note
-You can access a set of [downloadable instructions](https://thenatureconservancy.github.io/landfiremodels/isolateLoadModel.pdf) (pdf) and much more information on Biophysical Settings models on the LANDFIRE Vegetation Modeling website.
-:::
+<!-- While SyncroSim is powerful as downloaded, adding packages will bring even more functionality. For our work you will need to add in the ST-Sim and landfirevegmodels packages. In SyncroSim: -->
 
-💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
+<!-- 1.  Go to File -\> Packages. Click the Install button. -->
 
-We assume you will not want to explore all 900+ LANDFIRE models, so we outline how to subset one or more individual models below.
+<!-- 2.  From the list check the St-Sim and landfirevegmodels packages, then click OK. The install will happen automatically. -->
 
-1.  For good luck close and re-open SyncroSim. Seriously, after installing packages and libraries some of the functions just work better if you do so.
+<!-- 3.  Close the Packages window. -->
 
-2.  If it is not there, open the LANDFIRE BpS Reference Condition Models library by going to File -\> Open then navigating to the Reference-Condition-Models.ssim file, likely in your SyncroSim directory. You will then click Open.
+<!-- Once you have those packages installed, you are ready to bring in the LANDFIRE vegetation models. To do that will take a few steps: -->
 
-3.  Once opened, the LANDFIRE BpS Reference Condition Models will be in the Library Explorer pane. You will also see, within the library, a project named Definitions and a Scenario named Reference Condition Models.
+<!-- ::: callout-note -->
 
-4.  Click the Reference Condition Models scenario once to highlight it.
+<!-- You will need internet access for this section. -->
 
-5.  Go to Edit -\> Export LFVM Strata to bring up the selection window.
+<!-- ::: -->
 
-6.  Once at the Export LFVM Strata window, you will check the BpS of interest, give a file name for the new library and assign a folder that it will be saved to.
+<!-- 1.  Go to File -\> New… This will bring up a New Library window. -->
 
-::: callout-note
-We do not suggest selecting many strata at once until you are familiar with the modeling process. Stick to 1-3 initially.
-:::
+<!-- 2.  In the New Library window highlight 'landfirevegmodels' at the top of the window, *then* select Reference Models near the bottom. -->
 
-### Screenshots of isolating a model
+<!-- 3.  Note where the Reference Models library will be saved. Change the location if needed. Hit OK, then grab a beverage or go for a walk as this will take a few minutes. -->
 
-![*Select scenario*](images/select_scenario.JPG){fig-alt="A SyncroSim window. The left sidebar shows the library of installed packages, in this case the LANDFIRE Reference Condition models, with toggles to open and close the model library."}
+<!-- ::: callout-note -->
 
-![*Export strata*](images/new_library_window.JPG){fig-alt="SyncroSim New Library window showing options to select a base package for your library with the landfirevegmodels package selected. At the bottom of the page you can select Reference Models and set a file name and folder to export the models to."}
+<!-- An Update Library window may open once the Reference Models library is downloaded. Click Apply at the bottom of that window to proceed. -->
 
-![*Create a new library with selected strata*](images/make_new_library_strata.JPG){fig-alt="A SyncroSim window showing the Library Explorer on the left side and the new strata you exported in the main window. You can use these main strata to create a new library."}
+<!-- ::: -->
 
-## Explore the models you are interested in
+<!-- Once you complete these steps, SyncroSim will have downloaded and loaded the LANDFIRE BpS Reference Condition Models library into your Library Explorer window. -->
 
-💡 *Screenshots of the process are included below the written instructions for those who find them useful.*
+<!-- ### Screenshots of loading LANDFIRE Package and Reference Conditions Library -->
 
-By exploring the BpS models you can learn how the modeling experts parameterized them, and more interactively see how the disturbances and states all fit together.
+<!-- ![*Packages Pane*](images/packages1.JPG){fig-alt="A SyncroSim window showing nothing in installed packages with an \"Install\" button at the bottom left of the page."} -->
 
-Start exploring:
+<!-- ![*Select packages*](images/packages3.JPG){fig-alt="A SyncroSim window with a long list of packages you can install. The far left column are selectable checkboxes allowing you to select which packages to install. An \"OK\" button at the bottom right of the page is highlighted."} -->
 
-1.  Double click on Reference Condition Models then the Transition Pathways tab.
+<!-- ## Isolate a subset of BpS models -->
 
-2.  To make viewing easier go to Window -\> Arrange All.
+<!-- ::: callout-note -->
 
-3.  At the bottom will be tabs of all of the BpSs that are in this library. Click any one. See Transitions Pane.
+<!-- You can access a set of [downloadable instructions](https://thenatureconservancy.github.io/landfiremodels/isolateLoadModel.pdf) (pdf) and much more information on Biophysical Settings models on the LANDFIRE Vegetation Modeling website. -->
 
-4.  Click on any box to see the pathways associated with that state (i.e., succession class).
+<!-- ::: -->
 
-5.  If you want to run the scenario:
+<!-- 💡 *Screenshots of the process are included below the written instructions for those who find them useful.* -->
 
-    -   Go to the Output Options tab within the scenario, make sure that the 'State classes every' box is set to 100 (i.e., not 1). 
-    
-    -   Go to the Run Control tab and set the Total iterations to 2.
+<!-- We assume you will not want to explore all 900+ LANDFIRE models, so we outline how to subset one or more individual models below. -->
 
-    -   In the Initial Conditions tab, ensure that the Total Acres and Number of Simulation Cells boxes both have 1,000. For exploring, we recommend these three steps as it will speed up your runs.
+<!-- 1.  For good luck close and re-open SyncroSim. Seriously, after installing packages and libraries some of the functions just work better if you do so. -->
 
-    -   In the Library Explorer, highlight the scenario, then click the small green triangle at the top of the screen.
-    
-:::callout-note
-The model results will not change significantly unless you change the model parameters.
-:::
+<!-- 2.  If it is not there, open the LANDFIRE BpS Reference Condition Models library by going to File -\> Open then navigating to the Reference-Condition-Models.ssim file, likely in your SyncroSim directory. You will then click Open. -->
 
-6.  Make a chart by clicking the New icon in the Charts pane, then name it appropriately. You will change some settings to get your first chart:
+<!-- 3.  Once opened, the LANDFIRE BpS Reference Condition Models will be in the Library Explorer pane. You will also see, within the library, a project named Definitions and a Scenario named Reference Condition Models. -->
 
-    -   Change Line Chart to Column Chart (top left of window)
+<!-- 4.  Click the Reference Condition Models scenario once to highlight it. -->
 
-    -   Under State Classes select Proportion
+<!-- 5.  Go to Edit -\> Export LFVM Strata to bring up the selection window. -->
 
-    -   Under Disaggregate by check the State Class box
+<!-- 6.  Once at the Export LFVM Strata window, you will check the BpS of interest, give a file name for the new library and assign a folder that it will be saved to. -->
 
-    -   Under Include Data For, click State Class then select the appropriate state classes
-    
-::: callout-note
-If you have multiple BpS, you will also want to go to and select one Model under the Include Data For dropdown
-:::
+<!-- ::: callout-note -->
 
-    -   Click Apply
+<!-- We do not suggest selecting many strata at once until you are familiar with the modeling process. Stick to 1-3 initially. -->
 
-::: callout-tip
-ST-Sim is stochastic, so every time a model is run the results will be slightly different. If you run a BpS model in ST-Sim, you can expect the modeled succession class percents to be within +/-5% of the values reported in the BpS description and the reference condition table.
-:::
+<!-- ::: -->
 
-### Screenshots of running a model and making a chart
+<!-- ### Screenshots of isolating a model -->
 
-![*State class outputs*](images/state_class_outputs.JPG){fig-alt="A SyncroSim window after running a model. The left side says Tabular, Spatial, and Spatial Average. The main window is set to the Output Options tab with the boxes next to State classes every 1000 timestep and Transitions every 500 timestep as well as include zero values and calculate an interval mean values."}
+<!-- ![*Select scenario*](images/select_scenario.JPG){fig-alt="A SyncroSim window. The left sidebar shows the library of installed packages, in this case the LANDFIRE Reference Condition models, with toggles to open and close the model library."} -->
 
+<!-- ![*Export strata*](images/new_library_window.JPG){fig-alt="SyncroSim New Library window showing options to select a base package for your library with the landfirevegmodels package selected. At the bottom of the page you can select Reference Models and set a file name and folder to export the models to."} -->
 
-![*Run your model*](images/select_scenario-01.JPG){fig-alt="SyncroSim window with the library explorer pane showing, the Reference Condition Models library highlighted, and an arrow pointing to the triangular \"run\" button at the top of the page."}
+<!-- ![*Create a new library with selected strata*](images/make_new_library_strata.JPG){fig-alt="A SyncroSim window showing the Library Explorer on the left side and the new strata you exported in the main window. You can use these main strata to create a new library."} -->
 
+<!-- ## Explore the models you are interested in -->
 
-![*Set up your column chart*](images/set_up_chart.JPG){fig-alt="A SyncroSim window showing a bar chart with the results of the Reference Condition Models. This chart shows the State Class Proportions after 1000 timesteps. The Late1:CLS bar is the highest at 80% and the rest are below 20% each."}
+<!-- 💡 *Screenshots of the process are included below the written instructions for those who find them useful.* -->
 
+<!-- By exploring the BpS models you can learn how the modeling experts parameterized them, and more interactively see how the disturbances and states all fit together. -->
+
+<!-- Start exploring: -->
+
+<!-- 1.  Double click on Reference Condition Models then the Transition Pathways tab. -->
+
+<!-- 2.  To make viewing easier go to Window -\> Arrange All. -->
+
+<!-- 3.  At the bottom will be tabs of all of the BpSs that are in this library. Click any one. See Transitions Pane. -->
+
+<!-- 4.  Click on any box to see the pathways associated with that state (i.e., succession class). -->
+
+<!-- 5.  If you want to run the scenario: -->
+
+<!--     -   Go to the Output Options tab within the scenario, make sure that the 'State classes every' box is set to 100 (i.e., not 1).  -->
+
+<!--     -   Go to the Run Control tab and set the Total iterations to 2. -->
+
+<!--     -   In the Initial Conditions tab, ensure that the Total Acres and Number of Simulation Cells boxes both have 1,000. For exploring, we recommend these three steps as it will speed up your runs. -->
+
+<!--     -   In the Library Explorer, highlight the scenario, then click the small green triangle at the top of the screen. -->
+
+<!-- :::callout-note -->
+
+<!-- The model results will not change significantly unless you change the model parameters. -->
+
+<!-- ::: -->
+
+<!-- 6.  Make a chart by clicking the New icon in the Charts pane, then name it appropriately. You will change some settings to get your first chart: -->
+
+<!--     -   Change Line Chart to Column Chart (top left of window) -->
+
+<!--     -   Under State Classes select Proportion -->
+
+<!--     -   Under Disaggregate by check the State Class box -->
+
+<!--     -   Under Include Data For, click State Class then select the appropriate state classes -->
+
+<!-- ::: callout-note -->
+
+<!-- If you have multiple BpS, you will also want to go to and select one Model under the Include Data For dropdown -->
+
+<!-- ::: -->
+
+<!--     -   Click Apply -->
+
+<!-- ::: callout-tip -->
+
+<!-- ST-Sim is stochastic, so every time a model is run the results will be slightly different. If you run a BpS model in ST-Sim, you can expect the modeled succession class percents to be within +/-5% of the values reported in the BpS description and the reference condition table. -->
+
+<!-- ::: -->
+
+<!-- ### Screenshots of running a model and making a chart -->
+
+<!-- ![*State class outputs*](images/state_class_outputs.JPG){fig-alt="A SyncroSim window after running a model. The left side says Tabular, Spatial, and Spatial Average. The main window is set to the Output Options tab with the boxes next to State classes every 1000 timestep and Transitions every 500 timestep as well as include zero values and calculate an interval mean values."} -->
+
+<!-- ![*Run your model*](images/select_scenario-01.JPG){fig-alt="SyncroSim window with the library explorer pane showing, the Reference Condition Models library highlighted, and an arrow pointing to the triangular \"run\" button at the top of the page."} -->
+
+<!-- ![*Set up your column chart*](images/set_up_chart.JPG){fig-alt="A SyncroSim window showing a bar chart with the results of the Reference Condition Models. This chart shows the State Class Proportions after 1000 timesteps. The Late1:CLS bar is the highest at 80% and the rest are below 20% each."} -->
 
 # Some interesting uses of Biophysical Settings models
 
 The BpS models were developed by LANDFIRE to support objectives related to mapping historical vegetation patterns and fire regimes, and for evaluating landscape conditions with the Vegetation Departure metric. Beyond LANDFIRE, the BpS models and descriptions have been used to:
 
-- **Evaluate changes in disturbance regimes.** [Haugo and others](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.2702) used BpS models to compare current area burned to a reference condition in the northwestern U.S.
+-   **Evaluate changes in disturbance regimes.** [Haugo and others](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.2702) used BpS models to compare current area burned to a reference condition in the northwestern U.S.
 
-- **Represent current, desired, or future conditions.** [Costanza and others](https://www.aimspress.com/fileOther/PDF/environmental/20150205.pdf) (opens a pdf) modified 45 BpS models to represent current conditions for ecosystems in North Carolina.
+-   **Represent current, desired, or future conditions.** [Costanza and others](https://www.aimspress.com/fileOther/PDF/environmental/20150205.pdf) (opens a pdf) modified 45 BpS models to represent current conditions for ecosystems in North Carolina.
 
-- **Evaluate management actions.** [Low and others](http://appliedconservation.com/wp-content/uploads/2013/07/JCP_v6_3_Low.pdf) (opens a pdf) modified BpS models to measure vegetation departure and evaluate the effects of various management actions.
+-   **Evaluate management actions.** [Low and others](http://appliedconservation.com/wp-content/uploads/2013/07/JCP_v6_3_Low.pdf) (opens a pdf) modified BpS models to measure vegetation departure and evaluate the effects of various management actions.
 
-- **Support collaborative management efforts.** [Price and others](http://faculty.nelson.wisc.edu/silbernagel/docs/Price_etal_EcoMod2012.pdf) (opens a pdf) worked with experts to modify BpS models as the foundation of a collaborative process to support conservation planning.
+-   **Support collaborative management efforts.** [Price and others](http://faculty.nelson.wisc.edu/silbernagel/docs/Price_etal_EcoMod2012.pdf) (opens a pdf) worked with experts to modify BpS models as the foundation of a collaborative process to support conservation planning.
 
 # Other things you might want to do with Biophysical Settings models
 
-1. **Modify a BpS Model** ([open the Modifying BpS Models pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video1oneDist.pdf) or [watch the Modifying BpS Models video on YouTube](https://youtu.be/GxxeSp0mzvA))
+1.  **Modify a BpS Model** ([open the Modifying BpS Models pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video1oneDist.pdf) or [watch the Modifying BpS Models video on YouTube](https://youtu.be/GxxeSp0mzvA))
 
-2. **Change the probability of a disturbance** ([open the Change Probability pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video2changeTransAcrossBpS.pdf) or [watch the Change Probability video on YouTube](https://youtu.be/75PogiK56GU))
+2.  **Change the probability of a disturbance** ([open the Change Probability pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video2changeTransAcrossBpS.pdf) or [watch the Change Probability video on YouTube](https://youtu.be/75PogiK56GU))
 
-3. **Introduce a new disturbance** ([open the Introduce Disturbance pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video3newdisturbance.pdf) or [watch the Introduce Disturbance video on YouTube](https://youtu.be/YgTCwCabojo))
+3.  **Introduce a new disturbance** ([open the Introduce Disturbance pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video3newdisturbance.pdf) or [watch the Introduce Disturbance video on YouTube](https://youtu.be/YgTCwCabojo))
 
-4. **Add a new state (succession class)** ([open the Add a State pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video4newState.pdf) or [watch the Add a State video on YouTube](https://youtu.be/-EbW8vAg_bg))
+4.  **Add a new state (succession class)** ([open the Add a State pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video4newState.pdf) or [watch the Add a State video on YouTube](https://youtu.be/-EbW8vAg_bg))
 
-5. **Delete a state** ([open the Delete a State pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video5deleteState.pdf) or [watch the Delete a State video on YouTube](https://youtu.be/Z9O3VHv0Vs8))
+5.  **Delete a state** ([open the Delete a State pdf](https://thenatureconservancy.github.io/landfiremodels/scripts/video5deleteState.pdf) or [watch the Delete a State video on YouTube](https://youtu.be/Z9O3VHv0Vs8))
 
 # Helpful Resources
 
-- [LANDFIRE’s Vegetation Modeling website:](https://thenatureconservancy.github.io/landfiremodels/) Learn more about BpS models and how to modify and apply them
+-   [LANDFIRE’s Vegetation Modeling website:](https://thenatureconservancy.github.io/landfiremodels/) Learn more about BpS models and how to modify and apply them
 
-- [LANDFIRE BpS Models and Descriptions support website](https://www.landfirereview.org/): Learn more about BpS models and descriptions and download the BpS description documents.
+-   [LANDFIRE BpS Models and Descriptions support website](https://www.landfirereview.org/): Learn more about BpS models and descriptions and download the BpS description documents.
 
-- [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip)
+-   [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip)
 
-- [SyncroSim website:](https://apexrms.com/tools/) Learn about SyncroSim and related products
+-   [SyncroSim website:](https://apexrms.com/tools/) Learn about SyncroSim and related products
 
-- [SyncroSim Training:](https://apexrms.com/training/) Learn about training resources provided by ApexRMS
+-   [SyncroSim Training:](https://apexrms.com/training/) Learn about training resources provided by ApexRMS
 
-- [State-and-transition simulation model (STSM) Tutorials](https://docs.stsim.net/getting_started/tutorials.html)
+-   [State-and-transition simulation model (STSM) Tutorials](https://docs.stsim.net/getting_started/tutorials.html)
 
-- [LANDFIRE](https://www.landfire.gov/vegetation/bps-models): Learn about how BpS is used by LANDFIRE
+-   [LANDFIRE](https://www.landfire.gov/vegetation/bps-models): Learn about how BpS is used by LANDFIRE
 
-- [Blankenship (2021)](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3484): Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States.
+-   [Blankenship (2021)](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3484): Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States.
 
-- [Swaty et al (2022)](https://www.mdpi.com/2073-445X/11/1/28): Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric
+-   [Swaty et al (2022)](https://www.mdpi.com/2073-445X/11/1/28): Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric

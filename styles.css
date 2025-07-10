@@ -45,6 +45,14 @@ body {
   a:focus {
     color: #002752;
   }
+  
+  
+.sidebar .sidebar-link.active {
+  font-weight: 700;
+  color: #004085 !important;
+  border-left: 2px solid #004085 !important;
+}
+
  }
 
 /* Dark mode styles */
@@ -107,6 +115,13 @@ body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.hover {
 
 body.quarto-dark .sidebar-navigation a {
     color: #fff; /* Desired default color: white */
+
+}
+
+body.quarto-dark .sidebar .sidebar-link.active {
+  font-weight: bold;
+  color: #99ccff !important;
+  border-left: 2px solid #99ccff !important;
 }
 
 

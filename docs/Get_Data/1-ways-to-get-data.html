@@ -31,7 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../Get_Data/2-LANDFIRE-map-viewer.qmd" rel="next">
 <link href="../LANDFIRE_Datasets/2_Fuels/1_fuels.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -320,6 +319,7 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
   <ul class="collapse">
   <li><a href="#helpful-resources-for-using-landfire-data-streaming-services" id="toc-helpful-resources-for-using-landfire-data-streaming-services" class="nav-link" data-scroll-target="#helpful-resources-for-using-landfire-data-streaming-services">Helpful resources for using LANDFIRE data streaming services</a></li>
   </ul></li>
+  <li><a href="#the-rlandfire-package" id="toc-the-rlandfire-package" class="nav-link" data-scroll-target="#the-rlandfire-package">The rlandfire package</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -446,12 +446,13 @@ Important
 <li><p><a href="https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf">Instructions on how to use ArcGIS Online</a> (opens a pdf)</p></li>
 <li><p><a href="https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&amp;sortOrder=desc&amp;focus=layers-weblayers-imagery">USGS Organizational ArcGIS Online platform</a></p></li>
 </ul>
-<ol start="4" type="1">
-<li>The <a href="https://github.com/bcknr/rlandfire">rlandfire</a> package, developed by Dr.&nbsp;Mark Buckner, provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr.&nbsp;Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire. To learn more about using the rlandfire package, check out the Office Hour <a href="https://youtu.be/Go5foMcOG-c">LANDFIRE &amp; Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!</a> (opens a YouTube video)</li>
-</ol>
-
-
 </section>
+</section>
+<section id="the-rlandfire-package" class="level2">
+<h2 class="anchored" data-anchor-id="the-rlandfire-package">The <a href="https://github.com/bcknr/rlandfire">rlandfire</a> package</h2>
+<p>Developed by Dr.&nbsp;Mark Buckner, the rlandfire package provides a way to access the LFPS REST API from R and download LANDFIRE products directly into your R environment. At the package page, Dr.&nbsp;Buckner provides instructions for basic use, and a tutorial for comparing ponderosa pine canopy cover before and after a fire. To learn more about using the rlandfire package, check out the Office Hour <a href="https://youtu.be/Go5foMcOG-c">LANDFIRE &amp; Coding: Leveling up LANDFIRE with r markdown, QGIS, Quarto and More!</a> (opens a YouTube video)</p>
+
+
 </section>
 </section>
 
@@ -1032,9 +1033,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../Get_Data/2-LANDFIRE-map-viewer.qmd" class="pagination-link" aria-label="">
-        <span class="nav-page-text"></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

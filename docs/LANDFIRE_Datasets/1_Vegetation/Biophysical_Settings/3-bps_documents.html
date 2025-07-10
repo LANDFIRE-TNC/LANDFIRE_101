@@ -530,6 +530,19 @@ Warning
 <section id="whats-in-a-bps-document" class="level1">
 <h1>What’s in a BpS document?</h1>
 <p>Once you download and unzip your selected BpS documents, what do you actually have? Inside the zip file, you will find one or more Word documents that in very general terms describe how the ecosystems of the US ‘looked and functioned’ prior to European colonization. We hope the documents are largely self-explanatory. That said, below we’ll highlight a few important considerations when reading these documents.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For more information on how BpS Documents drive the BpS Models, visit the <a href="https://thenatureconservancy.github.io/landfiremodels/VegetationModeling.html#BpS_Descriptions">LANDFIRE Vegetation Modeling website</a>.</p>
+</div>
+</div>
 <section id="file-name-map-zones-and-that-number-at-the-top" class="level2">
 <h2 class="anchored" data-anchor-id="file-name-map-zones-and-that-number-at-the-top">File name, Map Zones and that number at the top</h2>
 <p>The BpS documents were saved with a numeric code such as ‘13700_60_63_64_65_66.docx’. This number represents three things:</p>
@@ -1246,7 +1259,9 @@ Tip
 <p><strong>Reset age class start after disturbance</strong></p>
 <p>In SyncroSim, the ‘Age Reset’ field indicates whether a transition resets the age of a simulation cell to the ‘Age Min’ of the destination class. If the value is yes, the age is reset; if no, the age remains unchanged. According to LANDFIRE standards, probabilistic transitions that do not change the class do not reset the age (Age Reset = No), except for class A to A replacement disturbances. Transitions that result in a state change do reset the age (Age Reset = Yes).</p>
 <p><strong>Years since last disturbance</strong></p>
-<p>Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 100, it means that this transition can only happen if 100 years have passed since the last fire.</p>
+<p>Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement).</p>
+<p>TST Min is commonly used in dry forests that are maintained by frequent fire. Fire in these systems maintains a relatively open canopy, but in the absence of regular fire the canopy becomes closed. In this case TST Min can be used to control that transition from open to closed classes. For example, a ponderosa pine forest might have an open class with an alternative succession pathway to a closed class with a TST Min of 20 years. The effect of this in the model is that the transition from the open to the closed state only occurs if 20 or more years have passed since the last fire.</p>
+<p>Similarly, in the North-Central Interior Dry-Mesic Oak Forest and Woodland of the Great Lakes region, TST is used to transition the mid-open class to the late-closed class if there is a lack of disturbance for 50 years. Otherwise the mid-open class succeeds to late-open due to periodic surface fires that prevent (as long as they happen before 50 years) canopy closure</p>
 </section>
 <section id="helpful-resources" class="level1">
 <h1>Helpful Resources</h1>

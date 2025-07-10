@@ -109,6 +109,10 @@ Beware when clicking the ‘Download All Search Results Documents’ button. If 
 
 Once you download and unzip your selected BpS documents, what do you actually have? Inside the zip file, you will find one or more Word documents that in very general terms describe how the ecosystems of the US ‘looked and functioned’ prior to European colonization. We hope the documents are largely self-explanatory. That said, below we’ll highlight a few important considerations when reading these documents.
 
+:::callout-note
+For more information on how BpS Documents drive the BpS Models, visit the [LANDFIRE Vegetation Modeling website](https://thenatureconservancy.github.io/landfiremodels/VegetationModeling.html#BpS_Descriptions).
+:::
+
 ## File name, Map Zones and that number at the top
 
 The BpS documents were saved with a numeric code such as '13700_60_63_64_65_66.docx'. This number represents three things:
@@ -714,8 +718,11 @@ In SyncroSim, the ‘Age Reset’ field indicates whether a transition resets th
 
 **Years since last disturbance**
 
-Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). For example, if an Alternative Succession transition has a TST Min value of 100, it means that this transition can only happen if 100 years have passed since the last fire.
+Years since last disturbance, referred to as TST Min (time-since-transition minimum) in SyncroSim, specifies the minimum number of years that must pass before a transition can occur. In LANDFIRE models, this is used only with Alternative Succession transitions and is related to fire disturbances (surface, mixed, and replacement). 
 
+TST Min is commonly used in dry forests that are maintained by frequent fire. Fire in these systems maintains a relatively open canopy, but in the absence of regular fire the canopy becomes closed. In this case TST Min can be used to control that transition from open to closed classes. For example, a ponderosa pine forest might have an open class with an alternative succession pathway to a closed class with a TST Min of 20 years. The effect of this in the model is that the transition from the open to the closed state only occurs if 20 or more years have passed since the last fire.
+
+Similarly, in the North-Central Interior Dry-Mesic Oak Forest and Woodland of the Great Lakes region, TST is used to transition the mid-open class to the late-closed class if there is a lack of disturbance for 50 years.  Otherwise the mid-open class succeeds to late-open due to periodic surface fires that prevent (as long as they happen before 50 years) canopy closure
 
 # Helpful Resources
 
