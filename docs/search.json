@@ -14,7 +14,7 @@
     "href": "LANDFIRE_Datasets/2_Fuels/1_fuels.html#updating-fuels-for-landscape-disturbances",
     "title": "LANDFIRE Fuels",
     "section": "Updating Fuels for Landscape Disturbances",
-    "text": "Updating Fuels for Landscape Disturbances\nAs with all LANDFIRE current time period spatial products, fuels layers are only updated for disturbed pixels. The LANDFIRE version name refers to the latest landscape disturbances that have been included. Prior to LF2023, 10 years of disturbance were updated, e.g., in LF2022 disturbances from 2013 – 2022 were used to update vegetation and fuels. In LF2023 20 years of disturbance were included representing landscape changes from 2004 – 2023. For LF2023 pixels not identified as disturbed represent conditions in 2016, the most recent prior update.",
+    "text": "Updating Fuels for Landscape Disturbances\nAs with all LANDFIRE current time period spatial products, fuels layers are only updated for disturbed pixels. The LANDFIRE version name refers to the latest landscape disturbances that have been included. Prior to LF2023, 10 years of disturbance were updated, e.g., in LF2022 disturbances from 2013 – 2022 were used to update vegetation and fuels.\nIn LF2023, 20 years of disturbance were included, representing landscape changes from 2004 – 2023 divided into two groups. Pixels disturbed 1 - 10 years prior to 2023 (2014 - 2023) were modified using the usual disturbance rules, while pixels disturbed between 2004 and 2013 (years 11 - 20) were updated using “undisturbed” fuel rules. For LF2023 pixels not identified as disturbed represent conditions in 2016, the most recent prior update. For LF2024, LANDFIRE will revert to updating fuels for 10 years of disturbance.",
     "crumbs": [
       "LANDFIRE Fuels Datasets"
     ]
@@ -24,7 +24,7 @@
     "href": "LANDFIRE_Datasets/2_Fuels/1_fuels.html#reviewing-landfire-fuel-products",
     "title": "LANDFIRE Fuels",
     "section": "Reviewing LANDFIRE Fuel Products",
-    "text": "Reviewing LANDFIRE Fuel Products\nLANDFIRE fuels are intended to reflect average fuel conditions in a typical fire season and may need to be adjusted locally to be relevant for a specific fire situation. If recent conditions are atypical (very wet, very dry, excessive wind, etc.) users should expect to adjust the delivered fuels information to reflect those conditions. A guidebook for investigating fuels is available to help users conduct detailed investigations into fuels products. Because canopy fuels and surface fuels are not linked adjusting one does not impact the other.",
+    "text": "Reviewing LANDFIRE Fuel Products\nLANDFIRE fuels are intended to reflect average fuel conditions in a typical fire season and may need to be adjusted locally to be relevant for a specific fire situation. If recent conditions are atypical (very wet, very dry, excessive wind, etc.) users should expect to adjust the delivered fuels information to reflect those conditions. A guidebook for investigating fuels is available to help users conduct detailed investigations into fuels products. Because canopy fuels and surface fuels are not explicitly linked, adjusting one does not impact the other.",
     "crumbs": [
       "LANDFIRE Fuels Datasets"
     ]
