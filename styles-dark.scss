@@ -1,0 +1,232 @@
+/*-- scss:defaults --*/
+@import "layout";
+
+$link-color:#66b2ff;
+
+/*-- scss:rules --*/
+/* Dark mode styles */
+  a {
+    color: $link-color; /* Light blue for dark backgrounds */
+  }
+
+  a:hover,
+  a:focus {
+    color: $link-color;
+  }
+  
+  body .sidebar nav[role=doc-toc] ul {
+    font-size: 1rem;
+  }
+  
+  .nav-page a {
+    color: white;
+  }
+  
+  .sidebar-navigation a {
+    color: #fff; /* Desired default color: white */
+  }
+
+  .figcaption, .blockquote, .breadcrumb-item {
+    color: #fff;
+  }
+
+body.quarto-dark a {
+  color: $link-color; /* Light blue for dark backgrounds */
+}
+
+body.quarto-dark a:hover,
+body.quarto-dark a:focus {
+  color: #99ccff;
+}
+
+body.quarto-dark .pagination-link {
+  color: white;
+}
+
+body.quarto-dark .nav-page a {
+    color: white; /* Ensure nav page links are white with toggle */
+}
+
+body.quarto-dark .figcaption, .blockquote, .breadcrumb-item {
+    color: #fff;
+  }
+
+/* Include specific overrides for sidebar toc in toggle mode */
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.active,
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  color: $link-color !important; /* Adjust color for toggle dark mode */
+  border-left: 1px solid $link-color !important;
+}
+
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.focus,
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.focus,
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.hover,
+body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.hover {
+  color: #99ccff !important; /* Adjust hover/focus color for toggle dark mode */
+  border-left: 1px solid #99ccff !important;
+}
+
+body.quarto-dark .sidebar-navigation a {
+    color: #fff; /* Desired default color: white */
+
+}
+
+body.quarto-dark .sidebar .sidebar-link.active {
+  font-weight: bold;
+  color: #99ccff !important;
+  border-left: 2px solid #99ccff !important;
+}
+
+/* STYLES FOR SCLASS TABLE */
+/* Container for horizontal scrolling */
+.sclass-table-container {
+  overflow-x: auto;
+  margin: 0 auto;
+  width: 100%; /* Adjust as needed */
+}
+
+/* Base styles for all cells (td and th) within the container */
+.sclass-table-container td,
+.sclass-table-container th {
+  padding: 1px;
+  border: 0.5pt solid white;
+  color: white;
+  font-size: 12.0pt; /* Default font size */
+  font-weight: 400; /* Default font weight */
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  font-family: Calibri, Arial, sans-serif; /* Consider a web-safe font stack */
+  vertical-align: bottom;
+  white-space: normal; /* Adjust if you want content to wrap */
+}
+
+/* Styles for specific classes, overriding the base styles */
+
+/* .xl6499: "Height (m)" header "Canopy Cover (%)" header Styles for Canopy Cover range headers (0-10, 11-20, etc.)*/
+.xl6499 {
+  /* Overrides base styles */
+  font-weight: bold;
+}
+
+/* .xl6999: Styles for a specific cell (e.g., top-left) */
+.xl6999 {
+  /* Overrides base styles (font size, borders) */
+  font-size: 14.0pt;
+  border-top: 1.5pt solid white; /* Replace 'windowtext' with white */
+  border-right: 0.5pt solid white;
+  border-bottom: 0.5pt solid white;
+  border-left: 1.5pt solid white;
+}
+
+/* .xl7099: Similar to xl6999 with different borders */
+.xl7099 {
+  /* Overrides base styles (font size, borders) */
+  font-size: 14.0pt;
+  border-top: 1.5pt solid white; /* Replace 'windowtext' with white */
+  border-right: 0.5pt solid white;
+  border-bottom: 0.5pt solid white;
+  border-left: 0.5pt solid white;
+}
+
+/* .xl7199: Similar to xl7099 with different borders */
+.xl7199 {
+  /* Overrides base styles (font size, borders) */
+  font-size: 14.0pt;
+  border-top: 1.5pt solid white; /* Replace 'windowtext' with white */
+  border-right: 1.5pt solid white;
+  border-bottom: 0.5pt solid white;
+  border-left: 0.5pt solid white;
+  white-space: nowrap; /* Keep nowrap */
+}
+
+/* .xl7299: Similar to xl6499/xl6599/xl6699 with different border */
+.xl7299 {
+  /* Overrides base styles (font size, weight, borders) */
+  font-weight: bold;
+  border-top: 0.5pt solid white; /* Replace 'windowtext' with white */
+  border-right: 0.5pt solid white;
+  border-bottom: 0.5pt solid white;
+  border-left: 1.5pt solid white;
+  white-space: normal; /* Allow wrapping */
+  /* Remove mso-ignore, mso-font-charset, mso-number-format, mso-background-source, mso-pattern */
+}
+
+/* .xl7499: Adds specific borders */
+.xl7399 {
+  /* Overrides base styles (weight, borders) */
+  font-weight: bold;
+  border-top: 0.5pt solid white; /* Replace 'windowtext' with white */
+  border-right: 1.5pt solid white;
+  border-bottom: 0.5pt solid white;
+  border-left: 0.5pt solid white;
+}
+
+/* .xl7599: Adds specific borders */
+.xl7599 {
+  /* Overrides base styles (border) */
+  border-top: 0.5pt solid white; /* Replace 'windowtext' with white */
+  border-right: 0.5pt solid white;
+  border-bottom: 0.5pt solid white;
+  border-left: 1.5pt solid white;
+}
+
+/* .xl7699: Adds specific borders */
+.xl7699 {
+    /* Overrides base styles (border) */
+    border-top: 0.5pt solid white; /* Replace 'windowtext' with white */
+    border-right: 1.5pt solid white;
+    border-bottom: 0.5pt solid white;
+    border-left: 0.5pt solid white;
+}
+
+/* .xl7799: Adds specific borders */
+.xl7799 {
+    /* Overrides base styles (border) */
+    border-top: 0.5pt solid white; /* Replace 'windowtext' with white */
+    border-right: 0.5pt solid white;
+    border-bottom: 1.5pt solid white; /* Replace 'windowtext' with white */
+    border-left: 1.5pt solid white;
+    white-space: nowrap; /* Keep nowrap */
+    /* Remove mso-ignore, mso-font-charset, mso-number-format, mso-background-source, mso-pattern */
+}
+
+/* .xl7899: Adds specific borders*/
+.xl7899 {
+    /* Overrides base styles (border) */
+    border-top: 0.5pt solid white; /* Replace 'windowtext' with white */
+    border-right: 0.5pt solid white;
+    border-bottom: 1.5pt solid white; /* Replace 'windowtext' with white */
+    border-left: 0.5pt solid white;
+    white-space: nowrap; /* Keep nowrap */
+    /* Remove mso-ignore, mso-font-charset, mso-number-format ('@'), mso-background-source, mso-pattern */
+}
+.xl8099 {
+	border-top:.5pt solid white;
+	border-right:1.5pt solid white;
+	border-bottom:1.5pt solid white;
+	border-left:.5pt solid white;
+}
+
+/* Styling for class A cells */
+.xl8199 {
+  color: black;
+	background:#B5E6A2;
+}
+
+/* Styling for class A cell with larger border*/
+.xl8299 {
+  color: black;
+	border-top:.5pt solid windowtext;
+	border-right:1.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#B5E6A2;
+}
+
+/* Optional: Styles for the table itself */
+table {
+  border-collapse: collapse;
+  table-layout: fixed; /* Keep or adjust as needed */
+  width: auto; /* Or width: auto; for content-driven width */
+}

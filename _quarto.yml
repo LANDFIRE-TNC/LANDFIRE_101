@@ -76,12 +76,12 @@ website:
 format:
   html:
     theme: 
-      light: lumen
-      dark: cyborg
+      light: [lumen, styles-light.scss]
+      dark: [cyborg, styles-dark.scss]
     include-after-body:
       text: |
         <script type="application/javascript" src="assets/js/fix-accessibility.js"></script>
-    css: styles.css
+    css: _layout.scss
     toc: false
     grid:
       sidebar-width: 300px

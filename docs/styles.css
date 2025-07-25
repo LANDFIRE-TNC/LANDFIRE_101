@@ -1,59 +1,8 @@
-/* font sizes */
-body {
-  font-size: 1rem; /* 16pt */
-}
 
-.callout {
-  font-size: 1rem;
-}
-
-.callout-body-container p {
-  font-size: 1rem;
-}
-
-.menu-text {
-  font-size: 1rem;
-}
 
 /* accessibility overrides */
 
-/* Light mode styles */
-@media (prefers-color-scheme: light) {
-  a {
-    color: #004085;
-  }
-  
-  body .sidebar nav[role=doc-toc] ul {
-    font-size: 1rem;
-  }
-  
-  body .sidebar nav[role=doc-toc] ul > li > a.active, 
-  body .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
-  color: #004085 !important; /* Use !important if necessary to override Bootstrap's */
-  border-left: 1px solid #004085 !important; /* Override the border as well */
-  }
-  
-  body .sidebar nav[role=doc-toc] ul > li > a:focus, 
-  body .sidebar nav[role=doc-toc] ul > li > ul > li > a:focus,
-  body .sidebar nav[role=doc-toc] ul > li > a:hover, 
-  body .sidebar nav[role=doc-toc] ul > li > ul > li > a:hover {
-  color: #002752 !important; /* Use !important if necessary to override Bootstrap's */
-  border-left: 1px solid #002752 !important; /* Override the border as well */
-  }
 
-  a:hover,
-  a:focus {
-    color: #002752;
-  }
-  
-  
-.sidebar .sidebar-link.active {
-  font-weight: 700;
-  color: #004085 !important;
-  border-left: 2px solid #004085 !important;
-}
-
- }
 
 /* Dark mode styles */
  @media (prefers-color-scheme: dark) {
@@ -123,6 +72,44 @@ body.quarto-dark .sidebar .sidebar-link.active {
   color: #99ccff !important;
   border-left: 2px solid #99ccff !important;
 }
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+  a {
+    color: #004085;
+  }
+  
+  body .sidebar nav[role=doc-toc] ul {
+    font-size: 1rem;
+  }
+  
+  body .sidebar nav[role=doc-toc] ul > li > a.active, 
+  body .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  color: #004085 !important; /* Use !important if necessary to override Bootstrap's */
+  border-left: 1px solid #004085 !important; /* Override the border as well */
+  }
+  
+  body .sidebar nav[role=doc-toc] ul > li > a:focus, 
+  body .sidebar nav[role=doc-toc] ul > li > ul > li > a:focus,
+  body .sidebar nav[role=doc-toc] ul > li > a:hover, 
+  body .sidebar nav[role=doc-toc] ul > li > ul > li > a:hover {
+  color: #002752 !important; /* Use !important if necessary to override Bootstrap's */
+  border-left: 1px solid #002752 !important; /* Override the border as well */
+  }
+
+  a:hover,
+  a:focus {
+    color: #002752;
+  }
+  
+  
+.sidebar .sidebar-link.active {
+  font-weight: 700;
+  color: #004085 !important;
+  border-left: 2px solid #004085 !important;
+}
+
+ }
 
 
 
