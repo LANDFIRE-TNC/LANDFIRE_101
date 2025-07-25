@@ -75,30 +75,30 @@ $link-color:#004085;
 .xl6999 {
   /* Overrides base styles (font size, borders) */
   font-size: 14.0pt;
-  border-top: 1.5pt solid black; /* Replace 'windowtext' with black */
-  border-right: 0.5pt solid black;
-  border-bottom: 0.5pt solid black;
-  border-left: 1.5pt solid black;
+  border-top: 1.5pt solid #000; /* Replace 'windowtext' with black */
+  border-right: 0.5pt solid #000;
+  border-bottom: 0.5pt solid #000;
+  border-left: 1.5pt solid #000;
 }
 
 /* .xl7099: Similar to xl6999 with different borders */
 .xl7099 {
   /* Overrides base styles (font size, borders) */
   font-size: 14.0pt;
-  border-top: 1.5pt solid black; /* Replace 'windowtext' with black */
-  border-right: 0.5pt solid black;
-  border-bottom: 0.5pt solid black;
-  border-left: 0.5pt solid black;
+  border-top: 1.5pt solid #000; /* Replace 'windowtext' with black */
+  border-right: 0.5pt solid #000;
+  border-bottom: 0.5pt solid #000;
+  border-left: 0.5pt solid #000;
 }
 
 /* .xl7199: Similar to xl7099 with different borders */
 .xl7199 {
   /* Overrides base styles (font size, borders) */
   font-size: 14.0pt;
-  border-top: 1.5pt solid black; /* Replace 'windowtext' with black */
-  border-right: 1.5pt solid black;
-  border-bottom: 0.5pt solid black;
-  border-left: 0.5pt solid black;
+  border-top: 1.5pt solid #000; /* Replace 'windowtext' with black */
+  border-right: 1.5pt solid #000;
+  border-bottom: 0.5pt solid #000;
+  border-left: 0.5pt solid #000;
   white-space: nowrap; /* Keep nowrap */
 }
 
@@ -106,10 +106,10 @@ $link-color:#004085;
 .xl7299 {
   /* Overrides base styles (font size, weight, borders) */
   font-weight: bold;
-  border-top: 0.5pt solid black; /* Replace 'windowtext' with black */
-  border-right: 0.5pt solid black;
-  border-bottom: 0.5pt solid black;
-  border-left: 1.5pt solid black;
+  border-top: 0.5pt solid #000; /* Replace 'windowtext' with black */
+  border-right: 0.5pt solid #000;
+  border-bottom: 0.5pt solid #000;
+  border-left: 1.5pt solid #000;
   white-space: normal; /* Allow wrapping */
   /* Remove mso-ignore, mso-font-charset, mso-number-format, mso-background-source, mso-pattern */
 }
@@ -118,10 +118,10 @@ $link-color:#004085;
 .xl7399 {
   /* Overrides base styles (weight, borders) */
   font-weight: bold;
-  border-top: 0.5pt solid black; /* Replace 'windowtext' with black */
-  border-right: 1.5pt solid black;
-  border-bottom: 0.5pt solid black;
-  border-left: 0.5pt solid black;
+  border-top: 0.5pt solid #000; /* Replace 'windowtext' with black */
+  border-right: 1.5pt solid #000;
+  border-bottom: 0.5pt solid #000;
+  border-left: 0.5pt solid #000;
 }
 
 /* .xl7599: Adds specific borders */

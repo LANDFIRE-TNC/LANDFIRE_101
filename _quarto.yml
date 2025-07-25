@@ -81,8 +81,7 @@ format:
     respect-user-color-scheme: true 
     include-after-body:
       text: |
-        <script type="application/javascript" src="assets/js/fix-accessibility.js"></script>
-    css: _layout.scss
+        <script type="application/javascript" src="/assets/js/fix-accessibility.js"></script>
     toc: false
     grid:
       sidebar-width: 300px
