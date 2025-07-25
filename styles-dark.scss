@@ -30,48 +30,27 @@ $link-color:#66b2ff;
     color: #fff;
   }
 
-body.quarto-dark a {
-  color: $link-color; /* Light blue for dark backgrounds */
-}
-
-body.quarto-dark a:hover,
-body.quarto-dark a:focus {
-  color: #99ccff;
-}
-
-body.quarto-dark .pagination-link {
+.pagination-link {
   color: white;
 }
 
-body.quarto-dark .nav-page a {
-    color: white; /* Ensure nav page links are white with toggle */
-}
-
-body.quarto-dark .figcaption, .blockquote, .breadcrumb-item {
-    color: #fff;
-  }
 
 /* Include specific overrides for sidebar toc in toggle mode */
-body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.active,
-body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+.sidebar nav[role=doc-toc] ul > li > a.active,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
   color: $link-color !important; /* Adjust color for toggle dark mode */
   border-left: 1px solid $link-color !important;
 }
 
-body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.focus,
-body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.focus,
-body.quarto-dark .sidebar nav[role=doc-toc] ul > li > a.hover,
-body.quarto-dark .sidebar nav[role=doc-toc] ul > li > ul > li > a.hover {
+.sidebar nav[role=doc-toc] ul > li > a.focus,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a.focus,
+.sidebar nav[role=doc-toc] ul > li > a.hover,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a.hover {
   color: #99ccff !important; /* Adjust hover/focus color for toggle dark mode */
   border-left: 1px solid #99ccff !important;
 }
 
-body.quarto-dark .sidebar-navigation a {
-    color: #fff; /* Desired default color: white */
-
-}
-
-body.quarto-dark .sidebar .sidebar-link.active {
+.sidebar .sidebar-link.active {
   font-weight: bold;
   color: #99ccff !important;
   border-left: 2px solid #99ccff !important;
