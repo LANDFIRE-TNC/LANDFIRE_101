@@ -78,6 +78,7 @@ format:
     theme: 
       light: [lumen, styles-light.scss]
       dark: [cyborg, styles-dark.scss]
+    respect-user-color-scheme: true 
     include-after-body:
       text: |
         <script type="application/javascript" src="assets/js/fix-accessibility.js"></script>
