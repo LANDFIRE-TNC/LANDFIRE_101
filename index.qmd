@@ -17,9 +17,17 @@ This LANDFIRE 101 learning website serves as a supporting addendum to the [compr
 
 # What is LANDFIRE?
 
-[LANDFIRE, *Landscape Fire and Resource Management Planning Tools*](https://www.landfire.gov/), is a shared program between the wildland fire management programs of the U.S. Department of Agriculture Forest Service Fire and Aviation branch and the U.S. Department of the Interior. It provides more than twenty landscape-scale geospatial products, 950 vegetation models, and tools supporting all-lands planning, management, and operations.
+[LANDFIRE](https://www.landfire.gov/), *Landscape Fire and Resource Management Planning Tools*, is a shared interagency wildland fire management data program across the United States and Territories. Leadership, management, and oversight are through the U.S. Department of Agriculture Forest Service - Fire and Aviation Management and the U.S. Department of the Interior - Office of Wildland Fire.
 
-LANDFIRE's mission is to provide agency leaders and managers with a common ‘all-lands’ dataset of vegetation, wildland fire, and fuels information for strategic fire and resource management planning and analysis. Learn more about LANDFIRE's mission on the [LANDFIRE Program website](https://www.landfire.gov/about-landfire).
+LANDFIRE provides more than twenty landscape-scale geospatial products of biological and ecological data, including data such as (900+) vegetation types and (13/40) fire behavior fuel models that support all-lands planning, fire and natural resources management, operations, analyses, and assessments. Learn more about LANDFIRE's mission on the [LANDFIRE Program website](https://www.landfire.gov/about-landfire).
+
+The LANDFIRE Project team is: [USGS EROS](https://www.usgs.gov/centers/eros), EROS Technical Support Services Contract (KBR), [The Nature Conservancy](https://www.nature.org/en-us/), [USDA Forest Service (Rocky Mountain Research Station) RMRS](https://research.fs.usda.gov/rmrs), and [Forest Inventory and Analysis (FIA)](https://research.fs.usda.gov/programs/fia).
+
+LANDFIRE Partners are: [USGS Gap Analysis](https://www.usgs.gov/programs/gap-analysis-project), [USGS National Land Imaging Program](https://www.usgs.gov/programs/national-land-imaging-program).
+
+::: logo-row
+<img src="images/usda-logo-color.png" alt="USDA logo" style="height: 70px; margin: 0 20px;"/> <img src="images/green usfas.png" alt="US Forest Service logo" style="height: 80px; margin: 0 20px;"/> <img src="images/DOI.png" alt="US Department of the Interior logo" style="height: 80px; margin: 0 20px;"/> <img src="images/LANDFIRE.png" alt="LANDFIRE program logo" style="height: 83px; margin: 0 10px;"/>
+:::
 
 # What is The Nature Conservancy’s connection?
 
