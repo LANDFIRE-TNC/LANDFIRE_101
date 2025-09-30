@@ -26,7 +26,9 @@ The LANDFIRE Project team is: [USGS EROS](https://www.usgs.gov/centers/eros), ER
 LANDFIRE Partners are: [USGS Gap Analysis](https://www.usgs.gov/programs/gap-analysis-project), [USGS National Land Imaging Program](https://www.usgs.gov/programs/national-land-imaging-program).
 
 <div class="logo-row>
-<img src="images/usda-logo-color.png" alt="USDA logo" class="flex-logo"/> <img src="images/green usfas.png" alt="US Forest Service logo" class="flex-logo"/> <img src="images/DOI.png" alt="US Department of the Interior logo" class="flex-logo"/> <img src="images/LANDFIRE.png" alt="LANDFIRE program logo" class="flex-logo"/>
+<div  class="flex-logo"><img src="images/usda-logo-color.png" alt="USDA logo"/></div> 
+<div  class="flex-logo"><img src="images/green usfas.png" alt="US Forest Service logo" class="flex-logo"/></div>
+<div  class="flex-logo"><img src="images/DOI.png" alt="US Department of the Interior logo" class="flex-logo"/></div> <div  class="flex-logo"><img src="images/LANDFIRE.png" alt="LANDFIRE program logo" class="flex-logo"/></div>
 </div>
 
 # What is The Nature Conservancy’s connection?
