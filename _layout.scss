@@ -61,8 +61,8 @@ body {
 .flex-logo {
   flex: 1 1 48%;
   height: 100px;
-  padding-right: 2%;
-  padding-left:2%;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 /* Tablet and mid-size screens */
@@ -78,7 +78,7 @@ body {
   }
   
   .flex-logo {
-    flex-basis: 25%;
+    flex: 1 1 24%;
   }
 }
 
