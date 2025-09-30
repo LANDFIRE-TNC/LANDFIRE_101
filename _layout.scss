@@ -56,15 +56,13 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin-top: 2em;
-  width: 100%;
 }
 
 .flex-logo {
-  flex: 1 1 50%;
+  flex: 1 1 48%;
   height: 100px;
-  padding: 5px;
-  box-sizing: border-box;
+  padding-right: 2%;
+  padding-left:2%;
 }
 
 /* Tablet and mid-size screens */
