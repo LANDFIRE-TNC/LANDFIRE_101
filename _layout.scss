@@ -61,10 +61,10 @@ body {
 }
 
 .flex-logo {
-  flex-basis: 100%;
+  flex: 1 1 50%;
   height: 100px;
-  flex: 1;
   padding: 5px;
+  box-sizing: border-box;
 }
 
 /* Tablet and mid-size screens */
@@ -77,6 +77,10 @@ body {
   
   .header {
     min-height: 80px; /* Set a minimum height for headers */
+  }
+  
+  .flex-logo {
+    flex-basis: 25%;
   }
 }
 
