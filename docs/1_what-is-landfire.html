@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,10 +10,16 @@
 
 <title>An Overview of LANDFIRE Products – LANDFIRE 101</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ef1991a1ce4f5c08b6e3b4bcc11e30a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a1058fdc6fd58f066056269dede0d20e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-ef1991a1ce4f5c08b6e3b4bcc11e30a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f211d78d7f032bddda6827078bf7bb5a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-18825baf24af5903dfa60e7f7f3cd8b5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f211d78d7f032bddda6827078bf7bb5a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -520,7 +526,7 @@ gtag('config', 'G-7HYRRL98N6', { 'anonymize_ip': true});
 
 <section id="what-does-landfire-provide" class="level1">
 <h1>What does LANDFIRE provide?</h1>
-<p>The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai’i, and insular areas (Puerto Rico, US Virgin Islands, American Samoa, Guam, Commonwealth of the Northern Mariana Islands (CNMI), Federated States of Micoronesia, Republic of Palau, Republic of Marshall Islands). Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the <a href="https://pubs.usgs.gov/publication/ofr20231045">LANDFIRE Technical Documentation</a> to learn how LANDFIRE creates these products. Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> (opens a pdf) to help understand and locate LANDFIRE product information.</p>
+<p>The LANDFIRE Program produces current, consistent, and comprehensive geospatial data sets and databases that describe vegetation, wildland fuels, and fire regimes for the entire United States, including Alaska, Hawai’i, and insular areas (Puerto Rico, US Virgin Islands, American Samoa, Guam, Commonwealth of the Northern Mariana Islands (CNMI), Federated States of Micoronesia, Republic of Palau, Republic of Marshall Islands). Most LANDFIRE products are delivered as geospatial data layers with 30-meter cell resolution, although not all products are spatial layers. Read the <a href="https://pubs.usgs.gov/publication/ofr20231045">LANDFIRE Technical Documentation</a> to learn how LANDFIRE creates these products. Use the <a href="https://www.landfire.gov/data-downloads/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> (opens a pdf) to help understand and locate LANDFIRE product information.</p>
 <section id="landfire-data-products-by-category" class="level2">
 <h2 class="anchored" data-anchor-id="landfire-data-products-by-category">LANDFIRE data products by category</h2>
 <p>The following is a comprehensive list of all the datasets LANDFIRE provides in each of six categories, with links to where you can learn more about each dataset, explore attribute tables, and download data.</p>
@@ -727,7 +733,7 @@ Note
 <div class="callout-body-container callout-body">
 <p><strong>A note on application scale</strong></p>
 <p>Application scale in LANDFIRE refers to the minimum area size that the data creators aimed to represent accurately for specific applications. It’s not about detail or spatial resolution, but about the usefulness of the product when reviewing or analyzing the data for small geographies. Application scale varies across the country because ecological and mapping conditions vary across the country, e.g.&nbsp;mapability of vegetation, landscape fragmentation, etc. LANDFIRE provides data for the entire United States, but its application scale as delivered, out-of-the-box is large landscape, regional, and national. This means the data is accurate for large geographies but may not be precise for specific small areas within that geography. Therefore, understanding application scale is crucial when using LANDFIRE products, as it ensures the data represents the overall landscape faithfully for planning or analysis.</p>
-<p>For more on application scale, you can read Jim Smith’s <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Pages/landscape-scale-landfire.aspx">blog post</a> on the topic.</p>
+<p>For more on application scale, you can read Jim Smith’s <a href="https://tnc.box.com/s/99d6ed3oqvs0ya1imfkp3q9b961tmlfm">blog post</a> on the topic.</p>
 </div>
 </div>
 </section>
@@ -735,7 +741,7 @@ Note
 <h1>Helpful Resources</h1>
 <ul>
 <li><p>Use the <a href="https://pubs.usgs.gov/publication/ofr20231045">LANDFIRE Technical Documentation</a> to learn how LANDFIRE creates the data.</p></li>
-<li><p>Use the <a href="https://www.landfire.gov/sites/default/files/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> (opens a pdf) to help understand and locate LANDFIRE information.</p></li>
+<li><p>Use the <a href="https://www.landfire.gov/data-downloads/documents/LF_Data_Dictionary.pdf">LANDFIRE Data Dictionary</a> (opens a pdf) to help understand and locate LANDFIRE information.</p></li>
 <li><p>Visit the <a href="https://landfire.gov/data#schedule">data page of the LANDFIRE Program website</a> to find the data delivery schedule.</p></li>
 <li><p>Use the <a href="https://landfire.gov/data/comparison-table">Version Description table</a> to see LANDFIRE’s version history.</p></li>
 <li><p>See the <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf">Modifying LANDFIRE Geospatial Data for Local Applications guide</a> (opens a pdf) by Don Helmbrecht and Kori Blankenship for help adapting LANDFIRE datasets to your landscape.</p></li>
@@ -817,13 +823,14 @@ Note
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

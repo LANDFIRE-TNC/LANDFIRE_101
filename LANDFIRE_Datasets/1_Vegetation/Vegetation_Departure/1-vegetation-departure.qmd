@@ -75,7 +75,7 @@ These customizations help make the VDep metric a more precise and useful tool fo
 
 # Enhancing the Vegetation Departure for Conservation Risk Assessment
 
-[Provencher, *et al.*, 2024](https://www.publish.csiro.au/WF/pdf/WF23038) detail how vegetation departure can be utilized to assess and manage risks to biodiversity and ecosystem health. They outline several key methods and considerations for applying the VDep metric in conservation contexts, including:
+[Provencher, *et al.*, 2024](https://connectsci.au/wf/article/33/4/WF23038/22117/Developing-spatially-explicit-and-stochastic) detail how vegetation departure can be utilized to assess and manage risks to biodiversity and ecosystem health. They outline several key methods and considerations for applying the VDep metric in conservation contexts, including:
 
 1. **Risk Identification**: The metric helps identify areas where current vegetation conditions significantly differ from reference states, indicating potential threats to ecological integrity.
 

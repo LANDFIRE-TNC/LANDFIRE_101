@@ -109,7 +109,7 @@ Biophysical Settings products are applied in many different contexts across LAND
 
 The process of integrating BPS into our product suite begins with the development of [BPS Models and Descriptions](https://www.landfire.gov/vegetation/bps-models). These models provide a foundational understanding of the ecological characteristics and the disturbance dynamics of different vegetation systems. They are used to estimate historical fire frequency and severity.
 
-From these models, we generate [Succession Class](https://www.landfire.gov/vegetation/sclass) mapping rules and establish [Reference Conditions](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a 19KB zip file) that represent the Historical Range of Variability. These reference conditions are crucial for understanding the natural variability and resilience of ecosystems.
+From these models, we generate [Succession Class](https://www.landfire.gov/vegetation/sclass) mapping rules and establish [Reference Conditions](https://www.landfire.gov/data-downloads/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a 19KB zip file) that represent the Historical Range of Variability. These reference conditions are crucial for understanding the natural variability and resilience of ecosystems.
 
 Next, we create [BPS Spatial Data](https://www.landfire.gov/vegetation/bps), which maps the distribution of these biophysical settings across the estimated pre-European colonization landscape. Linking the BPS map to the modeled estimate of fire frequency and severity allows LANDFIRE to map historical fire regimes.
 

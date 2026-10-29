@@ -84,8 +84,8 @@ A frequent misconception is that FVH and FVC represent current fuel conditions. 
 
 - [Wildfire Risk to Communities](https://wildfirerisk.org/) uses LANDFIRE fuels to provide a free, easy-to-use website with interactive maps, charts, and resources to help communities understand, explore, and reduce wildfire risk
 
-- [Updating LANDFIRE fuels data for recent wildfires](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/Updating%20LF%20fuels%20data_Mar%2021_Blankenship.pdf) pdf guide
+- [Updating LANDFIRE fuels data for recent wildfires](https://tnc.box.com/s/ku4h3ra10rk2nobpjbk95se3y488gyou) pdf guide
 
-- The [Modifying LANDFIRE Geospatial Data for Local Applications](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf) pdf guide
+- The [Modifying LANDFIRE Geospatial Data for Local Applications](https://tnc.box.com/s/v4uxekbxu8xi8mshkl4socv4myldtqul) pdf guide
 
 - [LANDFIRE Office Hour: Acquiring and using LANDFIRE fuels data in geospatial modeling applications](https://youtu.be/FNtey0ALZK4) (opens a YouTube video)

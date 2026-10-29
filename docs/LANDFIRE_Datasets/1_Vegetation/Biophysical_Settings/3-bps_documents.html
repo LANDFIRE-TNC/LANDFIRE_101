@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,10 +10,16 @@
 
 <title>Biophysical Settings Descriptions – LANDFIRE 101</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-ef1991a1ce4f5c08b6e3b4bcc11e30a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-a1058fdc6fd58f066056269dede0d20e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-ef1991a1ce4f5c08b6e3b4bcc11e30a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-f211d78d7f032bddda6827078bf7bb5a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-18825baf24af5903dfa60e7f7f3cd8b5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-f211d78d7f032bddda6827078bf7bb5a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1346,7 +1352,7 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>LANDFIRE also delivers a <a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">succession class mapping rules spreadsheet</a> (downloads a zip file). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the <a href="https://landfire.gov/vegetation/bps-models">Biophysical Settings Description and Quantitative Models page</a> of the LANDFIRE Program website.</p>
+<p>LANDFIRE also delivers a <a href="https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls">succession class mapping rules spreadsheet</a> (downloads a zip file). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the <a href="https://landfire.gov/vegetation/bps-models">Biophysical Settings Description and Quantitative Models page</a> of the LANDFIRE Program website.</p>
 </div>
 </div>
 <section id="succession-classes-description" class="level2">
@@ -1442,11 +1448,11 @@ Tip
 <ul>
 <li><p><a href="https://tnc.app.box.com/s/72zucxhtzq5xfc36pkf46llh531v1onh">Deciphering the BpS model code</a> (opens a pdf on Box)</p></li>
 <li><p><a href="https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c">Linking the Bps models and descriptions</a> (opens a pdf on Box)</p></li>
-<li><p><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">Succession class mapping rules spreadsheet</a> (downloads a zip file)</p></li>
+<li><p><a href="https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls">Succession class mapping rules spreadsheet</a> (downloads a zip file)</p></li>
 <li><p>Blankenship, K., Swaty, R., Hall, K.R., Hagen, S., Pohl, K., Shlisky Hunt, A., Patton, J., Frid, L. and Smith, J., 2021. Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Ecosphere, 12(4), p.e03484. <a href="https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484">Link to paper</a></p></li>
 <li><p><a href="https://thenatureconservancy.github.io/landfiremodels/">LANDFIRE Vegetation Modeling website</a></p></li>
 <li><p><a href="https://landfire.gov/vegetation/bps-models">BpS Models Page</a> on the LANDFIRE Program Website</p></li>
-<li><p><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip">LANDFIRE BpS Models and Descriptions metadata</a></p></li>
+<li><p><a href="https://www.landfire.gov/data-downloads/zip/LANDFIRE_BpS-model-description_metadata.zip">LANDFIRE BpS Models and Descriptions metadata</a></p></li>
 <li><p><a href="https://landfirereview.org/">BpS Models and Descriptions Support</a> website</p></li>
 </ul>
 
@@ -1529,13 +1535,14 @@ Tip
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

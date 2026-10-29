@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,10 +10,16 @@
 
 <title>Succession Class – LANDFIRE 101</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,14 +45,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-ef1991a1ce4f5c08b6e3b4bcc11e30a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-a1058fdc6fd58f066056269dede0d20e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-ef1991a1ce4f5c08b6e3b4bcc11e30a8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-f211d78d7f032bddda6827078bf7bb5a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-18825baf24af5903dfa60e7f7f3cd8b5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-f211d78d7f032bddda6827078bf7bb5a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -556,7 +562,7 @@ Note
 <p>The LANDFIRE Succession Class (SClass) spatial product maps the current condition of vegetation in terms of species composition (leafform and lifeform), percent cover, and the range of heights of each successional state in a Biophysical Setting. Succession classes represent vegetative states with unique dynamics related to succession and disturbances, such as structural development or fire frequency. The succession classes don’t directly measure the fuel characteristics of the current vegetation, but they represent specific stages in plant development or how often fire and other disturbances occur and their likely impact. LANDFIRE uses these classes to describe the current landscape and compare it to historical conditions to calculate Vegetation Departure and Vegetation Condition Class. Classes are defined primarily by combinations of EVC and EVH.</p>
 <p>Reference states are identified by a letter (A-E) and represent different stages of vegetation development. Non-reference states are represented by the codes UE, uncharacteristic exotic, and UN, Uncharacteristic Native.</p>
 <p>Non-native plants and tree plantations are considered uncharacteristic exotic. Uncharacteristic native vegetation can include conditions such as too much or too little canopy cover relative to the natural range of variability or native species that have migrated out of their normal range. These additional components are not part of the usual variation in the types and structures of plants in a BpS, but they may be present on the current landscape. The BpS description document describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states.</p>
-<p>To produce SClass, <a href="https://landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf">mapping rules</a> (opens a pdf) defined by local and regional experts during the original development and subsequent review of each BpS are applied to the relevant current vegetation layers including the Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH). SClass mapping rules for all BpS are available for <a href="https://landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">download in spreadsheet format</a>.</p>
+<p>To produce SClass, <a href="https://www.landfire.gov/data-downloads/documents/Succession_Class_Mapping_Rules_Readme_2019.pdf">mapping rules</a> (opens a pdf) defined by local and regional experts during the original development and subsequent review of each BpS are applied to the relevant current vegetation layers including the Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH). SClass mapping rules for all BpS are available for <a href="https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls">download in spreadsheet format</a>.</p>
 <p>It is important to understand that the Succession Class dataset alone isn’t incredibly useful. It needs to be combined with the Biophysical Settings Models and Descriptions and the Biophysical Settings spatial data and/or Existing Vegetation data in order to be meaningful. Without a deeper understanding of the underlying Biophysical Setting and its related successional states and a better picture of the current vegetation type, cover, and height, all succession class gives us is a letter without a lot of meaning. Succession Class B for one BpS may be totally different than Succession Class B for another. There are some exceptions where the label may be useful, such as Class A, which is typically the first class in the successional pathway (i.e., result of a replacement disturbance) and classes UN and UE described above. LANDFIRE datasets are designed to be used together to generate the best picture of your landscape condition in the past and present, helping you make a plan for where you want to go in the future.</p>
 <section id="key-succession-class-attributes-include" class="level2">
 <h2 class="anchored" data-anchor-id="key-succession-class-attributes-include">Key Succession Class attributes include:</h2>
@@ -569,8 +575,8 @@ Note
 <h1>Linking the Succession Class letter with the other BpS products</h1>
 <ol type="1">
 <li><p><strong>Succession Class Definition</strong>: Each Succession Class letter corresponds to a specific combination of vegetation cover type and structural stage within a BpS. These combinations are detailed in the BpS description documents in the “Succession Classes” section.</p></li>
-<li><p><strong>Mapping Rules:</strong> The BpS description documents include mapping rules that define how current vegetation conditions are classified into Succession Classes. These rules consider factors such as vegetation height, canopy cover, and species composition. The rules are applied to geospatial layers of existing vegetation to map the current extent of each Succession Class. More detailed rule sets are available in the <a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">Succession Class mapping rules spreadsheet</a> (downloads a zip file).</p></li>
-<li><p><strong>Reference Conditions:</strong> The BpS description documents also provide the reference amount for each Succession Class within each BpS, which can be compared to current vegetation conditions. This comparison helps in assessing vegetation departure and condition class. Reference conditions are also available in the <a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">reference conditions table</a> (downloads a zip file).</p></li>
+<li><p><strong>Mapping Rules:</strong> The BpS description documents include mapping rules that define how current vegetation conditions are classified into Succession Classes. These rules consider factors such as vegetation height, canopy cover, and species composition. The rules are applied to geospatial layers of existing vegetation to map the current extent of each Succession Class. More detailed rule sets are available in the <a href="https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls">Succession Class mapping rules spreadsheet</a> (downloads a zip file).</p></li>
+<li><p><strong>Reference Conditions:</strong> The BpS description documents also provide the reference amount for each Succession Class within each BpS, which can be compared to current vegetation conditions. This comparison helps in assessing vegetation departure and condition class. Reference conditions are also available in the <a href="https://www.landfire.gov/data-downloads/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">reference conditions table</a> (downloads a zip file).</p></li>
 <li><p><strong>State-and-Transition Models:</strong> The Succession Class letters are linked to state-and-transition models that simulate the growth and disturbance dynamics within each BpS. The parameters for the models are in the “Model Parameters” section of the BpS Description and in the BpS Model library. These models provide a quantitative representation of how vegetation transitions between different Succession Classes over time.</p></li>
 </ol>
 <p>Linking the mapped Succession Classes to the other BpS products with the BpS code and succession class letter provides users with information to interpret the succession class map.</p>
@@ -630,12 +636,15 @@ Note
 <section id="helpful-resources" class="level1">
 <h1>Helpful Resources</h1>
 <ul>
-<li><p><a href="https://landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf">Succession Class mapping rules documentation</a> (opens a pdf)</p></li>
-<li><p><a href="https://landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip">Succession Class mapping rules for all natural BpS</a> (opens a zip file)</p></li>
-<li><p><a href="https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">Reference Conditions Table</a> (downloads a zip file)</p></li>
-<li><p>The <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/How2Sclass_March19%20FINAL.pdf">How to Map Successional Stages guide</a> (opens a pdf)</p></li>
+<li><p>[Succession Class mapping rules documentation](https://www.landfire.gov/data-downloads/documents/Succession_Class_Mapping_Rules_Readme.pdf (opens a pdf)</p></li>
+<li><p>[Succession Class mapping rules for all natural BpS](https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls (opens a zip file)</p></li>
+<li><p><a href="https://www.landfire.gov/data-downloads/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip">Reference Conditions Table</a> (downloads a zip file)</p></li>
+</ul>
+<!-- -   The [How to Map Successional Stages guide](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/How2Sclass_March19%20FINAL.pdf) (opens a pdf)
+-->
+<ul>
 <li><p>Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric paper from <a href="https://www.mdpi.com/1421304">Swaty <em>et al.</em>, 2022</a></p></li>
-<li><p>The <a href="https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf">Modifying LANDFIRE Geospatial Data for Local Applications</a> guide</p></li>
+<li><p>The <a href="https://tnc.box.com/s/v4uxekbxu8xi8mshkl4socv4myldtqul">Modifying LANDFIRE Geospatial Data for Local Applications</a> guide</p></li>
 </ul>
 
 
@@ -714,13 +723,14 @@ Note
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

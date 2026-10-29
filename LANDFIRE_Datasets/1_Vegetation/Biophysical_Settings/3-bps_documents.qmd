@@ -677,7 +677,7 @@ UN
 Succession class letters A-E are described in the Succession Class Description section. Some classes use a leafform distinction wher a qualifier is added to the class letter (i.e. Brdl (broadleaf), Con (conifer), or Mix (mixed conifer and broadleaf)). UN refers to uncharacteristic native or a combination of height and cover that would not be expected under the reference condition. NP refers to not possible or a combination of height and cover which is not physiologically possible for the species in the BpS.
 
 ::: callout-tip
-LANDFIRE also delivers a [succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the [Biophysical Settings Description and Quantitative Models page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website.
+LANDFIRE also delivers a [succession class mapping rules spreadsheet](https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls) (downloads a zip file). The spreadsheet contains rules for mapping the states of every BpS including additional mapping criteria that are not included in the description document. We suggest that users refer to the rules in the description document to get a basic understanding of succession class structure. Users that need a complete and detailed ruleset should use the mapping rules spreadsheet. You can find that spreadsheet on the [Biophysical Settings Description and Quantitative Models page](https://landfire.gov/vegetation/bps-models) of the LANDFIRE Program website.
 :::
 
 ## Succession Classes – description
@@ -730,7 +730,7 @@ Similarly, in the North-Central Interior Dry-Mesic Oak Forest and Woodland of th
 
 -   [Linking the Bps models and descriptions](https://tnc.app.box.com/s/y638zukhcg0ttdq5et7bel2ycqgpdz5c) (opens a pdf on Box)
 
--   [Succession class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
+-   [Succession class mapping rules spreadsheet](https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls) (downloads a zip file)
 
 -   Blankenship, K., Swaty, R., Hall, K.R., Hagen, S., Pohl, K., Shlisky Hunt, A., Patton, J., Frid, L. and Smith, J., 2021. Vegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Ecosphere, 12(4), p.e03484. [Link to paper](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484)
 
@@ -738,6 +738,6 @@ Similarly, in the North-Central Interior Dry-Mesic Oak Forest and Woodland of th
 
 -   [BpS Models Page](https://landfire.gov/vegetation/bps-models) on the LANDFIRE Program Website
 
--   [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip)
+-   [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/data-downloads/zip/LANDFIRE_BpS-model-description_metadata.zip)
 
 -   [BpS Models and Descriptions Support](https://landfirereview.org/) website

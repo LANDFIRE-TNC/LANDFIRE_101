@@ -29,7 +29,7 @@ The Reference Conditions Table (RCT) is an output from the Biophysical Settings 
 
 The Reference Conditions Table summarizes the vegetation and fire regime reference conditions for every BpS. Vegetation reference conditions estimate the relative proportion of each succession class. Fire regime reference conditions estimate the frequency and severity of fire within a BpS. LANDFIRE calculates reference conditions using the BpS model. These results are also in the BpS description. 
 
-When you download the [Reference Condition Table](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) you will get a zipped .csv file with the following fields:
+When you download the [Reference Condition Table](https://www.landfire.gov/data-downloads/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) you will get a zipped .csv file with the following fields:
 
 1.  **Biophysical Settings identifiers**:
 
@@ -111,8 +111,8 @@ To access the file, open the .csv in Excel, R, or any other program you use to v
 
 # Helpful Resources
 
--   [The Reference Condition Table](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a zip file)
+-   [The Reference Condition Table](https://www.landfire.gov/data-downloads/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a zip file)
 
--   [Succession Class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file)
+-   [Succession Class mapping rules spreadsheet](https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls) (downloads a zip file)
 
--   [SClass Readme file](https://www.landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf) (opens a pdf)
+-   [SClass Readme file](https://www.landfire.gov/data-downloads/documents/Succession_Class_Mapping_Rules_Readme_2019.pdf) (opens a pdf)

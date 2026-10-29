@@ -218,7 +218,7 @@ The BpS models were developed by LANDFIRE to support objectives related to mappi
 
 -   [LANDFIRE BpS Models and Descriptions support website](https://www.landfirereview.org/): Learn more about BpS models and descriptions and download the BpS description documents.
 
--   [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_BpS-model-description_metadata.zip)
+-   [LANDFIRE BpS Models and Descriptions metadata](https://www.landfire.gov/data-downloads/zip/LANDFIRE_BpS-model-description_metadata.zip)
 
 -   [SyncroSim website:](https://apexrms.com/tools/) Learn about SyncroSim and related products
 

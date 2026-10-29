@@ -30,7 +30,7 @@ Reference states are identified by a letter (A-E) and represent different stages
 
 Non-native plants and tree plantations are considered uncharacteristic exotic. Uncharacteristic native vegetation can include conditions such as too much or too little canopy cover relative to the natural range of variability or native species that have migrated out of their normal range. These additional components are not part of the usual variation in the types and structures of plants in a BpS, but they may be present on the current landscape. The BpS description document describes the reference states and provides a set of mapping rules for the reference and uncharacteristic native states. 
 
-To produce SClass, [mapping rules](https://landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf) (opens a pdf) defined by local and regional experts during the original development and subsequent review of each BpS are applied to the relevant current vegetation layers including the Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH). SClass mapping rules for all BpS are available for [download in spreadsheet format](https://landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip).
+To produce SClass, [mapping rules](https://www.landfire.gov/data-downloads/documents/Succession_Class_Mapping_Rules_Readme_2019.pdf) (opens a pdf) defined by local and regional experts during the original development and subsequent review of each BpS are applied to the relevant current vegetation layers including the Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH). SClass mapping rules for all BpS are available for [download in spreadsheet format](https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls).
 
 It is important to understand that the Succession Class dataset alone isn’t incredibly useful. It needs to be combined with the Biophysical Settings Models and Descriptions and the Biophysical Settings spatial data and/or Existing Vegetation data in order to be meaningful. Without a deeper understanding of the underlying Biophysical Setting and its related successional states and a better picture of the current vegetation type, cover, and height, all succession class gives us is a letter without a lot of meaning. Succession Class B for one BpS may be totally different than Succession Class B for another. There are some exceptions where the label may be useful, such as Class A, which is typically the first class in the successional pathway (i.e., result of a replacement disturbance) and classes UN and UE described above. LANDFIRE datasets are designed to be used together to generate the best picture of your landscape condition in the past and present, helping you make a plan for where you want to go in the future.
 
@@ -42,9 +42,9 @@ It is important to understand that the Succession Class dataset alone isn’t in
 
 1. **Succession Class Definition**: Each Succession Class letter corresponds to a specific combination of vegetation cover type and structural stage within a BpS. These combinations are detailed in the BpS description documents in the “Succession Classes” section.
 
-2. **Mapping Rules:** The BpS description documents include mapping rules that define how current vegetation conditions are classified into Succession Classes. These rules consider factors such as vegetation height, canopy cover, and species composition. The rules are applied to geospatial layers of existing vegetation to map the current extent of each Succession Class. More detailed rule sets are available in the [Succession Class mapping rules spreadsheet](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (downloads a zip file).
+2. **Mapping Rules:** The BpS description documents include mapping rules that define how current vegetation conditions are classified into Succession Classes. These rules consider factors such as vegetation height, canopy cover, and species composition. The rules are applied to geospatial layers of existing vegetation to map the current extent of each Succession Class. More detailed rule sets are available in the [Succession Class mapping rules spreadsheet](https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls) (downloads a zip file).
 
-3. **Reference Conditions:** The BpS description documents also provide the reference amount for each Succession Class within each BpS, which can be compared to current vegetation conditions. This comparison helps in assessing vegetation departure and condition class. Reference conditions are also available in the [reference conditions table](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a zip file).
+3. **Reference Conditions:** The BpS description documents also provide the reference amount for each Succession Class within each BpS, which can be compared to current vegetation conditions. This comparison helps in assessing vegetation departure and condition class. Reference conditions are also available in the [reference conditions table](https://www.landfire.gov/data-downloads/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a zip file).
 
 4. **State-and-Transition Models:** The Succession Class letters are linked to state-and-transition models that simulate the growth and disturbance dynamics within each BpS. The parameters for the models are in the “Model Parameters” section of the BpS Description and in the BpS Model library. These models provide a quantitative representation of how vegetation transitions between different Succession Classes over time.
 
@@ -87,14 +87,14 @@ Mapping succession classes involves a set of rules covering all possible combina
 
 # Helpful Resources
 
--   [Succession Class mapping rules documentation](https://landfire.gov/sites/default/files/documents/Succession_Class_Mapping_Rules_Readme.pdf) (opens a pdf)
+-   [Succession Class mapping rules documentation](https://www.landfire.gov/data-downloads/documents/Succession_Class_Mapping_Rules_Readme.pdf (opens a pdf)
 
--   [Succession Class mapping rules for all natural BpS](https://landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_SClass_Mapping_Rules_08162023.zip) (opens a zip file)
+-   [Succession Class mapping rules for all natural BpS](https://www.landfire.gov/data-downloads/documents/LF_CONUS_SuccessionClassMappingRules_09262023_2.xls (opens a zip file)
 
--   [Reference Conditions Table](https://www.landfire.gov/sites/default/files/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a zip file)
+-   [Reference Conditions Table](https://www.landfire.gov/data-downloads/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) (downloads a zip file)
 
--   The [How to Map Successional Stages guide](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/How2Sclass_March19%20FINAL.pdf) (opens a pdf)
-
+<!-- -   The [How to Map Successional Stages guide](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/How2Sclass_March19%20FINAL.pdf) (opens a pdf)
+-->
 -   Assessing Ecosystem Condition: Use and Customization of the Vegetation Departure Metric paper from [Swaty *et al.*, 2022](https://www.mdpi.com/1421304)
 
--   The [Modifying LANDFIRE Geospatial Data for Local Applications](https://www.conservationgateway.org/ConservationPractices/FireLandscapes/LANDFIRE/Documents/ModifyingLF_DataGuide_V1.pdf) guide
+-   The [Modifying LANDFIRE Geospatial Data for Local Applications](https://tnc.box.com/s/v4uxekbxu8xi8mshkl4socv4myldtqul) guide

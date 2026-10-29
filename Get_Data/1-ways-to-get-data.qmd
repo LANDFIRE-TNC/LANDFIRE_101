@@ -25,16 +25,16 @@ There are four main ways to access LANDFIRE data, each suited to different needs
 This site allows you to explore LANDFIRE datasets online, and to download them based on a rectangle you draw, a polygon you draw, a template (e.g., a state, from a dropdown) or a GeoJSON. This method is most useful if you need several datasets and/or focus on one area and/or have data storage limitations. For many users the LANDFIRE Map Viewer will be the best way to get LANDFIRE data. Once you get the knack of it, obtaining data will be quick and easy.
 
 ::: callout-tip
-You can also access a [User Instructions page](https://landfire.gov/data/LFViewerUserInstructions) on the LANDFIRE Program website that may provide more complete instructions than we are able to give here. You can also find help by visiting the [Map Viewer tutorial videos](https://www.youtube.com/playlist?list=PLwRbAc4x5n944a9T1Ss84Ji8UYP_nqHXz) on our YouTube channel.
+You can also access a [User Instructions page](https://www.landfire.gov/data/LFViewerUserInstructions) on the LANDFIRE Program website that may provide more complete instructions than we are able to give here. You can also find help by visiting the [Map Viewer tutorial videos](https://www.youtube.com/playlist?list=PLwRbAc4x5n944a9T1Ss84Ji8UYP_nqHXz) on our YouTube channel.
 :::
 
 ### Helpful Resources for using the LANDFIRE Map Viewer
 
--   [Video tutorial about using the LANDFIRE Map Viewer, Part 1](https://youtu.be/-VbmEdRwihU) (opens a YouTube video)
+-   [Video tutorial about using the LANDFIRE Map Viewer, Part 1](https://youtu.be/Wy94_pAtQGo?si=XfC8d6ZlBZcrdixB) (opens a YouTube video)
 
--   [Video tutorial about using the LANDFIRE Map Viewer, Part 2](https://youtu.be/wN2x1LOKrgI?si=SNkxVqls3dF3QV9Z) (opens a YouTube video)
+-   [Video tutorial about using the LANDFIRE Map Viewer, Part 2](https://youtu.be/NPPfe6Z_-mE?si=slDSCtVnPbH1mEjD) (opens a YouTube video)
 
--   [LANDFIRE Map Viewer user instructions page on the LANDFIRE Program Website](https://landfire.gov/data/LFViewerUserInstructions)
+-   [LANDFIRE Map Viewer user instructions page on the LANDFIRE Program Website](https://www.landfire.gov/data/LFViewerUserInstructions)
 
 ## [Download Full Extent Mosaics](https://landfire.gov/data/FullExtentDownloads)
 You can download full national datasets for the conterminous U.S., Alaska, Hawaii, and U.S. Insular Areas from the [Full Extent Downloads page](https://landfire.gov/data/FullExtentDownloads). These mosaics are best for users working across multiple regions or who want to store and process LANDFIRE data locally. Be aware that these files are large and require adequate storage and computing resources.
@@ -66,15 +66,13 @@ LANDFIRE data can be streamed directly into GIS software using the [LANDFIRE Pro
 
 - [LANDFIRE Products Service User Guide](https://lfps.usgs.gov/LFProductsServiceUserGuide.pdf) (opens a pdf)
 
-- [How to use Image Service URLs in ArcPro document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_ArcPro.pdf) (opens a pdf)
+- [How to use Image Service URLs in ArcPro document](https://landfire.gov/data-downloads/documents/Using%20Image%20Services%20in%20ArcPro%20v2.0.pdf) (opens a pdf)
 
-- [How to Use Image Services in ArcGIS Online document](https://landfire.gov/sites/default/files/documents/Instructions_ImageService_AGOL.pdf) (opens a pdf)
+- [How to Use Image Services in ArcGIS Online document](https://landfire.gov/data-downloads/documents/Using%20Image%20Services%20in%20AGOL%20v2.0.pdf) (opens a pdf)
 
-- [Instructions on how to use WCS or WMS Calls](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls.pdf) (opens a pdf)
+- [Instructions on how to use WCS or WMS Calls in ArcGis Pro](https://landfire.gov/data-downloads/documents/Using%20WCS%20and%20WMS%20Calls%20in%20ArcPro.pdf) (opens a pdf)
 
-- [Instructions on how to use WCS or WMS Calls in ArcGis Pro](https://landfire.gov/sites/default/files/documents/How_to_Use_WCS_or_WMS_calls_pro.pdf) (opens a pdf)
-
-- [Instructions on how to use ArcGIS Online](https://landfire.gov/sites/default/files/documents/HowtouseArcGISOnlinewithLANDFIREdata.pdf) (opens a pdf)
+- [Instructions on how to use WCS or WMS Calls in ArcGIS Online](https://landfire.gov/data-downloads/documents/Using%20WMS%20Calls%20in%20AGOL.pdf) (opens a pdf)
 
 - [USGS Organizational ArcGIS Online platform](https://usgs.maps.arcgis.com/home/gallery.html?sortField=relevance&sortOrder=desc&focus=layers-weblayers-imagery)
 
